@@ -1,2 +1,2 @@
-# Semestrul-4-Ubb
+# :necktie: Semestrul-4-Ubb 
 teme pe perioada semestrului
