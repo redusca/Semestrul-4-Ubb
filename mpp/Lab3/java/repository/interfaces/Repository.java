@@ -6,6 +6,8 @@ public interface Repository<Id,E extends Entity<Id>> {
 
     Iterable<E> findAll();
 
+    E findOne(Id id);
+
     void save(E entity);
 
     E delete(Id id);
