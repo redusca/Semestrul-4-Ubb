@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ro">
+    <head>
+        <meta charset="Utf-8">
+        <title>Formular pentru GameJam</title>
+    </head>
+    <body>
+        <h1> Formular de înscriere pentru <span title="RedGameJam">RedGameJam</span></h1>
+        <h2> Susținut de către 
+            <a href="https://github.com/redusca" title="Redandgames" target="_blank">RedAndGames</a>
+        </h2>
+        <div>
+            <img src="https://static.wixstatic.com/media/c17ef6_dec841b74922473ba38781a7310da281~mv2.jpg/v1/fill/w_600,h_442,al_c,lg_1,q_80,enc_avif,quality_auto/c17ef6_dec841b74922473ba38781a7310da281~mv2.jpg" title="catmeme" alt="RedGameJam" width="800" height="400">
+        </div>
+        <br>
+        <div>
+            <p title="Description"><span lang='ro'>Formularul de înscriere pentru <b title="RedGameJam">RedGameJam</b> este un formular care trebuie completat de către fiecare participant la eveniment. 
+                Acesta conține date cu caracter personal, precum nume, prenume, etc.
+                Prin completarea acestui formular, participantul își dă acordul pentru prelucrarea datelor cu caracter personal și pentru respectarea termenilor și condițiilor.
+            </span>
+            </p>
+        </div>
+        <div>
+        <form action="/data.php" name="Formular inscriere RedGameJam">
+            <fieldset> 
+            <legend>Detaliile personale și ale echipei</legend>
+                <table>
+                    <tr>
+                        <th> Date </th>  
+                        <th> cu </th>
+                        <th> caracter </th>
+                        <th> personal</th>
+                    </tr>
+                    <tr>
+                        <th><label>Nume:</label></th>
+                        <td><input size="25" type="text" required></td>
+                        <th><label>Prenume:</label></th>
+                        <td><input size="25" type="text" required></td>
+                    </tr>
+                    <tr>
+                        <th><label>Email:</label></th>
+                        <td colspan="3"><input type="text" required></td>
+                    </tr>
+                    <tr>
+                        <th><label>Telefon:</label></th>
+                        <td colspan="3"><input type="tel" maxlength="15" required></td>
+                    </tr>
+                    <tr>
+                        <th><label>Data nașterii:</label></th>
+                        <td colspan="3"><input type="date" max="2005-01-01" required></td>
+                    </tr>
+                    <tr>
+                        <th><label>Gen:</label></th>
+                        <td>
+                            <ul>
+                                <li><input type="radio" name="gen" checked>Masculin</li>
+                                <li><input type="radio" name="gen">Feminin</li>
+                                <li><input type="radio" name="gen">Altul</li>
+                            </ul>
+                        </td>
+                        <th>
+                            <label>Limba:</label>
+                        </th>
+                        <td>
+                            <table>
+                                <tr>
+                                    <td><input type="checkbox" name="limba" checked>Română</td>
+                                    <td><input type="checkbox" name="limba">Engleză</td>
+                                    <td><input type="checkbox" name="limba">Italiană</td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="limba">Franceză</td>
+                                    <td><input type="checkbox" name="limba">Germană</td>
+                                    <td><input type="checkbox" name="limba">Spaniolă</td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="limba">Alta Limbă</td>
+                                    <td colspan="2">
+                                        <textarea rows="4" cols="20"></textarea>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><label>Adresa:</label></th>
+                        <td colspan="3">
+                            <table>
+                                <tr>
+                                    <th><label>Strada:</label></th>
+                                    <td><input type="text"></td>
+                                    <th><label>Bloc:</label></th>
+                                    <td><input type="text"></td>
+                                </tr>
+                                <tr>
+                                    <th><label>Număr:</label></th>
+                                    <td><input type="text"></td>
+                                    <th><label>Scara:</label></th>
+                                    <td><input type="text"></td>
+                                </tr>
+                                <tr>
+                                    <th><label>Oraș:</label></th>
+                                    <td><input type="text"></td>
+                                    <th><label>Ușa:</label></th>
+                                    <td><input type="text"></td>
+                                </tr>
+                                <tr>
+                                    <th><label>Județ:</label></th>
+                                    <td><input type="text"></td>
+                                    <th><label>Cod poștal:</label></th>
+                                    <td><input type="text"></td>
+                                </tr>
+                                <tr>
+                                    <th><label>Țara:</label></th>
+                                    <td colspan="3"><input type="text" value="România" readonly></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr> 
+                    <tr>
+                        <th>Echipa</th>
+                        <th>Și </th>
+                        <th>Roluri</th>
+                        <th>!</th>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            <p title ="Reguli Echipa">
+                                <strong>Reguli Echipă:</strong>
+                                Echipele trebuie să contină 2-5 jucători și să fie formate dintr-un programator, un design-er, un artist, un sound design-er și un game design-er.
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><label>Nume echipa:</label></th>
+                        <td><input type="text" required></td>
+                        <th><label>Număr membri:</label></th>
+                        <td> <input type="number" min="2" max="5" placeholder="2" required></td>
+                    </tr>
+                    <tr>
+                        <th> <label>Membri:<br>(listele încep <br> cu 0 ;))</label></th>
+                        <td colspan="3">
+                        <ol type="1" start="0">
+                            <li >
+                                <label>Programator:</label>
+                                <input type="text" required>
+                            </li>
+                            <li>
+                                <label>Design-er:</label>
+                                <input type="text" required>
+                            </li>
+                            <li>
+                                <label>Artist:</label>
+                                <input type="text" required>
+                            </li>
+                            <li>
+                                <label>Sound Design-er:</label>
+                                <input type="text" required>
+                            </li>
+                            <li>
+                                <label>Game Design-er:</label>
+                                <input type="text" required>
+                            </li>
+                        </ol></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Detaliile Jocului Dezvolatat</legend>
+                <label>Nume joc:</label>
+                <input type="text"><br>
+                <label>Gen joc:</label><br>
+                <select multiple>
+                    <option> Acțiune </option>
+                    <option> Aventură </option>
+                    <option> Puzzle </option>
+                    <option> Strategie </option>
+                    <option disabled> Sport </option>
+                    <option> Simulare </option>
+                    <option> RPG </option>
+                    <option disabled> Horror </option>
+                </select>
+                <br>
+                <label>Platforma:</label><br>
+                <select>
+                    <option> PC </option>
+                    <option> Console </option>
+                    <option> Mobile </option>
+                    <option selected> Web </option>
+                </select>
+                <ul>
+                    <li>
+                        <label>Limbaj de Programare</label>
+                    </li>
+                    <li>
+                        <ol type="I" title="Limbaj de Programare">
+                            <li><input type="checkbox" name="limbaj">C++</li>
+                            <li><input type="checkbox" name="limbaj">C#</li>
+                            <li><input type="checkbox" name="limbaj">Java</li>
+                            <li><input type="checkbox" name="limbaj">Python</li>
+                            <li><input type="checkbox" name="limbaj"><label>alte limbaje</label><input type="text"></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <label>Tip:</label>
+                    </li>
+                    <li>
+                        <ol type ="A" title="Tip">
+                            <li><input type="checkbox" name="Type">Singleplayer</li>
+                            <li><input type="checkbox" name="Type">Multiplayer</li>
+                            <li><input type="checkbox" name="Type">Co-op</li>
+                            <li><input type="checkbox" name="Type">PvP</li>
+                        </ol>
+                    </li>
+                    <li>
+                        <label>Game Engine:</label>
+                    </li>
+                    <li>
+                        <ol type="i" title="Game Engine">
+                            <li><input type="radio" name="engine">Unity</li>
+                            <li><input type="radio" name="engine">Unreal Engine</li>
+                            <li><input type="radio" name="engine">Godot</li>
+                            <li><input type="radio" name="engine">GameMaker</li>
+                            <li><input type="radio" name="engine"><label>alte game engine</label><input type="text" ></li>
+                        </ol>
+                </ul>
+                <br>
+                <label>Detalii:</label><br>
+                <textarea rows="7" cols="70" placeholder="Detalii" required></textarea>
+            </fieldset>
+            <br>
+            <strong> <input type="checkbox" required>Declar ca informațiile mele sunt reale</strong> <br>
+            <strong> <input type="checkbox" required>Sunt de acord cu <a href="https://gist.github.com/MattIPv4/045239bc27b16b2bcf7a3a9a4648c08a" target="_blank" title="termenii si conditii">termenii și condițiile</a></strong><br>
+            <strong> <input type="checkbox" checked disabled>De acord ca Guvernul chinez să iți fure datele?</strong> <br>
+            <label>Rating Formular:</label> <input type="number" value="10" step="0.1" min="0" max="10" placeholder="10"><br>
+            <input type="submit" value="Trimite">
+        </form>
+        </div>   
+        <div>   
+                2025 @ NuȘtiuCeScrieAiciDeobicei
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" title="Contact">Contact</a>
+        </div>
+    </body>
+</html>
