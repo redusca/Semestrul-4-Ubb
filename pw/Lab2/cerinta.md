@@ -30,6 +30,7 @@ Daca utilizatorul ingusteaza latimea ferestrei browserului pana la o latime mini
 ![Lista](https://www.cs.ubbcluj.ro/~bufny/wp-content/uploads/2015/03/css-pr5-mockup2.png "Lista")
 
 ### Stilizati mai multe input-uri de tip text astfel incat completarea acestora sa se faca asemanator figurii de mai jos. Input-urile vor accepta un caracter per “patratica”. Nu este permisa folosirea mai multor input-uri pentru acelasi camp (pentru nume spre exemplu). Atributele CSS folosite (width, font-family, font-size, etc) se vor combina/corespunzator cu atributele HTML (maxlength) pentru un efect corespunzator. Nu se vor accepta mai multe caractere in input decat se pot introduce “vizual”.
+![box](https://www.cs.ubbcluj.ro/~bufny/wp-content/uploads/css-pr6.png "box-uri input")
 
 ### Se da urmatorul cod HTML:
 ```html
@@ -42,6 +43,7 @@ Daca utilizatorul ingusteaza latimea ferestrei browserului pana la o latime mini
 ### Sa se stilizeze acest cod HTML folosind clasele CSS dialog, alice si bob pentru a se obtine un efect vizual ca in figura de mai jos:
 ### Observatii:
 
+![text chat](https://www.cs.ubbcluj.ro/~bufny/wp-content/uploads/css-pr7.png "Text chat")
 - Lista va putea contine mai mult de trei elemente plasate in clasele alice, bob (eventual si alte “personaje”);
 - Colturile ferestrei de dialog vor fi rotunjite;
 - Fereastra de dialog pentru fiecare personaj va avea o latime si o intaltime minima, valori ce se vor adapta in functie de dimensiunea textului spus de fiecare personaj si de dimensiunile ferestrei - --browserului;
