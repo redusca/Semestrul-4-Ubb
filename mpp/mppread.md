@@ -6,3 +6,4 @@
    - **[Lab3](Lab3)** - creeeza clase si interfete pentru problema primita ( [C#](Lab3/C%23) and [Java](Lab3/java) )
    - **[Lab4](Lab4)** - creeaza metodele claselor alese ( cele folositoare [cerintei](Problema9.png) ) , jurnalizare si conectarea la baze de date prin string ( 
      [C#](Lab4/mpp-proiect-csharp-redarcher69) and [Java](Lab4/mpp-proiect-java)
+   - **[Lab5](Lab5)** - interfata grafica pentru proiectul C# 
