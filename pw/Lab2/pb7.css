@@ -1,0 +1,50 @@
+ul.dialog {
+    display: list-item;
+    list-style-type: none;
+}
+
+li {
+    border-radius: 25px;
+    position: relative;
+    border: 3px ridge black;
+    min-width: 8em;
+    max-width: 23em;
+    min-height: 5em;
+    text-align: center;
+    padding: 1em;
+    margin: 3em;
+    margin-left: 100px;
+}
+
+li::after {
+    content: "";
+    position: absolute;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 50px;
+    left: -20px;
+    top: 20px;
+    height: 20px;
+    width: 20px;
+    background: white;
+    transform: rotate(90deg);
+    border-bottom: inherit;
+    border-left: inherit;
+}
+
+li::before{
+    background-size: 100%;
+    content: "";
+    position: absolute;
+    left :-130px;
+    top: 20px;
+    height: 80px;
+    width: 90px;
+}
+
+li.alice::before {
+    background: url(personaje.png) -6px -4px no-repeat;
+}
+
+li.bob::before {
+    background: url(personaje.png) -6px -132px no-repeat;
+}

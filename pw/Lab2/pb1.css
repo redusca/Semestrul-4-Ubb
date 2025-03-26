@@ -1,0 +1,24 @@
+#parinte {
+    border : 1px;
+    border-color: black;
+    border-style: solid;
+    margin: 10px;
+    display : inline-flex;
+}   
+
+.copil {
+    width : 200px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+p{
+    max-width: 200px;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+img{
+    max-width: 200px;
+}

@@ -1,0 +1,27 @@
+ul{
+    display: flex;
+    background-color: yellow;
+    flex-direction: column;
+    padding: 20px 100px 30px 30px;
+    width: fit-content;
+    border: 2px solid black;
+
+}
+
+li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+img{
+    width: 180px;
+    height: 200px;
+}
+
+p{
+    font-size: 20px;
+    letter-spacing: -2px;
+    margin: 20px;
+}
