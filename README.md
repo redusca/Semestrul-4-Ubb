@@ -16,7 +16,7 @@
       <br>Sisteme de Gestiune a Bazelor de Date
     </td>
     <td align="center" width="150">
-      <a href="https://github.com/redarcher69/Semestrul-4-Ubb/tree/main/Ai/ai.read">
+      <a href="https://github.com/redarcher69/Semestrul-4-Ubb/tree/main/Ai/airead.md">
         <img src="https://github.com/user-attachments/assets/2ec8f397-fefb-475c-8c3d-68682f231721" alt="Inteligenta Artificiala" />
       </a>
       <br>Inteligenta Artificiala
