@@ -9,3 +9,8 @@
     4. La finalul fiecarei probleme s-a facut si normalizarea pe datele dorite
     5. [Cerinta](Lab2/cerinta.md)
     6. [Data](Lab2/data) toate resursele pentru programe
+- [Lab3](Lab3) Probleme de indentificare a textului din imagini folosing Azure AI :
+      - verificarea unor metrici de distana si localizarea textului + sugestii de pre-lucrare a imaginilor ([creinta](Lab3/cerinta.md).
+
+- [Lab4](Lab4) Probleme de indentificare a obiectelor din imagini :
+      - gasirea bicicletelor din imagini , localizarea lor si compararea cu rezultatul dorit ([cerinta](Lab4/cerinta.md).
