@@ -22,18 +22,6 @@ body {
     width: 100%;
 }
 
-
-#horizontal {
-    height: 25px;
-    text-align: center;
-    background-color: yellow;
-    width: 100%;
-}
-
-#vertical {
-    display: none;
-}
-
 ul {
     flex: none;
     margin: 0;
