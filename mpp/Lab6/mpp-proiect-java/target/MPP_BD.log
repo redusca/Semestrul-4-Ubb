@@ -1,0 +1,9 @@
+16 Mar 2025 17:11:59,774 INFO  ro.mpp2024.repository.ArbitruRepository 25 <init> - Initializing IArbitruRepository with properties: {} 
+16 Mar 2025 17:11:59,778 TRACE ro.mpp2024.repository.ArbitruRepository 44 findAll - Enter findAll
+16 Mar 2025 17:11:59,779 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+16 Mar 2025 17:11:59,779 TRACE ro.mpp2024.utils.JdbcUtils 25 getNewConnection - Enter
+16 Mar 2025 17:11:59,780 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... null
+16 Mar 2025 17:11:59,780 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - user: null
+16 Mar 2025 17:11:59,780 INFO  ro.mpp2024.utils.JdbcUtils 32 getNewConnection - pass: null
+16 Mar 2025 17:11:59,782 ERROR ro.mpp2024.utils.JdbcUtils 41 getNewConnection - java.sql.SQLException: The url cannot be null
+16 Mar 2025 17:11:59,782 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit
