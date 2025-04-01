@@ -16,6 +16,8 @@ namespace Lab1SGBD
         private string cs = "Data Source=DESKTOP-0PG9QNP\\SQLEXPRESS;Initial Catalog=StatisticiJocuriVideo;Integrated Security=True";
         SqlDataAdapter gamePublisherAdapter;
         SqlDataAdapter jocuriVideoAdapater;
+
+        //Pentre alte chei straine la adaugare
         SqlDataAdapter gameDeveloper;
         SqlDataAdapter platforma;
 
@@ -195,6 +197,12 @@ namespace Lab1SGBD
                 {
                     con.Open(); 
 
+                    if(Nume.Text == "" || gen.Text == "" || launchDate.Text == "" || nrCopii.Text == "" || playerAnuali.Text == "" || price.Text == "")
+                    {
+                        MessageBox.Show("Toate campurile sunt obligatorii!");
+                        return;
+                    }
+
                     DataRow[] rows = ds.Tables["JocuriVideo"].Columns["id"]
                         .Table.Select("id = " + GameView.SelectedRows[0].Cells["id"].Value.ToString());
                     rows[0]["Nume"] = Nume.Text;
@@ -272,11 +280,6 @@ namespace Lab1SGBD
             {
                 MessageBox.Show("Conexiunea la baza de date a esuat! \n" + ex.Message);
             }
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

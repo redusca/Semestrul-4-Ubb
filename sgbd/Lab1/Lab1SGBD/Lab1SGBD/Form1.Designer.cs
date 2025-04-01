@@ -282,7 +282,6 @@
             this.platformaBox.Size = new System.Drawing.Size(200, 24);
             this.platformaBox.Sorted = true;
             this.platformaBox.TabIndex = 22;
-            this.platformaBox.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label11
             // 
