@@ -51,6 +51,8 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.platformaBox = new System.Windows.Forms.ComboBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.GamePublishers)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.GameView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.playerAnuali)).BeginInit();
@@ -282,11 +284,31 @@
             this.platformaBox.TabIndex = 22;
             this.platformaBox.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(511, 357);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(72, 16);
+            this.label11.TabIndex = 25;
+            this.label11.Text = "Tabela Fiu";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(511, 9);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(96, 16);
+            this.label12.TabIndex = 26;
+            this.label12.Text = "Tabela Parinte";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1357, 747);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.platformaBox);
             this.Controls.Add(this.label9);
@@ -349,6 +371,8 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.ComboBox platformaBox;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
     }
 }
 
