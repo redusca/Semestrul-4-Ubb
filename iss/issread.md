@@ -11,7 +11,7 @@
   2. [⚠️Tester](Faza1/Usecases/UseCaseVerificator.docx),
   3. [📠Programator](Faza1/Usecases/UseCaseProgrammer.docx)
 ## - Diagrame pentru aplicatie [StarXmlPorject](Faza1/Diagrams/ProiectIssDiagrams.mdj)
-  1. [DiagramaUseCases](Faza1/Diagrams/ImageDiagrama.PNG),
-  2. [DiagramaClase](Faza1/Diagram/ClassDiagram.PNG),
+  1. [DiagramaUseCases](Faza1/Diagrams/ImagineDiagrama.PNG),
+  2. [DiagramaClase](Faza1/Diagrams/ClassDiagram.PNG),
 ## Interfata Grafica Model
 
