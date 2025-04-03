@@ -4,10 +4,14 @@
 
 # [Faza1♿️](Faza1) 
 
-- Lab1 : use case-uri pentru functionalitatile din proiect dupa [model](Faza1/Model.docx)
-  1. [🔰UserRegistration](Faza1/UserCaseSoftwareTeam.docx)
-  2. [⚠️BugTracker](Faza1/UseCaseVerificator.docx)
-  3. [📠ProgramatorBugFix](Faza1/UseCaseProgrammer.docx)
+## [Iteratii descriere](Faza1/iteratii.md)
 
-
+## - Use case-uri pentru functionalitatile din proiect dupa [model](Faza1/Usecases/Model.docx)
+  1. [🔰Admin](Faza1/Usecases/UserCaseSoftwareTeam.docx),
+  2. [⚠️Tester](Faza1/Usecases/UseCaseVerificator.docx),
+  3. [📠Programator](Faza1/Usecases/UseCaseProgrammer.docx)
+## - Diagrame pentru aplicatie [StarXmlPorject](Faza1/Diagrams/ProiectIssDiagrams.mdj)
+  1. [DiagramaUseCases](Faza1/Diagrams/ImagineDiagrama.PNG),
+  2. [DiagramaClase](Faza1/Diagrams/ClassDiagram.PNG),
+## Interfata Grafica Model
 
