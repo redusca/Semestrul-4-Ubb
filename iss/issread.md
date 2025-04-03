@@ -8,7 +8,7 @@
 
 ## - Use case-uri pentru functionalitatile din proiect dupa [model](Faza1/Usecases/Model.docx)
   1. [🔰Admin](Faza1/Usecases/UserCaseSoftwareTeam.docx),
-  2. [⚠️Tester](Faza1/Usecases/UseCaseVerificator.docx),
+  2. [⚠Tester](Faza1/Usecases/UseCaseVerificator.docx),
   3. [📠Programator](Faza1/Usecases/UseCaseProgrammer.docx)
 ## - Diagrame pentru aplicatie [StarXmlPorject](Faza1/Diagrams/ProiectIssDiagrams.mdj)
   1. [DiagramaUseCases](Faza1/Diagrams/ImagineDiagrama.PNG),
