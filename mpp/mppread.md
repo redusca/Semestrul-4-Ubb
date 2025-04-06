@@ -7,4 +7,5 @@
    - **[Lab4](Lab4)** - creeaza metodele claselor alese ( cele folositoare [cerintei](Problema9.png) ) , jurnalizare si conectarea la baze de date prin string ( 
      [C#](Lab4/mpp-proiect-csharp-redarcher69) and [Java](Lab4/mpp-proiect-java)
    - **[Lab5](Lab5)** - interfata grafica pentru proiectul C#
-   - **[Lab6](Lab6)** - interfata grafica pentru proiectul java 
+   - **[Lab6](Lab6)** - interfata grafica pentru proiectul java
+   - **[Lab7](Lab7)** - Server/Client conexiuni protocol Json pentru proiectul Java
