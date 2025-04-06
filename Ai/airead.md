@@ -14,3 +14,6 @@
 
 - 🚲 [Lab4](Lab4) Probleme de indentificare a obiectelor din imagini :
       - gasirea bicicletelor din imagini , localizarea lor si compararea cu rezultatul dorit ([cerinta](Lab4/cerinta.md) ).
+
+- 🎞 [Lab5](Lab5) Regresie simpla liniara , Univariata , Bivariata :
+      - rezolvarea regresie pentru datele oferite ([cerinta](Lab5/AI-lab05.md) .
