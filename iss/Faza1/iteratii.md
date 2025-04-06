@@ -24,4 +24,4 @@
     - Rafinare a coudlui prin cazuri de exceptie din teste
     - Definirea unei interactiuni clare cu nivelul interfetei grafice
 
-# Voi folosi C#/ Winform pentru aplicatie
+# Voi folosi C#/ Winform pentru aplicatie.
