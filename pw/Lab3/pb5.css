@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#myList {
+    position: relative;
+    z-index: 1;
+}
+
+#myList li {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#myList li:first-child {
+    display: flex;
+}
+
+#myList a {
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#myList a:hover {
+    color: #0056b3;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    padding-bottom: 10px;
+}
+
+#prev, #next {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#prev {
+    margin-right: 10px;
+}
+#prev:hover, #next:hover {
+    background-color: #0056b3;
+}

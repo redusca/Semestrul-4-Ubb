@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="pb3.css">
+    <script src="pb3.js" defer></script>
+    <title>Problema 3</title>
+</head>
+<body>
+    <label for="gameSize">Select Game Size:</label>
+    <select id="gameSize" >
+        <option value="1">2x2</option>
+        <option value="2">4x4</option>
+        <option value="3">6x6</option>
+    </select>
+    <label for="tip">Select Game Type</label>
+    <select id="tip">
+        <option value="1">Numere</option>
+        <option value="2">Imagini</option>
+    </select>
+    <input type="button" value="create Game Board" onclick="createBoardGame()">
+    <table id="gameBoard"></table>
+    <p id="mesaj"></p>
+</body>
+</html>

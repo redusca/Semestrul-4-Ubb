@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+table {
+    border-collapse: collapse;
+    margin: auto;
+    border: 2px solid black;
+}
+th, td {
+    padding: 10px;
+}
+
+tr.v,th.h{
+    border-bottom: 1px solid #00000084;
+}
+
+th.v{
+    border-right: 1px solid #00000084;
+}
+
