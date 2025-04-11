@@ -16,4 +16,6 @@
       - gasirea bicicletelor din imagini , localizarea lor si compararea cu rezultatul dorit ([cerinta](Lab4/cerinta.md) ).
 
 - 🎞 [Lab5](Lab5) Regresie simpla liniara , Univariata , Bivariata :
-      - rezolvarea regresie pentru datele oferite ([cerinta](Lab5/AI-lab05.md) .
+      - rezolvarea regresie pentru datele oferite cu metoda patratelor ([cerinta](Lab5/AI-lab05.md)).
+- 🛒 [Lab6](Lab6) Regresie liniara si Regresie logistica binara si multipla:
+      - rezolvarea cu gradient descrescator ([cerinta](Lab6/AI-lab6.md)).
