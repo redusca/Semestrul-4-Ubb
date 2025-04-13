@@ -25,3 +25,10 @@
   - ### [JsPb3](Lab3/pb3.js)
   - ### [JsPb4](Lab3/pb4.js)
   - ### [JsPb5](Lab3/pb5.js)
+ 
+- ## [Lab3:](Lab3) Facut Jquert pentru problemele : ([cerinta](lab3/cerinta.md) ):
+  - ### [JQPb1](Lab4/pb1.js)
+  - ### [JQPb2](Lab4/pb2.js)
+  - ### [JQPb3](Lab4/pb3.js)
+  - ### [JQPb4](Lab4/pb4.js)
+  - ### [JQPb5](Lab4/pb5.js)
