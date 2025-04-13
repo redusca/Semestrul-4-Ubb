@@ -1,27 +1,27 @@
 # 🦺Laburile WEB:
-- ## [Lab1:](Lab1) Facut un formular in [html4.01 transional](Lab1/webhtml4.html) si [hmtl5](Lab1/webhtml5.html) + validare codului (fara erori si warning-uri). [Cerinta](Lab1/cerinta.md)
-- ## [Lab2:](Lab2) Facut css pentru 7 probleme ( [cerinta](Lab2/cerinta.md) ) :
-  - ### [Problema 1](Lab2/pb1.html):
-      - [CSS_1](Lab2/pb1.css)
-  - ### [Problema 2](Lab2/pb2.html):
-      - [CSS_2.1 vetical](Lab2/pb2_1.css)
-      - [CSS_2.2 orizontal](Lab2/pb2_2.css)
-  - ### [Problema 3](Lab2/pb3.html):
-      - [CSS_3.1 vetical](Lab2/pb3_1.css)
-      - [CSS_3.2 orizontal](Lab2/pb3_2.css)
-  - ### [Problema 4](Lab2/pb4.html):
-      - [CSS_4](Lab2/pb4.css)
-  - ### [Problema 5](Lab2/pb5.html):
-      - [CSS_5 grid](Lab2/pb5_1.css)
-      - [CSS_5 lista](Lab2/pb5_2.css)
-  - ### [Problema 6](Lab2/pb6.html):
-      - [CSS_6](Lab2/pb6.css)
-  - ### [Problema 7](Lab2/pb7.html):
-      - [CSS_7](Lab2/pb7.css)
+- ## [Lab1:](Lab1HTML) Facut un formular in [html4.01 transional](Lab1HTML/webhtml4.html) si [hmtl5](Lab1HTML/webhtml5.html) + validare codului (fara erori si warning-uri). [Cerinta](Lab1HTML/cerinta.md)
+- ## [Lab2:](Lab2CSS) Facut css pentru 7 probleme ( [cerinta](Lab2CSS/cerinta.md) ) :
+  - ### [Problema 1](Lab2CSS/pb1.html):
+      - [CSS_1](Lab2CSS/pb1.css)
+  - ### [Problema 2](Lab2CSS/pb2.html):
+      - [CSS_2.1 vetical](Lab2CSS/pb2_1.css)
+      - [CSS_2.2 orizontal](Lab2CSS/pb2_2.css)
+  - ### [Problema 3](Lab2CSS/pb3.html):
+      - [CSS_3.1 vetical](Lab2CSS/pb3_1.css)
+      - [CSS_3.2 orizontal](Lab2CSS/pb3_2.css)
+  - ### [Problema 4](Lab2CSS/pb4.html):
+      - [CSS_4](Lab2CSS/pb4.css)
+  - ### [Problema 5](Lab2CSS/pb5.html):
+      - [CSS_5 grid](Lab2CSS/pb5_1.css)
+      - [CSS_5 lista](Lab2CSS/pb5_2.css)
+  - ### [Problema 6](Lab2CSS/pb6.html):
+      - [CSS_6](Lab2CSS/pb6.css)
+  - ### [Problema 7](Lab2CSS/pb7.html):
+      - [CSS_7](Lab2CSS/pb7.css)
 
-- ## [Lab3:](Lab3) Facut javascript pentru problemele : ([cerinta](lab3/cerinta.md) ):
-  - ### [JsPb1](Lab3/pb1.js)
-  - ### [JsPb2](Lab3/pb2.js)
-  - ### [JsPb3](Lab3/pb3.js)
-  - ### [JsPb4](Lab3/pb4.js)
-  - ### [JsPb5](Lab3/pb5.js)
+- ## [Lab3:](Lab3JS) Facut javascript pentru problemele : ([cerinta](Lab3JS/cerinta.md) ):
+  - ### [JsPb1](Lab3JS/pb1.js)
+  - ### [JsPb2](Lab3JS/pb2.js)
+  - ### [JsPb3](Lab3JS/pb3.js)
+  - ### [JsPb4](Lab3JS/pb4.js)
+  - ### [JsPb5](Lab3JS/pb5.js)
