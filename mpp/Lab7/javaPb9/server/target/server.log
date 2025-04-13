@@ -3617,3 +3617,969 @@
 06 Apr 2025 17:03:31,812 DEBUG ro.mpp2024.protocol.ClientWorkerJson 152 handleRequest - Logout request forUserDTO{nume='Alice Johnson', username='alice.j', password='UGFzc3cwcmQxIQ==', probaId='s1'}
 06 Apr 2025 17:03:31,813 INFO  ro.mpp2024.services.ServerService 90 logout - Logout user alice.j
 06 Apr 2025 17:03:31,813 DEBUG ro.mpp2024.protocol.ClientWorkerJson 80 sendResponse - sending response {"type":"OK"}
+07 Apr 2025 16:51:58,938 INFO  ro.mpp2024.StartJsonServer 24 main - Server properties: {server.port=55556, jdbc.url=jdbc:sqlite:src/main/resources/triatlon.db}
+07 Apr 2025 16:51:58,948 INFO  ro.mpp2024.repository.ArbitruRepository 23 <init> - Initializing IArbitruRepository with properties: {} 
+07 Apr 2025 16:51:58,954 INFO  ro.mpp2024.repository.ProbaRepository 25 <init> - Initializing ProbaRepository with properties: {} 
+07 Apr 2025 16:51:58,954 INFO  ro.mpp2024.repository.ParticipantRepository 24 <init> - Initializing ParticipantRepository with properties: {} 
+07 Apr 2025 16:51:58,954 INFO  ro.mpp2024.repository.RezultatRepository 25 <init> - Initializing RezultatRepository with properties: {} 
+07 Apr 2025 16:51:58,954 INFO  ro.mpp2024.services.ServerService 37 <init> - Service Rezultat made
+07 Apr 2025 16:51:58,962 DEBUG ro.mpp2024.StartJsonServer 50 main - Starting server on port: 55556
+07 Apr 2025 16:51:58,962 DEBUG ro.mpp2024.networkUtils.AbsConcurrentServer 13 <init> - Concurrent AbstractServer
+07 Apr 2025 16:51:58,962 INFO  ro.mpp2024.networkUtils.JsonConcurrentServer 17 <init> - JsonConcurrentServer
+07 Apr 2025 16:51:58,970 INFO  chat.network.utils.AbstractServer 25 start - Waiting for clients ...
+07 Apr 2025 16:53:21,155 INFO  ro.mpp2024.StartJsonServer 24 main - Server properties: {server.port=55556, jdbc.url=jdbc:sqlite:src/main/resources/triatlon.db}
+07 Apr 2025 16:53:21,171 INFO  ro.mpp2024.repository.ArbitruRepository 23 <init> - Initializing IArbitruRepository with properties: {} 
+07 Apr 2025 16:53:21,171 INFO  ro.mpp2024.repository.ProbaRepository 25 <init> - Initializing ProbaRepository with properties: {} 
+07 Apr 2025 16:53:21,171 INFO  ro.mpp2024.repository.ParticipantRepository 24 <init> - Initializing ParticipantRepository with properties: {} 
+07 Apr 2025 16:53:21,171 INFO  ro.mpp2024.repository.RezultatRepository 25 <init> - Initializing RezultatRepository with properties: {} 
+07 Apr 2025 16:53:21,179 INFO  ro.mpp2024.services.ServerService 37 <init> - Service Rezultat made
+07 Apr 2025 16:53:21,179 DEBUG ro.mpp2024.StartJsonServer 50 main - Starting server on port: 55556
+07 Apr 2025 16:53:21,179 DEBUG ro.mpp2024.networkUtils.AbsConcurrentServer 13 <init> - Concurrent AbstractServer
+07 Apr 2025 16:53:21,179 INFO  ro.mpp2024.networkUtils.JsonConcurrentServer 17 <init> - JsonConcurrentServer
+07 Apr 2025 16:53:21,187 INFO  chat.network.utils.AbstractServer 25 start - Waiting for clients ...
+07 Apr 2025 16:54:31,521 INFO  chat.network.utils.AbstractServer 27 start - Client connected ...
+07 Apr 2025 16:54:31,587 INFO  chat.network.utils.AbstractServer 25 start - Waiting for clients ...
+07 Apr 2025 16:54:31,606 DEBUG ro.mpp2024.protocol.ClientWorkerJson 91 handleRequest - Login request UserDTO{nume='', username='alice.j', password='UGFzc3cwcmQxIQ==', probaId=''}
+07 Apr 2025 16:54:31,612 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+07 Apr 2025 16:54:31,612 TRACE ro.mpp2024.utils.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2025 16:54:31,613 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src/main/resources/triatlon.db
+07 Apr 2025 16:54:31,613 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2025 16:54:31,614 INFO  ro.mpp2024.utils.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2025 16:54:31,833 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7c666a7b)
+07 Apr 2025 16:54:31,838 TRACE ro.mpp2024.repository.ArbitruRepository 29 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:31,840 TRACE ro.mpp2024.repository.ArbitruRepository 36 createEntityFromResultSet - Exit with(Arbitru{nume='Alice Johnson', username='alice.j', password='UGFzc3cwcmQxIQ==', id_proba=s1})
+07 Apr 2025 16:54:31,847 DEBUG ro.mpp2024.protocol.ClientWorkerJson 80 sendResponse - sending response {"type":"LOGGED_ACC","user":{"id":20,"nume":"Alice Johnson","username":"alice.j","password":"UGFzc3cwcmQxIQ\u003d\u003d","id_proba":"s1"}}
+07 Apr 2025 16:54:32,864 DEBUG ro.mpp2024.protocol.ClientWorkerJson 116 handleRequest - Get all rezultate request fornull
+07 Apr 2025 16:54:32,864 TRACE ro.mpp2024.repository.RezultatRepository 144 listaParticipantiPuncteAlfabetic - Enter listaParticipantiPuncteAlfabetic
+07 Apr 2025 16:54:32,864 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+07 Apr 2025 16:54:32,865 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7c666a7b)
+07 Apr 2025 16:54:32,868 TRACE ro.mpp2024.repository.RezultatRepository 162 listaParticipantiPuncteAlfabetic - Enter Terminat dictionar
+07 Apr 2025 16:54:32,871 DEBUG ro.mpp2024.protocol.ClientWorkerJson 80 sendResponse - sending response {"type":"ALL_REZULTATE","punctaje":[{"idParticipant":18,"nume":"Barbu","prenume":"Irina","varsta":27,"punctaj":240},{"idParticipant":19,"nume":"Constantin","prenume":"Marius","varsta":30,"punctaj":288},{"idParticipant":13,"nume":"Dobre","prenume":"Adriana","varsta":34,"punctaj":185},{"idParticipant":21,"nume":"Dragomir","prenume":"Adrian","varsta":26,"punctaj":140},{"idParticipant":4,"nume":"Dumitrescu","prenume":"Elena","varsta":28,"punctaj":153},{"idParticipant":20,"nume":"Enache","prenume":"Laura","varsta":29,"punctaj":325},{"idParticipant":22,"nume":"Filip","prenume":"Bianca","varsta":31,"punctaj":347},{"idParticipant":3,"nume":"Georgescu","prenume":"Andrei","varsta":22,"punctaj":132},{"idParticipant":17,"nume":"Gheorghe","prenume":"Vlad","varsta":28,"punctaj":210},{"idParticipant":23,"nume":"Grigore","prenume":"Stefan","varsta":24,"punctaj":155},{"idParticipant":24,"nume":"Hagi","prenume":"Diana","varsta":32,"punctaj":203},{"idParticipant":25,"nume":"Iacob","prenume":"Radu","varsta":23,"punctaj":195},{"idParticipant":11,"nume":"Iliescu","prenume":"Daniela","varsta":32,"punctaj":320},{"idParticipant":2,"nume":"Ionescu","prenume":"Maria","varsta":30,"punctaj":166},{"idParticipant":26,"nume":"Jianu","prenume":"Oana","varsta":34,"punctaj":142},{"idParticipant":27,"nume":"Kovacs","prenume":"Cristina","varsta":21,"punctaj":199},{"idParticipant":16,"nume":"Lazar","prenume":"Roxana","varsta":25,"punctaj":185},{"idParticipant":28,"nume":"Lupu","prenume":"George","varsta":33,"punctaj":319},{"idParticipant":29,"nume":"Manole","prenume":"Simona","varsta":25,"punctaj":117},{"idParticipant":8,"nume":"Marin","prenume":"Ana","varsta":29,"punctaj":134},{"idParticipant":14,"nume":"Munteanu","prenume":"Sorin","varsta":21,"punctaj":301},{"idParticipant":30,"nume":"Nedelcu","prenume":"Alexandra","varsta":28,"punctaj":169},{"idParticipant":15,"nume":"Nistor","prenume":"Carmen","varsta":33,"punctaj":189},{"idParticipant":40,"nume":"nume","prenume":"prenume","varsta":20,"punctaj":300},{"idParticipant":31,"nume":"Oprea","prenume":"Bogdan","varsta":27,"punctaj":282},{"idParticipant":32,"nume":"Pavel","prenume":"Monica","varsta":30,"punctaj":111},{"idParticipant":10,"nume":"Petrescu","prenume":"Gabriel","varsta":26,"punctaj":188},{"idParticipant":5,"nume":"Popa","prenume":"Mihai","varsta":35,"punctaj":282},{"idParticipant":1,"nume":"Popescu","prenume":"Ion","varsta":25,"punctaj":158},{"idParticipant":7,"nume":"Radu","prenume":"Cristian","varsta":24,"punctaj":256},{"idParticipant":33,"nume":"Rusu","prenume":"Andreea","varsta":29,"punctaj":313},{"idParticipant":34,"nume":"Sandu","prenume":"Victor","varsta":26,"punctaj":115},{"idParticipant":6,"nume":"Stan","prenume":"Ioana","varsta":27,"punctaj":289},{"idParticipant":35,"nume":"Toma","prenume":"Gabriela","varsta":31,"punctaj":132},{"idParticipant":9,"nume":"Tudor","prenume":"Alexandru","varsta":31,"punctaj":288},{"idParticipant":36,"nume":"Ursu","prenume":"Mihail","varsta":24,"punctaj":155},{"idParticipant":12,"nume":"Vasilescu","prenume":"Florin","varsta":23,"punctaj":472},{"idParticipant":37,"nume":"Vlad","prenume":"Anca","varsta":32,"punctaj":138},{"idParticipant":39,"nume":"Voicu","prenume":"Raluca","varsta":34,"punctaj":190},{"idParticipant":38,"nume":"Zamfir","prenume":"Lucian","varsta":23,"punctaj":177}]}
+07 Apr 2025 16:54:33,874 DEBUG ro.mpp2024.protocol.ClientWorkerJson 104 handleRequest - Get rezultate request forUserDTO{nume='', username='', password='', probaId='s1'}
+07 Apr 2025 16:54:33,874 TRACE ro.mpp2024.repository.RezultatRepository 168 listaParticiapntPuncteProbaDescrescator - Enter listaParticiapntPuncteProbaDescrescator
+07 Apr 2025 16:54:33,875 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+07 Apr 2025 16:54:33,875 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7c666a7b)
+07 Apr 2025 16:54:33,877 TRACE ro.mpp2024.repository.RezultatRepository 186 listaParticiapntPuncteProbaDescrescator - Enter Terminat dictionar
+07 Apr 2025 16:54:33,878 DEBUG ro.mpp2024.protocol.ClientWorkerJson 80 sendResponse - sending response {"type":"REZULTATE","punctaje":[{"idParticipant":28,"nume":"Lupu","prenume":"George","varsta":33,"punctaj":199},{"idParticipant":12,"nume":"Vasilescu","prenume":"Florin","varsta":23,"punctaj":198},{"idParticipant":11,"nume":"Iliescu","prenume":"Daniela","varsta":32,"punctaj":185},{"idParticipant":20,"nume":"Enache","prenume":"Laura","varsta":29,"punctaj":140},{"idParticipant":19,"nume":"Constantin","prenume":"Marius","varsta":30,"punctaj":100},{"idParticipant":22,"nume":"Filip","prenume":"Bianca","varsta":31,"punctaj":30},{"idParticipant":18,"nume":"Barbu","prenume":"Irina","varsta":27,"punctaj":20},{"idParticipant":3,"nume":"Georgescu","prenume":"Andrei","varsta":22,"punctaj":20},{"idParticipant":13,"nume":"Dobre","prenume":"Adriana","varsta":34,"punctaj":10}]}
+07 Apr 2025 16:54:34,882 DEBUG ro.mpp2024.protocol.ClientWorkerJson 142 handleRequest - Get participanti request fornull
+07 Apr 2025 16:54:34,883 TRACE ro.mpp2024.repository.ParticipantRepository 42 findAll - Enter
+07 Apr 2025 16:54:34,883 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+07 Apr 2025 16:54:34,884 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7c666a7b)
+07 Apr 2025 16:54:34,885 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:34,886 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Popescu Ion)
+07 Apr 2025 16:54:34,886 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:34,887 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Ionescu Maria)
+07 Apr 2025 16:54:34,887 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:34,888 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Georgescu Andrei)
+07 Apr 2025 16:54:34,888 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:34,889 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Dumitrescu Elena)
+07 Apr 2025 16:54:34,889 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:34,889 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Popa Mihai)
+07 Apr 2025 16:54:34,890 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:34,890 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Stan Ioana)
+07 Apr 2025 16:54:34,891 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:34,891 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Radu Cristian)
+07 Apr 2025 16:54:34,892 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:34,892 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Marin Ana)
+07 Apr 2025 16:54:34,893 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:34,894 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Tudor Alexandru)
+07 Apr 2025 16:54:34,894 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:34,894 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Petrescu Gabriel)
+07 Apr 2025 16:54:34,895 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:34,895 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Iliescu Daniela)
+07 Apr 2025 16:54:34,895 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:34,896 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Vasilescu Florin)
+07 Apr 2025 16:54:34,896 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:34,896 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Dobre Adriana)
+07 Apr 2025 16:54:34,897 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:34,897 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Munteanu Sorin)
+07 Apr 2025 16:54:34,898 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:34,898 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Nistor Carmen)
+07 Apr 2025 16:54:34,898 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:34,899 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Lazar Roxana)
+07 Apr 2025 16:54:34,899 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:34,899 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Gheorghe Vlad)
+07 Apr 2025 16:54:34,900 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:34,900 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Barbu Irina)
+07 Apr 2025 16:54:34,900 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:34,901 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Constantin Marius)
+07 Apr 2025 16:54:34,901 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:34,901 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Enache Laura)
+07 Apr 2025 16:54:34,902 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:34,902 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Dragomir Adrian)
+07 Apr 2025 16:54:34,903 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:34,903 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Filip Bianca)
+07 Apr 2025 16:54:34,903 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:34,904 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Grigore Stefan)
+07 Apr 2025 16:54:34,904 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:34,904 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Hagi Diana)
+07 Apr 2025 16:54:34,905 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:34,905 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Iacob Radu)
+07 Apr 2025 16:54:34,905 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:34,906 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Jianu Oana)
+07 Apr 2025 16:54:34,906 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:34,906 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Kovacs Cristina)
+07 Apr 2025 16:54:34,907 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:34,908 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Lupu George)
+07 Apr 2025 16:54:34,908 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:34,908 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Manole Simona)
+07 Apr 2025 16:54:34,909 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:34,909 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Nedelcu Alexandra)
+07 Apr 2025 16:54:34,909 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:34,910 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Oprea Bogdan)
+07 Apr 2025 16:54:34,910 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:34,910 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Pavel Monica)
+07 Apr 2025 16:54:34,911 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:34,911 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Rusu Andreea)
+07 Apr 2025 16:54:34,911 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:34,911 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Sandu Victor)
+07 Apr 2025 16:54:34,912 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:34,912 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Toma Gabriela)
+07 Apr 2025 16:54:34,912 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:34,912 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Ursu Mihail)
+07 Apr 2025 16:54:34,912 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:34,913 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Vlad Anca)
+07 Apr 2025 16:54:34,913 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:34,913 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Zamfir Lucian)
+07 Apr 2025 16:54:34,914 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:34,914 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Voicu Raluca)
+07 Apr 2025 16:54:34,914 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:34,915 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(nume prenume)
+07 Apr 2025 16:54:34,916 TRACE ro.mpp2024.repository.ParticipantRepository 56 findAll - Exit with([Popescu Ion, Ionescu Maria, Georgescu Andrei, Dumitrescu Elena, Popa Mihai, Stan Ioana, Radu Cristian, Marin Ana, Tudor Alexandru, Petrescu Gabriel, Iliescu Daniela, Vasilescu Florin, Dobre Adriana, Munteanu Sorin, Nistor Carmen, Lazar Roxana, Gheorghe Vlad, Barbu Irina, Constantin Marius, Enache Laura, Dragomir Adrian, Filip Bianca, Grigore Stefan, Hagi Diana, Iacob Radu, Jianu Oana, Kovacs Cristina, Lupu George, Manole Simona, Nedelcu Alexandra, Oprea Bogdan, Pavel Monica, Rusu Andreea, Sandu Victor, Toma Gabriela, Ursu Mihail, Vlad Anca, Zamfir Lucian, Voicu Raluca, nume prenume])
+07 Apr 2025 16:54:34,920 DEBUG ro.mpp2024.protocol.ClientWorkerJson 80 sendResponse - sending response {"type":"PARTICIPANTI","participanti":[{"idParticipant":1,"nume":"Popescu","prenume":"Ion","varsta":25,"punctaj":0},{"idParticipant":2,"nume":"Ionescu","prenume":"Maria","varsta":30,"punctaj":0},{"idParticipant":3,"nume":"Georgescu","prenume":"Andrei","varsta":22,"punctaj":0},{"idParticipant":4,"nume":"Dumitrescu","prenume":"Elena","varsta":28,"punctaj":0},{"idParticipant":5,"nume":"Popa","prenume":"Mihai","varsta":35,"punctaj":0},{"idParticipant":6,"nume":"Stan","prenume":"Ioana","varsta":27,"punctaj":0},{"idParticipant":7,"nume":"Radu","prenume":"Cristian","varsta":24,"punctaj":0},{"idParticipant":8,"nume":"Marin","prenume":"Ana","varsta":29,"punctaj":0},{"idParticipant":9,"nume":"Tudor","prenume":"Alexandru","varsta":31,"punctaj":0},{"idParticipant":10,"nume":"Petrescu","prenume":"Gabriel","varsta":26,"punctaj":0},{"idParticipant":11,"nume":"Iliescu","prenume":"Daniela","varsta":32,"punctaj":0},{"idParticipant":12,"nume":"Vasilescu","prenume":"Florin","varsta":23,"punctaj":0},{"idParticipant":13,"nume":"Dobre","prenume":"Adriana","varsta":34,"punctaj":0},{"idParticipant":14,"nume":"Munteanu","prenume":"Sorin","varsta":21,"punctaj":0},{"idParticipant":15,"nume":"Nistor","prenume":"Carmen","varsta":33,"punctaj":0},{"idParticipant":16,"nume":"Lazar","prenume":"Roxana","varsta":25,"punctaj":0},{"idParticipant":17,"nume":"Gheorghe","prenume":"Vlad","varsta":28,"punctaj":0},{"idParticipant":18,"nume":"Barbu","prenume":"Irina","varsta":27,"punctaj":0},{"idParticipant":19,"nume":"Constantin","prenume":"Marius","varsta":30,"punctaj":0},{"idParticipant":20,"nume":"Enache","prenume":"Laura","varsta":29,"punctaj":0},{"idParticipant":21,"nume":"Dragomir","prenume":"Adrian","varsta":26,"punctaj":0},{"idParticipant":22,"nume":"Filip","prenume":"Bianca","varsta":31,"punctaj":0},{"idParticipant":23,"nume":"Grigore","prenume":"Stefan","varsta":24,"punctaj":0},{"idParticipant":24,"nume":"Hagi","prenume":"Diana","varsta":32,"punctaj":0},{"idParticipant":25,"nume":"Iacob","prenume":"Radu","varsta":23,"punctaj":0},{"idParticipant":26,"nume":"Jianu","prenume":"Oana","varsta":34,"punctaj":0},{"idParticipant":27,"nume":"Kovacs","prenume":"Cristina","varsta":21,"punctaj":0},{"idParticipant":28,"nume":"Lupu","prenume":"George","varsta":33,"punctaj":0},{"idParticipant":29,"nume":"Manole","prenume":"Simona","varsta":25,"punctaj":0},{"idParticipant":30,"nume":"Nedelcu","prenume":"Alexandra","varsta":28,"punctaj":0},{"idParticipant":31,"nume":"Oprea","prenume":"Bogdan","varsta":27,"punctaj":0},{"idParticipant":32,"nume":"Pavel","prenume":"Monica","varsta":30,"punctaj":0},{"idParticipant":33,"nume":"Rusu","prenume":"Andreea","varsta":29,"punctaj":0},{"idParticipant":34,"nume":"Sandu","prenume":"Victor","varsta":26,"punctaj":0},{"idParticipant":35,"nume":"Toma","prenume":"Gabriela","varsta":31,"punctaj":0},{"idParticipant":36,"nume":"Ursu","prenume":"Mihail","varsta":24,"punctaj":0},{"idParticipant":37,"nume":"Vlad","prenume":"Anca","varsta":32,"punctaj":0},{"idParticipant":38,"nume":"Zamfir","prenume":"Lucian","varsta":23,"punctaj":0},{"idParticipant":39,"nume":"Voicu","prenume":"Raluca","varsta":34,"punctaj":0},{"idParticipant":40,"nume":"nume","prenume":"prenume","varsta":20,"punctaj":0}]}
+07 Apr 2025 16:54:38,101 INFO  chat.network.utils.AbstractServer 27 start - Client connected ...
+07 Apr 2025 16:54:38,101 INFO  chat.network.utils.AbstractServer 25 start - Waiting for clients ...
+07 Apr 2025 16:54:38,114 DEBUG ro.mpp2024.protocol.ClientWorkerJson 91 handleRequest - Login request UserDTO{nume='', username='alice.j', password='UGFzc3cwcmQxIQ==', probaId=''}
+07 Apr 2025 16:54:38,115 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+07 Apr 2025 16:54:38,115 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7c666a7b)
+07 Apr 2025 16:54:38,116 TRACE ro.mpp2024.repository.ArbitruRepository 29 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:38,116 TRACE ro.mpp2024.repository.ArbitruRepository 36 createEntityFromResultSet - Exit with(Arbitru{nume='Alice Johnson', username='alice.j', password='UGFzc3cwcmQxIQ==', id_proba=s1})
+07 Apr 2025 16:54:38,117 DEBUG ro.mpp2024.protocol.ClientWorkerJson 80 sendResponse - sending response {"type":"LOGGED_ACC","user":{"id":-2,"nume":"","username":"","password":"","id_proba":""}}
+07 Apr 2025 16:54:53,888 INFO  chat.network.utils.AbstractServer 27 start - Client connected ...
+07 Apr 2025 16:54:53,889 INFO  chat.network.utils.AbstractServer 25 start - Waiting for clients ...
+07 Apr 2025 16:54:53,891 DEBUG ro.mpp2024.protocol.ClientWorkerJson 91 handleRequest - Login request UserDTO{nume='', username='bob.smith', password='U2VjdXJlUEBzczI=', probaId=''}
+07 Apr 2025 16:54:53,892 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+07 Apr 2025 16:54:53,892 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7c666a7b)
+07 Apr 2025 16:54:53,893 TRACE ro.mpp2024.repository.ArbitruRepository 29 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:53,893 TRACE ro.mpp2024.repository.ArbitruRepository 36 createEntityFromResultSet - Exit with(Arbitru{nume='Bob Smith', username='bob.smith', password='U2VjdXJlUEBzczI=', id_proba=c1})
+07 Apr 2025 16:54:53,894 DEBUG ro.mpp2024.protocol.ClientWorkerJson 80 sendResponse - sending response {"type":"LOGGED_ACC","user":{"id":21,"nume":"Bob Smith","username":"bob.smith","password":"U2VjdXJlUEBzczI\u003d","id_proba":"c1"}}
+07 Apr 2025 16:54:54,903 DEBUG ro.mpp2024.protocol.ClientWorkerJson 116 handleRequest - Get all rezultate request fornull
+07 Apr 2025 16:54:54,903 TRACE ro.mpp2024.repository.RezultatRepository 144 listaParticipantiPuncteAlfabetic - Enter listaParticipantiPuncteAlfabetic
+07 Apr 2025 16:54:54,904 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+07 Apr 2025 16:54:54,904 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7c666a7b)
+07 Apr 2025 16:54:54,906 TRACE ro.mpp2024.repository.RezultatRepository 162 listaParticipantiPuncteAlfabetic - Enter Terminat dictionar
+07 Apr 2025 16:54:54,908 DEBUG ro.mpp2024.protocol.ClientWorkerJson 80 sendResponse - sending response {"type":"ALL_REZULTATE","punctaje":[{"idParticipant":18,"nume":"Barbu","prenume":"Irina","varsta":27,"punctaj":240},{"idParticipant":19,"nume":"Constantin","prenume":"Marius","varsta":30,"punctaj":288},{"idParticipant":13,"nume":"Dobre","prenume":"Adriana","varsta":34,"punctaj":185},{"idParticipant":21,"nume":"Dragomir","prenume":"Adrian","varsta":26,"punctaj":140},{"idParticipant":4,"nume":"Dumitrescu","prenume":"Elena","varsta":28,"punctaj":153},{"idParticipant":20,"nume":"Enache","prenume":"Laura","varsta":29,"punctaj":325},{"idParticipant":22,"nume":"Filip","prenume":"Bianca","varsta":31,"punctaj":347},{"idParticipant":3,"nume":"Georgescu","prenume":"Andrei","varsta":22,"punctaj":132},{"idParticipant":17,"nume":"Gheorghe","prenume":"Vlad","varsta":28,"punctaj":210},{"idParticipant":23,"nume":"Grigore","prenume":"Stefan","varsta":24,"punctaj":155},{"idParticipant":24,"nume":"Hagi","prenume":"Diana","varsta":32,"punctaj":203},{"idParticipant":25,"nume":"Iacob","prenume":"Radu","varsta":23,"punctaj":195},{"idParticipant":11,"nume":"Iliescu","prenume":"Daniela","varsta":32,"punctaj":320},{"idParticipant":2,"nume":"Ionescu","prenume":"Maria","varsta":30,"punctaj":166},{"idParticipant":26,"nume":"Jianu","prenume":"Oana","varsta":34,"punctaj":142},{"idParticipant":27,"nume":"Kovacs","prenume":"Cristina","varsta":21,"punctaj":199},{"idParticipant":16,"nume":"Lazar","prenume":"Roxana","varsta":25,"punctaj":185},{"idParticipant":28,"nume":"Lupu","prenume":"George","varsta":33,"punctaj":319},{"idParticipant":29,"nume":"Manole","prenume":"Simona","varsta":25,"punctaj":117},{"idParticipant":8,"nume":"Marin","prenume":"Ana","varsta":29,"punctaj":134},{"idParticipant":14,"nume":"Munteanu","prenume":"Sorin","varsta":21,"punctaj":301},{"idParticipant":30,"nume":"Nedelcu","prenume":"Alexandra","varsta":28,"punctaj":169},{"idParticipant":15,"nume":"Nistor","prenume":"Carmen","varsta":33,"punctaj":189},{"idParticipant":40,"nume":"nume","prenume":"prenume","varsta":20,"punctaj":300},{"idParticipant":31,"nume":"Oprea","prenume":"Bogdan","varsta":27,"punctaj":282},{"idParticipant":32,"nume":"Pavel","prenume":"Monica","varsta":30,"punctaj":111},{"idParticipant":10,"nume":"Petrescu","prenume":"Gabriel","varsta":26,"punctaj":188},{"idParticipant":5,"nume":"Popa","prenume":"Mihai","varsta":35,"punctaj":282},{"idParticipant":1,"nume":"Popescu","prenume":"Ion","varsta":25,"punctaj":158},{"idParticipant":7,"nume":"Radu","prenume":"Cristian","varsta":24,"punctaj":256},{"idParticipant":33,"nume":"Rusu","prenume":"Andreea","varsta":29,"punctaj":313},{"idParticipant":34,"nume":"Sandu","prenume":"Victor","varsta":26,"punctaj":115},{"idParticipant":6,"nume":"Stan","prenume":"Ioana","varsta":27,"punctaj":289},{"idParticipant":35,"nume":"Toma","prenume":"Gabriela","varsta":31,"punctaj":132},{"idParticipant":9,"nume":"Tudor","prenume":"Alexandru","varsta":31,"punctaj":288},{"idParticipant":36,"nume":"Ursu","prenume":"Mihail","varsta":24,"punctaj":155},{"idParticipant":12,"nume":"Vasilescu","prenume":"Florin","varsta":23,"punctaj":472},{"idParticipant":37,"nume":"Vlad","prenume":"Anca","varsta":32,"punctaj":138},{"idParticipant":39,"nume":"Voicu","prenume":"Raluca","varsta":34,"punctaj":190},{"idParticipant":38,"nume":"Zamfir","prenume":"Lucian","varsta":23,"punctaj":177}]}
+07 Apr 2025 16:54:55,911 DEBUG ro.mpp2024.protocol.ClientWorkerJson 104 handleRequest - Get rezultate request forUserDTO{nume='', username='', password='', probaId='c1'}
+07 Apr 2025 16:54:55,911 TRACE ro.mpp2024.repository.RezultatRepository 168 listaParticiapntPuncteProbaDescrescator - Enter listaParticiapntPuncteProbaDescrescator
+07 Apr 2025 16:54:55,912 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+07 Apr 2025 16:54:55,912 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7c666a7b)
+07 Apr 2025 16:54:55,913 TRACE ro.mpp2024.repository.RezultatRepository 186 listaParticiapntPuncteProbaDescrescator - Enter Terminat dictionar
+07 Apr 2025 16:54:55,914 DEBUG ro.mpp2024.protocol.ClientWorkerJson 80 sendResponse - sending response {"type":"REZULTATE","punctaje":[{"idParticipant":38,"nume":"Zamfir","prenume":"Lucian","varsta":23,"punctaj":177},{"idParticipant":6,"nume":"Stan","prenume":"Ioana","varsta":27,"punctaj":152},{"idParticipant":9,"nume":"Tudor","prenume":"Alexandru","varsta":31,"punctaj":150},{"idParticipant":12,"nume":"Vasilescu","prenume":"Florin","varsta":23,"punctaj":100},{"idParticipant":18,"nume":"Barbu","prenume":"Irina","varsta":27,"punctaj":30},{"idParticipant":37,"nume":"Vlad","prenume":"Anca","varsta":32,"punctaj":10},{"idParticipant":24,"nume":"Hagi","prenume":"Diana","varsta":32,"punctaj":10},{"idParticipant":23,"nume":"Grigore","prenume":"Stefan","varsta":24,"punctaj":10},{"idParticipant":22,"nume":"Filip","prenume":"Bianca","varsta":31,"punctaj":10},{"idParticipant":21,"nume":"Dragomir","prenume":"Adrian","varsta":26,"punctaj":10},{"idParticipant":20,"nume":"Enache","prenume":"Laura","varsta":29,"punctaj":10},{"idParticipant":19,"nume":"Constantin","prenume":"Marius","varsta":30,"punctaj":10},{"idParticipant":17,"nume":"Gheorghe","prenume":"Vlad","varsta":28,"punctaj":10},{"idParticipant":13,"nume":"Dobre","prenume":"Adriana","varsta":34,"punctaj":10},{"idParticipant":11,"nume":"Iliescu","prenume":"Daniela","varsta":32,"punctaj":10},{"idParticipant":4,"nume":"Dumitrescu","prenume":"Elena","varsta":28,"punctaj":10},{"idParticipant":3,"nume":"Georgescu","prenume":"Andrei","varsta":22,"punctaj":10},{"idParticipant":2,"nume":"Ionescu","prenume":"Maria","varsta":30,"punctaj":10},{"idParticipant":1,"nume":"Popescu","prenume":"Ion","varsta":25,"punctaj":10}]}
+07 Apr 2025 16:54:56,923 DEBUG ro.mpp2024.protocol.ClientWorkerJson 142 handleRequest - Get participanti request fornull
+07 Apr 2025 16:54:56,925 TRACE ro.mpp2024.repository.ParticipantRepository 42 findAll - Enter
+07 Apr 2025 16:54:56,926 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+07 Apr 2025 16:54:56,927 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7c666a7b)
+07 Apr 2025 16:54:56,928 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:56,929 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Popescu Ion)
+07 Apr 2025 16:54:56,930 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:56,930 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Ionescu Maria)
+07 Apr 2025 16:54:56,930 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:56,931 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Georgescu Andrei)
+07 Apr 2025 16:54:56,931 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:56,931 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Dumitrescu Elena)
+07 Apr 2025 16:54:56,932 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:56,932 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Popa Mihai)
+07 Apr 2025 16:54:56,932 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:56,934 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Stan Ioana)
+07 Apr 2025 16:54:56,934 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:56,935 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Radu Cristian)
+07 Apr 2025 16:54:56,935 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:56,936 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Marin Ana)
+07 Apr 2025 16:54:56,936 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:56,937 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Tudor Alexandru)
+07 Apr 2025 16:54:56,937 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:56,938 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Petrescu Gabriel)
+07 Apr 2025 16:54:56,938 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:56,939 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Iliescu Daniela)
+07 Apr 2025 16:54:56,940 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:56,940 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Vasilescu Florin)
+07 Apr 2025 16:54:56,941 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:56,941 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Dobre Adriana)
+07 Apr 2025 16:54:56,942 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:56,942 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Munteanu Sorin)
+07 Apr 2025 16:54:56,943 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:56,944 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Nistor Carmen)
+07 Apr 2025 16:54:56,944 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:56,945 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Lazar Roxana)
+07 Apr 2025 16:54:56,946 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:56,946 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Gheorghe Vlad)
+07 Apr 2025 16:54:56,946 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:56,947 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Barbu Irina)
+07 Apr 2025 16:54:56,948 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:56,948 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Constantin Marius)
+07 Apr 2025 16:54:56,948 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:56,949 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Enache Laura)
+07 Apr 2025 16:54:56,950 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:56,950 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Dragomir Adrian)
+07 Apr 2025 16:54:56,950 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:56,951 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Filip Bianca)
+07 Apr 2025 16:54:56,951 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:56,952 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Grigore Stefan)
+07 Apr 2025 16:54:56,952 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:56,953 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Hagi Diana)
+07 Apr 2025 16:54:56,953 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:56,954 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Iacob Radu)
+07 Apr 2025 16:54:56,954 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:56,955 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Jianu Oana)
+07 Apr 2025 16:54:56,955 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:56,956 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Kovacs Cristina)
+07 Apr 2025 16:54:56,957 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:56,957 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Lupu George)
+07 Apr 2025 16:54:56,958 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:56,958 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Manole Simona)
+07 Apr 2025 16:54:56,958 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:56,959 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Nedelcu Alexandra)
+07 Apr 2025 16:54:56,959 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:56,959 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Oprea Bogdan)
+07 Apr 2025 16:54:56,960 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:56,960 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Pavel Monica)
+07 Apr 2025 16:54:56,960 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:56,961 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Rusu Andreea)
+07 Apr 2025 16:54:56,961 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:56,961 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Sandu Victor)
+07 Apr 2025 16:54:56,962 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:56,962 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Toma Gabriela)
+07 Apr 2025 16:54:56,962 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:56,963 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Ursu Mihail)
+07 Apr 2025 16:54:56,963 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:56,963 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Vlad Anca)
+07 Apr 2025 16:54:56,964 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:56,964 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Zamfir Lucian)
+07 Apr 2025 16:54:56,965 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:56,965 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Voicu Raluca)
+07 Apr 2025 16:54:56,965 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:54:56,966 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(nume prenume)
+07 Apr 2025 16:54:56,967 TRACE ro.mpp2024.repository.ParticipantRepository 56 findAll - Exit with([Popescu Ion, Ionescu Maria, Georgescu Andrei, Dumitrescu Elena, Popa Mihai, Stan Ioana, Radu Cristian, Marin Ana, Tudor Alexandru, Petrescu Gabriel, Iliescu Daniela, Vasilescu Florin, Dobre Adriana, Munteanu Sorin, Nistor Carmen, Lazar Roxana, Gheorghe Vlad, Barbu Irina, Constantin Marius, Enache Laura, Dragomir Adrian, Filip Bianca, Grigore Stefan, Hagi Diana, Iacob Radu, Jianu Oana, Kovacs Cristina, Lupu George, Manole Simona, Nedelcu Alexandra, Oprea Bogdan, Pavel Monica, Rusu Andreea, Sandu Victor, Toma Gabriela, Ursu Mihail, Vlad Anca, Zamfir Lucian, Voicu Raluca, nume prenume])
+07 Apr 2025 16:54:56,969 DEBUG ro.mpp2024.protocol.ClientWorkerJson 80 sendResponse - sending response {"type":"PARTICIPANTI","participanti":[{"idParticipant":1,"nume":"Popescu","prenume":"Ion","varsta":25,"punctaj":0},{"idParticipant":2,"nume":"Ionescu","prenume":"Maria","varsta":30,"punctaj":0},{"idParticipant":3,"nume":"Georgescu","prenume":"Andrei","varsta":22,"punctaj":0},{"idParticipant":4,"nume":"Dumitrescu","prenume":"Elena","varsta":28,"punctaj":0},{"idParticipant":5,"nume":"Popa","prenume":"Mihai","varsta":35,"punctaj":0},{"idParticipant":6,"nume":"Stan","prenume":"Ioana","varsta":27,"punctaj":0},{"idParticipant":7,"nume":"Radu","prenume":"Cristian","varsta":24,"punctaj":0},{"idParticipant":8,"nume":"Marin","prenume":"Ana","varsta":29,"punctaj":0},{"idParticipant":9,"nume":"Tudor","prenume":"Alexandru","varsta":31,"punctaj":0},{"idParticipant":10,"nume":"Petrescu","prenume":"Gabriel","varsta":26,"punctaj":0},{"idParticipant":11,"nume":"Iliescu","prenume":"Daniela","varsta":32,"punctaj":0},{"idParticipant":12,"nume":"Vasilescu","prenume":"Florin","varsta":23,"punctaj":0},{"idParticipant":13,"nume":"Dobre","prenume":"Adriana","varsta":34,"punctaj":0},{"idParticipant":14,"nume":"Munteanu","prenume":"Sorin","varsta":21,"punctaj":0},{"idParticipant":15,"nume":"Nistor","prenume":"Carmen","varsta":33,"punctaj":0},{"idParticipant":16,"nume":"Lazar","prenume":"Roxana","varsta":25,"punctaj":0},{"idParticipant":17,"nume":"Gheorghe","prenume":"Vlad","varsta":28,"punctaj":0},{"idParticipant":18,"nume":"Barbu","prenume":"Irina","varsta":27,"punctaj":0},{"idParticipant":19,"nume":"Constantin","prenume":"Marius","varsta":30,"punctaj":0},{"idParticipant":20,"nume":"Enache","prenume":"Laura","varsta":29,"punctaj":0},{"idParticipant":21,"nume":"Dragomir","prenume":"Adrian","varsta":26,"punctaj":0},{"idParticipant":22,"nume":"Filip","prenume":"Bianca","varsta":31,"punctaj":0},{"idParticipant":23,"nume":"Grigore","prenume":"Stefan","varsta":24,"punctaj":0},{"idParticipant":24,"nume":"Hagi","prenume":"Diana","varsta":32,"punctaj":0},{"idParticipant":25,"nume":"Iacob","prenume":"Radu","varsta":23,"punctaj":0},{"idParticipant":26,"nume":"Jianu","prenume":"Oana","varsta":34,"punctaj":0},{"idParticipant":27,"nume":"Kovacs","prenume":"Cristina","varsta":21,"punctaj":0},{"idParticipant":28,"nume":"Lupu","prenume":"George","varsta":33,"punctaj":0},{"idParticipant":29,"nume":"Manole","prenume":"Simona","varsta":25,"punctaj":0},{"idParticipant":30,"nume":"Nedelcu","prenume":"Alexandra","varsta":28,"punctaj":0},{"idParticipant":31,"nume":"Oprea","prenume":"Bogdan","varsta":27,"punctaj":0},{"idParticipant":32,"nume":"Pavel","prenume":"Monica","varsta":30,"punctaj":0},{"idParticipant":33,"nume":"Rusu","prenume":"Andreea","varsta":29,"punctaj":0},{"idParticipant":34,"nume":"Sandu","prenume":"Victor","varsta":26,"punctaj":0},{"idParticipant":35,"nume":"Toma","prenume":"Gabriela","varsta":31,"punctaj":0},{"idParticipant":36,"nume":"Ursu","prenume":"Mihail","varsta":24,"punctaj":0},{"idParticipant":37,"nume":"Vlad","prenume":"Anca","varsta":32,"punctaj":0},{"idParticipant":38,"nume":"Zamfir","prenume":"Lucian","varsta":23,"punctaj":0},{"idParticipant":39,"nume":"Voicu","prenume":"Raluca","varsta":34,"punctaj":0},{"idParticipant":40,"nume":"nume","prenume":"prenume","varsta":20,"punctaj":0}]}
+07 Apr 2025 16:56:01,397 DEBUG ro.mpp2024.protocol.ClientWorkerJson 127 handleRequest - Add rezultat request RezultatDTO{idProba='c1', idParticipant=28, puncte=30}
+07 Apr 2025 16:56:01,398 TRACE ro.mpp2024.services.ServerService 52 addRezultat - Enter
+07 Apr 2025 16:56:01,398 TRACE ro.mpp2024.repository.ParticipantRepository 62 findOne - Enter
+07 Apr 2025 16:56:01,398 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+07 Apr 2025 16:56:01,398 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7c666a7b)
+07 Apr 2025 16:56:01,399 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:56:01,399 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Lupu George)
+07 Apr 2025 16:56:01,399 TRACE ro.mpp2024.repository.ParticipantRepository 76 findOne - Exit with(Lupu George)
+07 Apr 2025 16:56:01,400 TRACE ro.mpp2024.repository.ProbaRepository 63 findOne - Enter findOne
+07 Apr 2025 16:56:01,400 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+07 Apr 2025 16:56:01,400 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7c666a7b)
+07 Apr 2025 16:56:01,401 TRACE ro.mpp2024.repository.ProbaRepository 31 createEntityFromResultSet - Enter createEntityFromResultSet
+07 Apr 2025 16:56:01,406 TRACE ro.mpp2024.repository.ProbaRepository 37 createEntityFromResultSet - Exit with(Proba{nume='Pedalat 200 de m', arbitru=1, categorie=ciclism})
+07 Apr 2025 16:56:01,407 TRACE ro.mpp2024.repository.ProbaRepository 77 findOne - Exit with(Proba{nume='Pedalat 200 de m', arbitru=1, categorie=ciclism})
+07 Apr 2025 16:56:01,407 TRACE ro.mpp2024.repository.RezultatRepository 116 save - Enter save
+07 Apr 2025 16:56:01,407 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+07 Apr 2025 16:56:01,408 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7c666a7b)
+07 Apr 2025 16:56:01,421 TRACE ro.mpp2024.repository.RezultatRepository 127 save - Exit
+07 Apr 2025 16:56:01,421 TRACE ro.mpp2024.services.ServerService 56 addRezultat - Exit
+07 Apr 2025 16:56:01,421 DEBUG ro.mpp2024.services.ServerService 62 rezultatAdded - rezultat added
+07 Apr 2025 16:56:01,428 DEBUG ro.mpp2024.protocol.ClientWorkerJson 80 sendResponse - sending response {"type":"OK"}
+07 Apr 2025 16:56:01,437 DEBUG ro.mpp2024.protocol.ClientWorkerJson 180 RezultatAdded - Sending rezultat added response Response{type=REZULTAT_ADDED, errormessage='null', user=null, rezultat=RezultatDTO{idProba='c1', idParticipant=28, puncte=30}, punctaje=null}
+07 Apr 2025 16:56:01,438 DEBUG ro.mpp2024.protocol.ClientWorkerJson 180 RezultatAdded - Sending rezultat added response Response{type=REZULTAT_ADDED, errormessage='null', user=null, rezultat=RezultatDTO{idProba='c1', idParticipant=28, puncte=30}, punctaje=null}
+07 Apr 2025 16:56:01,439 DEBUG ro.mpp2024.protocol.ClientWorkerJson 80 sendResponse - sending response {"type":"REZULTAT_ADDED","rezultat":{"idProba":"c1","idParticipant":28,"numeParticipant":"Lupu","prenumeParticipant":"George","puncte":30}}
+07 Apr 2025 16:56:01,439 DEBUG ro.mpp2024.protocol.ClientWorkerJson 80 sendResponse - sending response {"type":"REZULTAT_ADDED","rezultat":{"idProba":"c1","idParticipant":28,"numeParticipant":"Lupu","prenumeParticipant":"George","puncte":30}}
+07 Apr 2025 16:56:17,787 DEBUG ro.mpp2024.protocol.ClientWorkerJson 152 handleRequest - Logout request forUserDTO{nume='Alice Johnson', username='alice.j', password='UGFzc3cwcmQxIQ==', probaId='s1'}
+07 Apr 2025 16:56:17,788 INFO  ro.mpp2024.services.ServerService 90 logout - Logout user alice.j
+07 Apr 2025 16:56:17,788 DEBUG ro.mpp2024.protocol.ClientWorkerJson 80 sendResponse - sending response {"type":"OK"}
+07 Apr 2025 16:56:40,023 DEBUG ro.mpp2024.protocol.ClientWorkerJson 152 handleRequest - Logout request forUserDTO{nume='Bob Smith', username='bob.smith', password='U2VjdXJlUEBzczI=', probaId='c1'}
+07 Apr 2025 16:56:40,023 INFO  ro.mpp2024.services.ServerService 90 logout - Logout user bob.smith
+07 Apr 2025 16:56:40,024 DEBUG ro.mpp2024.protocol.ClientWorkerJson 80 sendResponse - sending response {"type":"OK"}
+07 Apr 2025 16:56:50,915 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - java.net.SocketException: Connection reset
+07 Apr 2025 16:56:50,915 ERROR ro.mpp2024.protocol.ClientWorkerJson 58 run - [Ljava.lang.StackTraceElement;@40c6da10
+13 Apr 2025 15:05:12,331 INFO  ro.mpp2024.StartJsonServer 24 main - Server properties: {server.port=55556, jdbc.url=jdbc:sqlite:src/main/resources/triatlon.db}
+13 Apr 2025 15:05:12,335 INFO  ro.mpp2024.repository.ArbitruRepository 23 <init> - Initializing IArbitruRepository with properties: {} 
+13 Apr 2025 15:05:12,336 INFO  ro.mpp2024.repository.ProbaRepository 25 <init> - Initializing ProbaRepository with properties: {} 
+13 Apr 2025 15:05:12,337 INFO  ro.mpp2024.repository.ParticipantRepository 24 <init> - Initializing ParticipantRepository with properties: {} 
+13 Apr 2025 15:05:12,338 INFO  ro.mpp2024.repository.RezultatRepository 25 <init> - Initializing RezultatRepository with properties: {} 
+13 Apr 2025 15:05:12,340 INFO  ro.mpp2024.services.ServerService 37 <init> - Service Rezultat made
+13 Apr 2025 15:05:12,340 DEBUG ro.mpp2024.StartJsonServer 50 main - Starting server on port: 55556
+13 Apr 2025 15:05:12,341 DEBUG ro.mpp2024.networkUtils.AbsConcurrentServer 13 <init> - Concurrent AbstractServer
+13 Apr 2025 15:05:12,341 INFO  ro.mpp2024.networkUtils.JsonConcurrentServer 17 <init> - JsonConcurrentServer
+13 Apr 2025 15:05:12,346 INFO  chat.network.utils.AbstractServer 25 start - Waiting for clients ...
+13 Apr 2025 15:06:04,938 INFO  chat.network.utils.AbstractServer 27 start - Client connected ...
+13 Apr 2025 15:06:04,966 INFO  chat.network.utils.AbstractServer 25 start - Waiting for clients ...
+13 Apr 2025 15:06:04,974 DEBUG ro.mpp2024.protocol.ClientWorkerJson 90 handleRequest - Login request UserDTO{nume='', username='alice.j', password='UGFzc3cwcmQxIQ==', probaId=''}
+13 Apr 2025 15:06:04,976 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+13 Apr 2025 15:06:04,976 TRACE ro.mpp2024.utils.JdbcUtils 25 getNewConnection - Enter
+13 Apr 2025 15:06:04,977 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src/main/resources/triatlon.db
+13 Apr 2025 15:06:04,977 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - user: null
+13 Apr 2025 15:06:04,977 INFO  ro.mpp2024.utils.JdbcUtils 32 getNewConnection - pass: null
+13 Apr 2025 15:06:05,080 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@77cb4cc5)
+13 Apr 2025 15:06:05,082 TRACE ro.mpp2024.repository.ArbitruRepository 29 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:05,083 TRACE ro.mpp2024.repository.ArbitruRepository 36 createEntityFromResultSet - Exit with(Arbitru{nume='Alice Johnson', username='alice.j', password='UGFzc3cwcmQxIQ==', id_proba=s1})
+13 Apr 2025 15:06:05,086 DEBUG ro.mpp2024.protocol.ClientWorkerJson 79 sendResponse - sending response {"typeJava":"LOGGED_ACC","typeCsharp":0,"user":{"id":20,"nume":"Alice Johnson","username":"alice.j","password":"UGFzc3cwcmQxIQ\u003d\u003d","id_proba":"s1"}}
+13 Apr 2025 15:06:06,095 DEBUG ro.mpp2024.protocol.ClientWorkerJson 115 handleRequest - Get all rezultate request fornull
+13 Apr 2025 15:06:06,095 TRACE ro.mpp2024.repository.RezultatRepository 144 listaParticipantiPuncteAlfabetic - Enter listaParticipantiPuncteAlfabetic
+13 Apr 2025 15:06:06,095 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+13 Apr 2025 15:06:06,096 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@77cb4cc5)
+13 Apr 2025 15:06:06,097 TRACE ro.mpp2024.repository.RezultatRepository 162 listaParticipantiPuncteAlfabetic - Enter Terminat dictionar
+13 Apr 2025 15:06:06,098 DEBUG ro.mpp2024.protocol.ClientWorkerJson 79 sendResponse - sending response {"typeJava":"ALL_REZULTATE","typeCsharp":0,"punctaje":[{"idParticipant":18,"nume":"Barbu","prenume":"Irina","varsta":27,"punctaj":240},{"idParticipant":19,"nume":"Constantin","prenume":"Marius","varsta":30,"punctaj":288},{"idParticipant":13,"nume":"Dobre","prenume":"Adriana","varsta":34,"punctaj":185},{"idParticipant":21,"nume":"Dragomir","prenume":"Adrian","varsta":26,"punctaj":140},{"idParticipant":4,"nume":"Dumitrescu","prenume":"Elena","varsta":28,"punctaj":153},{"idParticipant":20,"nume":"Enache","prenume":"Laura","varsta":29,"punctaj":325},{"idParticipant":22,"nume":"Filip","prenume":"Bianca","varsta":31,"punctaj":347},{"idParticipant":3,"nume":"Georgescu","prenume":"Andrei","varsta":22,"punctaj":132},{"idParticipant":17,"nume":"Gheorghe","prenume":"Vlad","varsta":28,"punctaj":210},{"idParticipant":23,"nume":"Grigore","prenume":"Stefan","varsta":24,"punctaj":155},{"idParticipant":24,"nume":"Hagi","prenume":"Diana","varsta":32,"punctaj":203},{"idParticipant":25,"nume":"Iacob","prenume":"Radu","varsta":23,"punctaj":195},{"idParticipant":11,"nume":"Iliescu","prenume":"Daniela","varsta":32,"punctaj":320},{"idParticipant":2,"nume":"Ionescu","prenume":"Maria","varsta":30,"punctaj":166},{"idParticipant":26,"nume":"Jianu","prenume":"Oana","varsta":34,"punctaj":142},{"idParticipant":27,"nume":"Kovacs","prenume":"Cristina","varsta":21,"punctaj":199},{"idParticipant":16,"nume":"Lazar","prenume":"Roxana","varsta":25,"punctaj":185},{"idParticipant":28,"nume":"Lupu","prenume":"George","varsta":33,"punctaj":349},{"idParticipant":29,"nume":"Manole","prenume":"Simona","varsta":25,"punctaj":117},{"idParticipant":8,"nume":"Marin","prenume":"Ana","varsta":29,"punctaj":134},{"idParticipant":14,"nume":"Munteanu","prenume":"Sorin","varsta":21,"punctaj":301},{"idParticipant":30,"nume":"Nedelcu","prenume":"Alexandra","varsta":28,"punctaj":169},{"idParticipant":15,"nume":"Nistor","prenume":"Carmen","varsta":33,"punctaj":189},{"idParticipant":40,"nume":"nume","prenume":"prenume","varsta":20,"punctaj":300},{"idParticipant":31,"nume":"Oprea","prenume":"Bogdan","varsta":27,"punctaj":282},{"idParticipant":32,"nume":"Pavel","prenume":"Monica","varsta":30,"punctaj":111},{"idParticipant":10,"nume":"Petrescu","prenume":"Gabriel","varsta":26,"punctaj":188},{"idParticipant":5,"nume":"Popa","prenume":"Mihai","varsta":35,"punctaj":282},{"idParticipant":1,"nume":"Popescu","prenume":"Ion","varsta":25,"punctaj":158},{"idParticipant":7,"nume":"Radu","prenume":"Cristian","varsta":24,"punctaj":256},{"idParticipant":33,"nume":"Rusu","prenume":"Andreea","varsta":29,"punctaj":313},{"idParticipant":34,"nume":"Sandu","prenume":"Victor","varsta":26,"punctaj":115},{"idParticipant":6,"nume":"Stan","prenume":"Ioana","varsta":27,"punctaj":289},{"idParticipant":35,"nume":"Toma","prenume":"Gabriela","varsta":31,"punctaj":132},{"idParticipant":9,"nume":"Tudor","prenume":"Alexandru","varsta":31,"punctaj":288},{"idParticipant":36,"nume":"Ursu","prenume":"Mihail","varsta":24,"punctaj":155},{"idParticipant":12,"nume":"Vasilescu","prenume":"Florin","varsta":23,"punctaj":472},{"idParticipant":37,"nume":"Vlad","prenume":"Anca","varsta":32,"punctaj":138},{"idParticipant":39,"nume":"Voicu","prenume":"Raluca","varsta":34,"punctaj":190},{"idParticipant":38,"nume":"Zamfir","prenume":"Lucian","varsta":23,"punctaj":177}]}
+13 Apr 2025 15:06:07,112 DEBUG ro.mpp2024.protocol.ClientWorkerJson 103 handleRequest - Get rezultate request forUserDTO{nume='', username='', password='', probaId='s1'}
+13 Apr 2025 15:06:07,112 TRACE ro.mpp2024.repository.RezultatRepository 168 listaParticiapntPuncteProbaDescrescator - Enter listaParticiapntPuncteProbaDescrescator
+13 Apr 2025 15:06:07,112 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+13 Apr 2025 15:06:07,113 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@77cb4cc5)
+13 Apr 2025 15:06:07,113 TRACE ro.mpp2024.repository.RezultatRepository 186 listaParticiapntPuncteProbaDescrescator - Enter Terminat dictionar
+13 Apr 2025 15:06:07,114 DEBUG ro.mpp2024.protocol.ClientWorkerJson 79 sendResponse - sending response {"typeJava":"REZULTATE","typeCsharp":0,"punctaje":[{"idParticipant":28,"nume":"Lupu","prenume":"George","varsta":33,"punctaj":199},{"idParticipant":12,"nume":"Vasilescu","prenume":"Florin","varsta":23,"punctaj":198},{"idParticipant":11,"nume":"Iliescu","prenume":"Daniela","varsta":32,"punctaj":185},{"idParticipant":20,"nume":"Enache","prenume":"Laura","varsta":29,"punctaj":140},{"idParticipant":19,"nume":"Constantin","prenume":"Marius","varsta":30,"punctaj":100},{"idParticipant":22,"nume":"Filip","prenume":"Bianca","varsta":31,"punctaj":30},{"idParticipant":18,"nume":"Barbu","prenume":"Irina","varsta":27,"punctaj":20},{"idParticipant":3,"nume":"Georgescu","prenume":"Andrei","varsta":22,"punctaj":20},{"idParticipant":13,"nume":"Dobre","prenume":"Adriana","varsta":34,"punctaj":10}]}
+13 Apr 2025 15:06:08,123 DEBUG ro.mpp2024.protocol.ClientWorkerJson 141 handleRequest - Get participanti request fornull
+13 Apr 2025 15:06:08,123 TRACE ro.mpp2024.repository.ParticipantRepository 42 findAll - Enter
+13 Apr 2025 15:06:08,123 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+13 Apr 2025 15:06:08,124 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@77cb4cc5)
+13 Apr 2025 15:06:08,124 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:08,125 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Popescu Ion)
+13 Apr 2025 15:06:08,125 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:08,125 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Ionescu Maria)
+13 Apr 2025 15:06:08,125 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:08,125 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Georgescu Andrei)
+13 Apr 2025 15:06:08,125 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:08,125 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Dumitrescu Elena)
+13 Apr 2025 15:06:08,126 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:08,126 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Popa Mihai)
+13 Apr 2025 15:06:08,126 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:08,126 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Stan Ioana)
+13 Apr 2025 15:06:08,126 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:08,126 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Radu Cristian)
+13 Apr 2025 15:06:08,126 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:08,126 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Marin Ana)
+13 Apr 2025 15:06:08,127 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:08,127 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Tudor Alexandru)
+13 Apr 2025 15:06:08,127 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:08,127 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Petrescu Gabriel)
+13 Apr 2025 15:06:08,127 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:08,127 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Iliescu Daniela)
+13 Apr 2025 15:06:08,127 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:08,127 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Vasilescu Florin)
+13 Apr 2025 15:06:08,128 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:08,128 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Dobre Adriana)
+13 Apr 2025 15:06:08,128 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:08,128 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Munteanu Sorin)
+13 Apr 2025 15:06:08,128 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:08,128 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Nistor Carmen)
+13 Apr 2025 15:06:08,128 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:08,129 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Lazar Roxana)
+13 Apr 2025 15:06:08,129 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:08,129 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Gheorghe Vlad)
+13 Apr 2025 15:06:08,129 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:08,129 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Barbu Irina)
+13 Apr 2025 15:06:08,129 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:08,129 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Constantin Marius)
+13 Apr 2025 15:06:08,129 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:08,129 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Enache Laura)
+13 Apr 2025 15:06:08,130 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:08,130 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Dragomir Adrian)
+13 Apr 2025 15:06:08,130 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:08,130 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Filip Bianca)
+13 Apr 2025 15:06:08,130 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:08,130 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Grigore Stefan)
+13 Apr 2025 15:06:08,130 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:08,130 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Hagi Diana)
+13 Apr 2025 15:06:08,130 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:08,131 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Iacob Radu)
+13 Apr 2025 15:06:08,131 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:08,131 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Jianu Oana)
+13 Apr 2025 15:06:08,131 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:08,131 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Kovacs Cristina)
+13 Apr 2025 15:06:08,131 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:08,131 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Lupu George)
+13 Apr 2025 15:06:08,131 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:08,131 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Manole Simona)
+13 Apr 2025 15:06:08,132 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:08,132 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Nedelcu Alexandra)
+13 Apr 2025 15:06:08,132 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:08,132 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Oprea Bogdan)
+13 Apr 2025 15:06:08,132 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:08,132 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Pavel Monica)
+13 Apr 2025 15:06:08,132 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:08,132 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Rusu Andreea)
+13 Apr 2025 15:06:08,132 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:08,133 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Sandu Victor)
+13 Apr 2025 15:06:08,133 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:08,133 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Toma Gabriela)
+13 Apr 2025 15:06:08,133 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:08,133 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Ursu Mihail)
+13 Apr 2025 15:06:08,133 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:08,133 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Vlad Anca)
+13 Apr 2025 15:06:08,133 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:08,134 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Zamfir Lucian)
+13 Apr 2025 15:06:08,134 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:08,134 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Voicu Raluca)
+13 Apr 2025 15:06:08,134 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:06:08,134 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(nume prenume)
+13 Apr 2025 15:06:08,134 TRACE ro.mpp2024.repository.ParticipantRepository 56 findAll - Exit with([Popescu Ion, Ionescu Maria, Georgescu Andrei, Dumitrescu Elena, Popa Mihai, Stan Ioana, Radu Cristian, Marin Ana, Tudor Alexandru, Petrescu Gabriel, Iliescu Daniela, Vasilescu Florin, Dobre Adriana, Munteanu Sorin, Nistor Carmen, Lazar Roxana, Gheorghe Vlad, Barbu Irina, Constantin Marius, Enache Laura, Dragomir Adrian, Filip Bianca, Grigore Stefan, Hagi Diana, Iacob Radu, Jianu Oana, Kovacs Cristina, Lupu George, Manole Simona, Nedelcu Alexandra, Oprea Bogdan, Pavel Monica, Rusu Andreea, Sandu Victor, Toma Gabriela, Ursu Mihail, Vlad Anca, Zamfir Lucian, Voicu Raluca, nume prenume])
+13 Apr 2025 15:06:08,135 DEBUG ro.mpp2024.protocol.ClientWorkerJson 79 sendResponse - sending response {"typeJava":"PARTICIPANTI","typeCsharp":0,"participanti":[{"idParticipant":1,"nume":"Popescu","prenume":"Ion","varsta":25,"punctaj":0},{"idParticipant":2,"nume":"Ionescu","prenume":"Maria","varsta":30,"punctaj":0},{"idParticipant":3,"nume":"Georgescu","prenume":"Andrei","varsta":22,"punctaj":0},{"idParticipant":4,"nume":"Dumitrescu","prenume":"Elena","varsta":28,"punctaj":0},{"idParticipant":5,"nume":"Popa","prenume":"Mihai","varsta":35,"punctaj":0},{"idParticipant":6,"nume":"Stan","prenume":"Ioana","varsta":27,"punctaj":0},{"idParticipant":7,"nume":"Radu","prenume":"Cristian","varsta":24,"punctaj":0},{"idParticipant":8,"nume":"Marin","prenume":"Ana","varsta":29,"punctaj":0},{"idParticipant":9,"nume":"Tudor","prenume":"Alexandru","varsta":31,"punctaj":0},{"idParticipant":10,"nume":"Petrescu","prenume":"Gabriel","varsta":26,"punctaj":0},{"idParticipant":11,"nume":"Iliescu","prenume":"Daniela","varsta":32,"punctaj":0},{"idParticipant":12,"nume":"Vasilescu","prenume":"Florin","varsta":23,"punctaj":0},{"idParticipant":13,"nume":"Dobre","prenume":"Adriana","varsta":34,"punctaj":0},{"idParticipant":14,"nume":"Munteanu","prenume":"Sorin","varsta":21,"punctaj":0},{"idParticipant":15,"nume":"Nistor","prenume":"Carmen","varsta":33,"punctaj":0},{"idParticipant":16,"nume":"Lazar","prenume":"Roxana","varsta":25,"punctaj":0},{"idParticipant":17,"nume":"Gheorghe","prenume":"Vlad","varsta":28,"punctaj":0},{"idParticipant":18,"nume":"Barbu","prenume":"Irina","varsta":27,"punctaj":0},{"idParticipant":19,"nume":"Constantin","prenume":"Marius","varsta":30,"punctaj":0},{"idParticipant":20,"nume":"Enache","prenume":"Laura","varsta":29,"punctaj":0},{"idParticipant":21,"nume":"Dragomir","prenume":"Adrian","varsta":26,"punctaj":0},{"idParticipant":22,"nume":"Filip","prenume":"Bianca","varsta":31,"punctaj":0},{"idParticipant":23,"nume":"Grigore","prenume":"Stefan","varsta":24,"punctaj":0},{"idParticipant":24,"nume":"Hagi","prenume":"Diana","varsta":32,"punctaj":0},{"idParticipant":25,"nume":"Iacob","prenume":"Radu","varsta":23,"punctaj":0},{"idParticipant":26,"nume":"Jianu","prenume":"Oana","varsta":34,"punctaj":0},{"idParticipant":27,"nume":"Kovacs","prenume":"Cristina","varsta":21,"punctaj":0},{"idParticipant":28,"nume":"Lupu","prenume":"George","varsta":33,"punctaj":0},{"idParticipant":29,"nume":"Manole","prenume":"Simona","varsta":25,"punctaj":0},{"idParticipant":30,"nume":"Nedelcu","prenume":"Alexandra","varsta":28,"punctaj":0},{"idParticipant":31,"nume":"Oprea","prenume":"Bogdan","varsta":27,"punctaj":0},{"idParticipant":32,"nume":"Pavel","prenume":"Monica","varsta":30,"punctaj":0},{"idParticipant":33,"nume":"Rusu","prenume":"Andreea","varsta":29,"punctaj":0},{"idParticipant":34,"nume":"Sandu","prenume":"Victor","varsta":26,"punctaj":0},{"idParticipant":35,"nume":"Toma","prenume":"Gabriela","varsta":31,"punctaj":0},{"idParticipant":36,"nume":"Ursu","prenume":"Mihail","varsta":24,"punctaj":0},{"idParticipant":37,"nume":"Vlad","prenume":"Anca","varsta":32,"punctaj":0},{"idParticipant":38,"nume":"Zamfir","prenume":"Lucian","varsta":23,"punctaj":0},{"idParticipant":39,"nume":"Voicu","prenume":"Raluca","varsta":34,"punctaj":0},{"idParticipant":40,"nume":"nume","prenume":"prenume","varsta":20,"punctaj":0}]}
+13 Apr 2025 15:06:22,348 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:06:22,348 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@6e79177a
+13 Apr 2025 15:16:58,038 INFO  ro.mpp2024.StartJsonServer 24 main - Server properties: {server.port=55556, jdbc.url=jdbc:sqlite:src/main/resources/triatlon.db}
+13 Apr 2025 15:16:58,042 INFO  ro.mpp2024.repository.ArbitruRepository 23 <init> - Initializing IArbitruRepository with properties: {} 
+13 Apr 2025 15:16:58,044 INFO  ro.mpp2024.repository.ProbaRepository 25 <init> - Initializing ProbaRepository with properties: {} 
+13 Apr 2025 15:16:58,044 INFO  ro.mpp2024.repository.ParticipantRepository 24 <init> - Initializing ParticipantRepository with properties: {} 
+13 Apr 2025 15:16:58,045 INFO  ro.mpp2024.repository.RezultatRepository 25 <init> - Initializing RezultatRepository with properties: {} 
+13 Apr 2025 15:16:58,047 INFO  ro.mpp2024.services.ServerService 37 <init> - Service Rezultat made
+13 Apr 2025 15:16:58,047 DEBUG ro.mpp2024.StartJsonServer 50 main - Starting server on port: 55556
+13 Apr 2025 15:16:58,048 DEBUG ro.mpp2024.networkUtils.AbsConcurrentServer 13 <init> - Concurrent AbstractServer
+13 Apr 2025 15:16:58,048 INFO  ro.mpp2024.networkUtils.JsonConcurrentServer 17 <init> - JsonConcurrentServer
+13 Apr 2025 15:16:58,053 INFO  chat.network.utils.AbstractServer 25 start - Waiting for clients ...
+13 Apr 2025 15:17:01,819 INFO  chat.network.utils.AbstractServer 27 start - Client connected ...
+13 Apr 2025 15:17:01,847 INFO  chat.network.utils.AbstractServer 25 start - Waiting for clients ...
+13 Apr 2025 15:17:01,855 DEBUG ro.mpp2024.protocol.ClientWorkerJson 90 handleRequest - Login request UserDTO{nume='', username='a', password='YQ==', probaId=''}
+13 Apr 2025 15:17:01,857 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+13 Apr 2025 15:17:01,857 TRACE ro.mpp2024.utils.JdbcUtils 25 getNewConnection - Enter
+13 Apr 2025 15:17:01,857 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src/main/resources/triatlon.db
+13 Apr 2025 15:17:01,857 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - user: null
+13 Apr 2025 15:17:01,857 INFO  ro.mpp2024.utils.JdbcUtils 32 getNewConnection - pass: null
+13 Apr 2025 15:17:01,951 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@d52e2fb)
+13 Apr 2025 15:17:01,953 ERROR ro.mpp2024.services.ServerService 48 login - Authentication failed
+13 Apr 2025 15:17:01,954 ERROR ro.mpp2024.protocol.ClientWorkerJson 99 handleRequest - ro.mpp2024.ManageException: Authentication failed
+13 Apr 2025 15:17:01,956 DEBUG ro.mpp2024.protocol.ClientWorkerJson 79 sendResponse - sending response {"typeJava":"ERROR","typeCsharp":0,"errormessage":"Authentication failed"}
+13 Apr 2025 15:17:16,765 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:17:16,765 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@5a1a976c
+13 Apr 2025 15:17:17,770 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:17:17,770 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@7ede0847
+13 Apr 2025 15:17:18,778 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:17:18,778 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@2516acce
+13 Apr 2025 15:17:19,787 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:17:19,787 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@514ec049
+13 Apr 2025 15:17:20,791 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:17:20,791 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@5f618cfb
+13 Apr 2025 15:18:38,589 INFO  ro.mpp2024.StartJsonServer 24 main - Server properties: {server.port=55556, jdbc.url=jdbc:sqlite:src/main/resources/triatlon.db}
+13 Apr 2025 15:18:38,593 INFO  ro.mpp2024.repository.ArbitruRepository 23 <init> - Initializing IArbitruRepository with properties: {} 
+13 Apr 2025 15:18:38,594 INFO  ro.mpp2024.repository.ProbaRepository 25 <init> - Initializing ProbaRepository with properties: {} 
+13 Apr 2025 15:18:38,594 INFO  ro.mpp2024.repository.ParticipantRepository 24 <init> - Initializing ParticipantRepository with properties: {} 
+13 Apr 2025 15:18:38,595 INFO  ro.mpp2024.repository.RezultatRepository 25 <init> - Initializing RezultatRepository with properties: {} 
+13 Apr 2025 15:18:38,603 INFO  ro.mpp2024.services.ServerService 37 <init> - Service Rezultat made
+13 Apr 2025 15:18:38,603 DEBUG ro.mpp2024.StartJsonServer 50 main - Starting server on port: 55556
+13 Apr 2025 15:18:38,604 DEBUG ro.mpp2024.networkUtils.AbsConcurrentServer 13 <init> - Concurrent AbstractServer
+13 Apr 2025 15:18:38,604 INFO  ro.mpp2024.networkUtils.JsonConcurrentServer 17 <init> - JsonConcurrentServer
+13 Apr 2025 15:18:38,611 INFO  chat.network.utils.AbstractServer 25 start - Waiting for clients ...
+13 Apr 2025 15:19:26,467 INFO  chat.network.utils.AbstractServer 27 start - Client connected ...
+13 Apr 2025 15:19:26,498 INFO  chat.network.utils.AbstractServer 25 start - Waiting for clients ...
+13 Apr 2025 15:19:43,388 DEBUG ro.mpp2024.protocol.ClientWorkerJson 90 handleRequest - Login request UserDTO{nume='', username='a', password='YQ==', probaId=''}
+13 Apr 2025 15:19:43,396 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+13 Apr 2025 15:19:43,397 TRACE ro.mpp2024.utils.JdbcUtils 25 getNewConnection - Enter
+13 Apr 2025 15:19:43,397 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src/main/resources/triatlon.db
+13 Apr 2025 15:19:43,397 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - user: null
+13 Apr 2025 15:19:43,397 INFO  ro.mpp2024.utils.JdbcUtils 32 getNewConnection - pass: null
+13 Apr 2025 15:19:43,510 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@d52e2fb)
+13 Apr 2025 15:19:43,513 ERROR ro.mpp2024.services.ServerService 48 login - Authentication failed
+13 Apr 2025 15:19:43,513 ERROR ro.mpp2024.protocol.ClientWorkerJson 99 handleRequest - ro.mpp2024.ManageException: Authentication failed
+13 Apr 2025 15:19:43,516 DEBUG ro.mpp2024.protocol.ClientWorkerJson 79 sendResponse - sending response {"typeJava":"ERROR","typeCsharp":0,"errormessage":"Authentication failed"}
+13 Apr 2025 15:19:57,453 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:19:57,454 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@5a1a976c
+13 Apr 2025 15:19:58,461 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:19:58,461 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@7ede0847
+13 Apr 2025 15:19:59,476 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:19:59,476 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@2516acce
+13 Apr 2025 15:20:00,485 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:20:00,485 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@514ec049
+13 Apr 2025 15:20:01,497 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:20:01,497 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@5f618cfb
+13 Apr 2025 15:20:02,506 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:20:02,506 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@51f32b60
+13 Apr 2025 15:20:03,519 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:20:03,519 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@41938d4c
+13 Apr 2025 15:20:04,530 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:20:04,530 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@667841bf
+13 Apr 2025 15:20:05,540 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:20:05,540 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@352d0fdf
+13 Apr 2025 15:20:06,556 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:20:06,556 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@7d4d9a31
+13 Apr 2025 15:20:07,568 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:20:07,568 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@20698139
+13 Apr 2025 15:20:08,576 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:20:08,576 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@4385932
+13 Apr 2025 15:20:09,583 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:20:09,583 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@59b6ed9d
+13 Apr 2025 15:20:10,594 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:20:10,594 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@483b6888
+13 Apr 2025 15:20:11,604 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:20:11,604 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@24b748ff
+13 Apr 2025 15:20:12,616 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:20:12,616 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@62006492
+13 Apr 2025 15:20:13,627 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:20:13,627 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@c34a74a
+13 Apr 2025 15:20:14,636 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:20:14,636 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@1fd8f16c
+13 Apr 2025 15:20:15,638 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:20:15,638 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@136a2d8
+13 Apr 2025 15:20:16,650 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:20:16,650 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@60f36298
+13 Apr 2025 15:20:17,658 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:20:17,658 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@4954973b
+13 Apr 2025 15:20:18,663 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:20:18,663 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@115f4cec
+13 Apr 2025 15:20:19,675 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:20:19,675 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@254b1c7d
+13 Apr 2025 15:20:20,686 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:20:20,686 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@5e574dee
+13 Apr 2025 15:20:21,697 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:20:21,697 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@33d7e450
+13 Apr 2025 15:20:22,706 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:20:22,706 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@5884f6ea
+13 Apr 2025 15:20:23,722 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:20:23,722 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@25d1a173
+13 Apr 2025 15:20:29,806 INFO  ro.mpp2024.StartJsonServer 24 main - Server properties: {server.port=55556, jdbc.url=jdbc:sqlite:src/main/resources/triatlon.db}
+13 Apr 2025 15:20:29,810 INFO  ro.mpp2024.repository.ArbitruRepository 23 <init> - Initializing IArbitruRepository with properties: {} 
+13 Apr 2025 15:20:29,811 INFO  ro.mpp2024.repository.ProbaRepository 25 <init> - Initializing ProbaRepository with properties: {} 
+13 Apr 2025 15:20:29,812 INFO  ro.mpp2024.repository.ParticipantRepository 24 <init> - Initializing ParticipantRepository with properties: {} 
+13 Apr 2025 15:20:29,813 INFO  ro.mpp2024.repository.RezultatRepository 25 <init> - Initializing RezultatRepository with properties: {} 
+13 Apr 2025 15:20:29,814 INFO  ro.mpp2024.services.ServerService 37 <init> - Service Rezultat made
+13 Apr 2025 15:20:29,814 DEBUG ro.mpp2024.StartJsonServer 50 main - Starting server on port: 55556
+13 Apr 2025 15:20:29,815 DEBUG ro.mpp2024.networkUtils.AbsConcurrentServer 13 <init> - Concurrent AbstractServer
+13 Apr 2025 15:20:29,815 INFO  ro.mpp2024.networkUtils.JsonConcurrentServer 17 <init> - JsonConcurrentServer
+13 Apr 2025 15:20:29,820 INFO  chat.network.utils.AbstractServer 25 start - Waiting for clients ...
+13 Apr 2025 15:20:49,458 INFO  chat.network.utils.AbstractServer 27 start - Client connected ...
+13 Apr 2025 15:20:49,486 INFO  chat.network.utils.AbstractServer 25 start - Waiting for clients ...
+13 Apr 2025 15:20:49,495 DEBUG ro.mpp2024.protocol.ClientWorkerJson 90 handleRequest - Login request UserDTO{nume='', username='a', password='YQ==', probaId=''}
+13 Apr 2025 15:20:49,497 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+13 Apr 2025 15:20:49,497 TRACE ro.mpp2024.utils.JdbcUtils 25 getNewConnection - Enter
+13 Apr 2025 15:20:49,497 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src/main/resources/triatlon.db
+13 Apr 2025 15:20:49,498 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - user: null
+13 Apr 2025 15:20:49,498 INFO  ro.mpp2024.utils.JdbcUtils 32 getNewConnection - pass: null
+13 Apr 2025 15:20:49,593 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@d52e2fb)
+13 Apr 2025 15:20:49,595 ERROR ro.mpp2024.services.ServerService 48 login - Authentication failed
+13 Apr 2025 15:20:49,596 ERROR ro.mpp2024.protocol.ClientWorkerJson 99 handleRequest - ro.mpp2024.ManageException: Authentication failed
+13 Apr 2025 15:20:49,599 DEBUG ro.mpp2024.protocol.ClientWorkerJson 79 sendResponse - sending response {"typeJava":"ERROR","typeCsharp":0,"errormessage":"Authentication failed"}
+13 Apr 2025 15:21:05,679 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:21:05,679 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@5a1a976c
+13 Apr 2025 15:21:06,694 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:21:06,694 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@7ede0847
+13 Apr 2025 15:21:07,708 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:21:07,708 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@2516acce
+13 Apr 2025 15:21:08,711 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:21:08,711 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@514ec049
+13 Apr 2025 15:21:09,714 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:21:09,714 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@5f618cfb
+13 Apr 2025 15:21:10,723 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:21:10,723 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@51f32b60
+13 Apr 2025 15:21:11,732 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:21:11,733 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@41938d4c
+13 Apr 2025 15:21:12,745 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:21:12,745 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@667841bf
+13 Apr 2025 15:21:13,749 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:21:13,749 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@352d0fdf
+13 Apr 2025 15:21:14,757 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:21:14,757 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@7d4d9a31
+13 Apr 2025 15:21:15,762 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:21:15,763 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@20698139
+13 Apr 2025 15:21:16,770 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:21:16,770 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@4385932
+13 Apr 2025 15:25:27,634 INFO  ro.mpp2024.StartJsonServer 24 main - Server properties: {server.port=55556, jdbc.url=jdbc:sqlite:src/main/resources/triatlon.db}
+13 Apr 2025 15:25:27,638 INFO  ro.mpp2024.repository.ArbitruRepository 23 <init> - Initializing IArbitruRepository with properties: {} 
+13 Apr 2025 15:25:27,639 INFO  ro.mpp2024.repository.ProbaRepository 25 <init> - Initializing ProbaRepository with properties: {} 
+13 Apr 2025 15:25:27,639 INFO  ro.mpp2024.repository.ParticipantRepository 24 <init> - Initializing ParticipantRepository with properties: {} 
+13 Apr 2025 15:25:27,640 INFO  ro.mpp2024.repository.RezultatRepository 25 <init> - Initializing RezultatRepository with properties: {} 
+13 Apr 2025 15:25:27,641 INFO  ro.mpp2024.services.ServerService 37 <init> - Service Rezultat made
+13 Apr 2025 15:25:27,642 DEBUG ro.mpp2024.StartJsonServer 50 main - Starting server on port: 55556
+13 Apr 2025 15:25:27,642 DEBUG ro.mpp2024.networkUtils.AbsConcurrentServer 13 <init> - Concurrent AbstractServer
+13 Apr 2025 15:25:27,643 INFO  ro.mpp2024.networkUtils.JsonConcurrentServer 17 <init> - JsonConcurrentServer
+13 Apr 2025 15:25:27,647 INFO  chat.network.utils.AbstractServer 25 start - Waiting for clients ...
+13 Apr 2025 15:25:32,614 INFO  chat.network.utils.AbstractServer 27 start - Client connected ...
+13 Apr 2025 15:25:32,644 INFO  chat.network.utils.AbstractServer 25 start - Waiting for clients ...
+13 Apr 2025 15:25:32,652 DEBUG ro.mpp2024.protocol.ClientWorkerJson 90 handleRequest - Login request UserDTO{nume='', username='a', password='YQ==', probaId=''}
+13 Apr 2025 15:25:32,653 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+13 Apr 2025 15:25:32,653 TRACE ro.mpp2024.utils.JdbcUtils 25 getNewConnection - Enter
+13 Apr 2025 15:25:32,654 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src/main/resources/triatlon.db
+13 Apr 2025 15:25:32,654 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - user: null
+13 Apr 2025 15:25:32,654 INFO  ro.mpp2024.utils.JdbcUtils 32 getNewConnection - pass: null
+13 Apr 2025 15:25:32,778 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@d52e2fb)
+13 Apr 2025 15:25:32,781 ERROR ro.mpp2024.services.ServerService 48 login - Authentication failed
+13 Apr 2025 15:25:32,781 ERROR ro.mpp2024.protocol.ClientWorkerJson 99 handleRequest - ro.mpp2024.ManageException: Authentication failed
+13 Apr 2025 15:25:32,784 DEBUG ro.mpp2024.protocol.ClientWorkerJson 79 sendResponse - sending response {"typeJava":"ERROR","typeCsharp":0,"errormessage":"Authentication failed"}
+13 Apr 2025 15:25:46,805 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:25:46,805 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@5a1a976c
+13 Apr 2025 15:25:47,820 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:25:47,820 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@7ede0847
+13 Apr 2025 15:25:48,833 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:25:48,833 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@2516acce
+13 Apr 2025 15:25:49,839 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:25:49,839 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@514ec049
+13 Apr 2025 15:25:50,848 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:25:50,848 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@5f618cfb
+13 Apr 2025 15:25:51,863 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:25:51,864 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@51f32b60
+13 Apr 2025 15:25:52,878 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:25:52,878 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@41938d4c
+13 Apr 2025 15:25:53,884 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:25:53,884 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@667841bf
+13 Apr 2025 15:25:54,890 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:25:54,890 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@352d0fdf
+13 Apr 2025 15:27:18,025 INFO  ro.mpp2024.StartJsonServer 24 main - Server properties: {server.port=55556, jdbc.url=jdbc:sqlite:src/main/resources/triatlon.db}
+13 Apr 2025 15:27:18,030 INFO  ro.mpp2024.repository.ArbitruRepository 23 <init> - Initializing IArbitruRepository with properties: {} 
+13 Apr 2025 15:27:18,031 INFO  ro.mpp2024.repository.ProbaRepository 25 <init> - Initializing ProbaRepository with properties: {} 
+13 Apr 2025 15:27:18,032 INFO  ro.mpp2024.repository.ParticipantRepository 24 <init> - Initializing ParticipantRepository with properties: {} 
+13 Apr 2025 15:27:18,033 INFO  ro.mpp2024.repository.RezultatRepository 25 <init> - Initializing RezultatRepository with properties: {} 
+13 Apr 2025 15:27:18,034 INFO  ro.mpp2024.services.ServerService 37 <init> - Service Rezultat made
+13 Apr 2025 15:27:18,035 DEBUG ro.mpp2024.StartJsonServer 50 main - Starting server on port: 55556
+13 Apr 2025 15:27:18,036 DEBUG ro.mpp2024.networkUtils.AbsConcurrentServer 13 <init> - Concurrent AbstractServer
+13 Apr 2025 15:27:18,036 INFO  ro.mpp2024.networkUtils.JsonConcurrentServer 17 <init> - JsonConcurrentServer
+13 Apr 2025 15:27:18,041 INFO  chat.network.utils.AbstractServer 25 start - Waiting for clients ...
+13 Apr 2025 15:27:31,886 INFO  chat.network.utils.AbstractServer 27 start - Client connected ...
+13 Apr 2025 15:27:31,913 INFO  chat.network.utils.AbstractServer 25 start - Waiting for clients ...
+13 Apr 2025 15:27:31,921 DEBUG ro.mpp2024.protocol.ClientWorkerJson 90 handleRequest - Login request UserDTO{nume='', username='a', password='YQ==', probaId=''}
+13 Apr 2025 15:27:31,923 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+13 Apr 2025 15:27:31,923 TRACE ro.mpp2024.utils.JdbcUtils 25 getNewConnection - Enter
+13 Apr 2025 15:27:31,923 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src/main/resources/triatlon.db
+13 Apr 2025 15:27:31,923 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - user: null
+13 Apr 2025 15:27:31,923 INFO  ro.mpp2024.utils.JdbcUtils 32 getNewConnection - pass: null
+13 Apr 2025 15:27:32,029 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@d52e2fb)
+13 Apr 2025 15:27:32,032 ERROR ro.mpp2024.services.ServerService 48 login - Authentication failed
+13 Apr 2025 15:27:32,032 ERROR ro.mpp2024.protocol.ClientWorkerJson 99 handleRequest - ro.mpp2024.ManageException: Authentication failed
+13 Apr 2025 15:27:32,035 DEBUG ro.mpp2024.protocol.ClientWorkerJson 79 sendResponse - sending response {"typeJava":"ERROR","typeCsharp":0,"errormessage":"Authentication failed"}
+13 Apr 2025 15:28:21,659 INFO  chat.network.utils.AbstractServer 27 start - Client connected ...
+13 Apr 2025 15:28:21,660 INFO  chat.network.utils.AbstractServer 25 start - Waiting for clients ...
+13 Apr 2025 15:28:21,661 DEBUG ro.mpp2024.protocol.ClientWorkerJson 90 handleRequest - Login request UserDTO{nume='', username='alice.j', password='UGFzc3cwcmQxIQ==', probaId=''}
+13 Apr 2025 15:28:21,661 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+13 Apr 2025 15:28:21,661 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@d52e2fb)
+13 Apr 2025 15:28:21,662 TRACE ro.mpp2024.repository.ArbitruRepository 29 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:28:21,663 TRACE ro.mpp2024.repository.ArbitruRepository 36 createEntityFromResultSet - Exit with(Arbitru{nume='Alice Johnson', username='alice.j', password='UGFzc3cwcmQxIQ==', id_proba=s1})
+13 Apr 2025 15:28:21,663 DEBUG ro.mpp2024.protocol.ClientWorkerJson 79 sendResponse - sending response {"typeJava":"LOGGED_ACC","typeCsharp":0,"user":{"id":20,"nume":"Alice Johnson","username":"alice.j","password":"UGFzc3cwcmQxIQ\u003d\u003d","id_proba":"s1"}}
+13 Apr 2025 15:28:53,810 INFO  chat.network.utils.AbstractServer 27 start - Client connected ...
+13 Apr 2025 15:28:53,811 INFO  chat.network.utils.AbstractServer 25 start - Waiting for clients ...
+13 Apr 2025 15:28:53,811 DEBUG ro.mpp2024.protocol.ClientWorkerJson 90 handleRequest - Login request UserDTO{nume='', username='alice.j', password='UGFzc3cwcmQxIQ==', probaId=''}
+13 Apr 2025 15:28:53,812 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+13 Apr 2025 15:28:53,812 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@d52e2fb)
+13 Apr 2025 15:28:53,813 TRACE ro.mpp2024.repository.ArbitruRepository 29 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:28:53,813 TRACE ro.mpp2024.repository.ArbitruRepository 36 createEntityFromResultSet - Exit with(Arbitru{nume='Alice Johnson', username='alice.j', password='UGFzc3cwcmQxIQ==', id_proba=s1})
+13 Apr 2025 15:28:53,813 ERROR ro.mpp2024.protocol.ClientWorkerJson 99 handleRequest - ro.mpp2024.ManageException: User already logged in
+13 Apr 2025 15:28:53,813 DEBUG ro.mpp2024.protocol.ClientWorkerJson 79 sendResponse - sending response {"typeJava":"ERROR","typeCsharp":0,"errormessage":"User already logged in"}
+13 Apr 2025 15:29:12,092 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:29:12,093 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@17372a39
+13 Apr 2025 15:31:03,746 INFO  ro.mpp2024.StartJsonServer 24 main - Server properties: {server.port=55556, jdbc.url=jdbc:sqlite:src/main/resources/triatlon.db}
+13 Apr 2025 15:31:03,751 INFO  ro.mpp2024.repository.ArbitruRepository 23 <init> - Initializing IArbitruRepository with properties: {} 
+13 Apr 2025 15:31:03,751 INFO  ro.mpp2024.repository.ProbaRepository 25 <init> - Initializing ProbaRepository with properties: {} 
+13 Apr 2025 15:31:03,752 INFO  ro.mpp2024.repository.ParticipantRepository 24 <init> - Initializing ParticipantRepository with properties: {} 
+13 Apr 2025 15:31:03,753 INFO  ro.mpp2024.repository.RezultatRepository 25 <init> - Initializing RezultatRepository with properties: {} 
+13 Apr 2025 15:31:03,755 INFO  ro.mpp2024.services.ServerService 37 <init> - Service Rezultat made
+13 Apr 2025 15:31:03,755 DEBUG ro.mpp2024.StartJsonServer 50 main - Starting server on port: 55556
+13 Apr 2025 15:31:03,756 DEBUG ro.mpp2024.networkUtils.AbsConcurrentServer 13 <init> - Concurrent AbstractServer
+13 Apr 2025 15:31:03,756 INFO  ro.mpp2024.networkUtils.JsonConcurrentServer 17 <init> - JsonConcurrentServer
+13 Apr 2025 15:31:03,760 INFO  chat.network.utils.AbstractServer 25 start - Waiting for clients ...
+13 Apr 2025 15:31:16,038 INFO  chat.network.utils.AbstractServer 27 start - Client connected ...
+13 Apr 2025 15:31:16,067 INFO  chat.network.utils.AbstractServer 25 start - Waiting for clients ...
+13 Apr 2025 15:31:16,075 DEBUG ro.mpp2024.protocol.ClientWorkerJson 90 handleRequest - Login request UserDTO{nume='', username='alice.j', password='UGFzc3cwcmQxIQ==', probaId=''}
+13 Apr 2025 15:31:16,077 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+13 Apr 2025 15:31:16,077 TRACE ro.mpp2024.utils.JdbcUtils 25 getNewConnection - Enter
+13 Apr 2025 15:31:16,077 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src/main/resources/triatlon.db
+13 Apr 2025 15:31:16,077 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - user: null
+13 Apr 2025 15:31:16,077 INFO  ro.mpp2024.utils.JdbcUtils 32 getNewConnection - pass: null
+13 Apr 2025 15:31:16,173 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@d52e2fb)
+13 Apr 2025 15:31:16,175 TRACE ro.mpp2024.repository.ArbitruRepository 29 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:31:16,176 TRACE ro.mpp2024.repository.ArbitruRepository 36 createEntityFromResultSet - Exit with(Arbitru{nume='Alice Johnson', username='alice.j', password='UGFzc3cwcmQxIQ==', id_proba=s1})
+13 Apr 2025 15:31:16,179 DEBUG ro.mpp2024.protocol.ClientWorkerJson 79 sendResponse - sending response {"typeJava":"LOGGED_ACC","typeCsharp":0,"user":{"id":20,"nume":"Alice Johnson","username":"alice.j","password":"UGFzc3cwcmQxIQ\u003d\u003d","id_proba":"s1"}}
+13 Apr 2025 15:31:35,242 ERROR ro.mpp2024.protocol.ClientWorkerJson 56 run - java.net.SocketException: Connection reset
+13 Apr 2025 15:31:35,242 ERROR ro.mpp2024.protocol.ClientWorkerJson 57 run - [Ljava.lang.StackTraceElement;@2516acce
+13 Apr 2025 15:32:12,070 INFO  ro.mpp2024.StartJsonServer 24 main - Server properties: {server.port=55556, jdbc.url=jdbc:sqlite:src/main/resources/triatlon.db}
+13 Apr 2025 15:32:12,074 INFO  ro.mpp2024.repository.ArbitruRepository 23 <init> - Initializing IArbitruRepository with properties: {} 
+13 Apr 2025 15:32:12,075 INFO  ro.mpp2024.repository.ProbaRepository 25 <init> - Initializing ProbaRepository with properties: {} 
+13 Apr 2025 15:32:12,076 INFO  ro.mpp2024.repository.ParticipantRepository 24 <init> - Initializing ParticipantRepository with properties: {} 
+13 Apr 2025 15:32:12,077 INFO  ro.mpp2024.repository.RezultatRepository 25 <init> - Initializing RezultatRepository with properties: {} 
+13 Apr 2025 15:32:12,078 INFO  ro.mpp2024.services.ServerService 37 <init> - Service Rezultat made
+13 Apr 2025 15:32:12,078 DEBUG ro.mpp2024.StartJsonServer 50 main - Starting server on port: 55556
+13 Apr 2025 15:32:12,079 DEBUG ro.mpp2024.networkUtils.AbsConcurrentServer 13 <init> - Concurrent AbstractServer
+13 Apr 2025 15:32:12,079 INFO  ro.mpp2024.networkUtils.JsonConcurrentServer 17 <init> - JsonConcurrentServer
+13 Apr 2025 15:32:12,083 INFO  chat.network.utils.AbstractServer 25 start - Waiting for clients ...
+13 Apr 2025 15:32:13,743 INFO  chat.network.utils.AbstractServer 27 start - Client connected ...
+13 Apr 2025 15:32:13,774 INFO  chat.network.utils.AbstractServer 25 start - Waiting for clients ...
+13 Apr 2025 15:32:13,781 DEBUG ro.mpp2024.protocol.ClientWorkerJson 90 handleRequest - Login request UserDTO{nume='', username='ada', password='ZGFkYQ==', probaId=''}
+13 Apr 2025 15:32:13,783 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+13 Apr 2025 15:32:13,783 TRACE ro.mpp2024.utils.JdbcUtils 25 getNewConnection - Enter
+13 Apr 2025 15:32:13,783 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src/main/resources/triatlon.db
+13 Apr 2025 15:32:13,783 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - user: null
+13 Apr 2025 15:32:13,783 INFO  ro.mpp2024.utils.JdbcUtils 32 getNewConnection - pass: null
+13 Apr 2025 15:32:13,883 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@d52e2fb)
+13 Apr 2025 15:32:13,886 ERROR ro.mpp2024.services.ServerService 48 login - Authentication failed
+13 Apr 2025 15:32:13,886 ERROR ro.mpp2024.protocol.ClientWorkerJson 99 handleRequest - ro.mpp2024.ManageException: Authentication failed
+13 Apr 2025 15:32:13,889 DEBUG ro.mpp2024.protocol.ClientWorkerJson 79 sendResponse - sending response {"typeJava":"ERROR","typeCsharp":0,"errormessage":"Authentication failed"}
+13 Apr 2025 15:32:51,397 INFO  chat.network.utils.AbstractServer 27 start - Client connected ...
+13 Apr 2025 15:32:51,398 INFO  chat.network.utils.AbstractServer 25 start - Waiting for clients ...
+13 Apr 2025 15:32:51,398 DEBUG ro.mpp2024.protocol.ClientWorkerJson 90 handleRequest - Login request UserDTO{nume='', username='alice.j', password='UGFzc3cwcmQxIQ==', probaId=''}
+13 Apr 2025 15:32:51,399 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+13 Apr 2025 15:32:51,399 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@d52e2fb)
+13 Apr 2025 15:32:51,400 TRACE ro.mpp2024.repository.ArbitruRepository 29 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:51,401 TRACE ro.mpp2024.repository.ArbitruRepository 36 createEntityFromResultSet - Exit with(Arbitru{nume='Alice Johnson', username='alice.j', password='UGFzc3cwcmQxIQ==', id_proba=s1})
+13 Apr 2025 15:32:51,401 DEBUG ro.mpp2024.protocol.ClientWorkerJson 79 sendResponse - sending response {"typeJava":"LOGGED_ACC","typeCsharp":0,"user":{"id":20,"nume":"Alice Johnson","username":"alice.j","password":"UGFzc3cwcmQxIQ\u003d\u003d","id_proba":"s1"}}
+13 Apr 2025 15:32:52,404 DEBUG ro.mpp2024.protocol.ClientWorkerJson 115 handleRequest - Get all rezultate request fornull
+13 Apr 2025 15:32:52,404 TRACE ro.mpp2024.repository.RezultatRepository 144 listaParticipantiPuncteAlfabetic - Enter listaParticipantiPuncteAlfabetic
+13 Apr 2025 15:32:52,405 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+13 Apr 2025 15:32:52,405 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@d52e2fb)
+13 Apr 2025 15:32:52,406 TRACE ro.mpp2024.repository.RezultatRepository 162 listaParticipantiPuncteAlfabetic - Enter Terminat dictionar
+13 Apr 2025 15:32:52,408 DEBUG ro.mpp2024.protocol.ClientWorkerJson 79 sendResponse - sending response {"typeJava":"ALL_REZULTATE","typeCsharp":0,"punctaje":[{"idParticipant":18,"nume":"Barbu","prenume":"Irina","varsta":27,"punctaj":240},{"idParticipant":19,"nume":"Constantin","prenume":"Marius","varsta":30,"punctaj":288},{"idParticipant":13,"nume":"Dobre","prenume":"Adriana","varsta":34,"punctaj":185},{"idParticipant":21,"nume":"Dragomir","prenume":"Adrian","varsta":26,"punctaj":140},{"idParticipant":4,"nume":"Dumitrescu","prenume":"Elena","varsta":28,"punctaj":153},{"idParticipant":20,"nume":"Enache","prenume":"Laura","varsta":29,"punctaj":325},{"idParticipant":22,"nume":"Filip","prenume":"Bianca","varsta":31,"punctaj":347},{"idParticipant":3,"nume":"Georgescu","prenume":"Andrei","varsta":22,"punctaj":132},{"idParticipant":17,"nume":"Gheorghe","prenume":"Vlad","varsta":28,"punctaj":210},{"idParticipant":23,"nume":"Grigore","prenume":"Stefan","varsta":24,"punctaj":155},{"idParticipant":24,"nume":"Hagi","prenume":"Diana","varsta":32,"punctaj":203},{"idParticipant":25,"nume":"Iacob","prenume":"Radu","varsta":23,"punctaj":195},{"idParticipant":11,"nume":"Iliescu","prenume":"Daniela","varsta":32,"punctaj":320},{"idParticipant":2,"nume":"Ionescu","prenume":"Maria","varsta":30,"punctaj":166},{"idParticipant":26,"nume":"Jianu","prenume":"Oana","varsta":34,"punctaj":142},{"idParticipant":27,"nume":"Kovacs","prenume":"Cristina","varsta":21,"punctaj":199},{"idParticipant":16,"nume":"Lazar","prenume":"Roxana","varsta":25,"punctaj":185},{"idParticipant":28,"nume":"Lupu","prenume":"George","varsta":33,"punctaj":349},{"idParticipant":29,"nume":"Manole","prenume":"Simona","varsta":25,"punctaj":117},{"idParticipant":8,"nume":"Marin","prenume":"Ana","varsta":29,"punctaj":134},{"idParticipant":14,"nume":"Munteanu","prenume":"Sorin","varsta":21,"punctaj":301},{"idParticipant":30,"nume":"Nedelcu","prenume":"Alexandra","varsta":28,"punctaj":169},{"idParticipant":15,"nume":"Nistor","prenume":"Carmen","varsta":33,"punctaj":189},{"idParticipant":40,"nume":"nume","prenume":"prenume","varsta":20,"punctaj":300},{"idParticipant":31,"nume":"Oprea","prenume":"Bogdan","varsta":27,"punctaj":282},{"idParticipant":32,"nume":"Pavel","prenume":"Monica","varsta":30,"punctaj":111},{"idParticipant":10,"nume":"Petrescu","prenume":"Gabriel","varsta":26,"punctaj":188},{"idParticipant":5,"nume":"Popa","prenume":"Mihai","varsta":35,"punctaj":282},{"idParticipant":1,"nume":"Popescu","prenume":"Ion","varsta":25,"punctaj":158},{"idParticipant":7,"nume":"Radu","prenume":"Cristian","varsta":24,"punctaj":256},{"idParticipant":33,"nume":"Rusu","prenume":"Andreea","varsta":29,"punctaj":313},{"idParticipant":34,"nume":"Sandu","prenume":"Victor","varsta":26,"punctaj":115},{"idParticipant":6,"nume":"Stan","prenume":"Ioana","varsta":27,"punctaj":289},{"idParticipant":35,"nume":"Toma","prenume":"Gabriela","varsta":31,"punctaj":132},{"idParticipant":9,"nume":"Tudor","prenume":"Alexandru","varsta":31,"punctaj":288},{"idParticipant":36,"nume":"Ursu","prenume":"Mihail","varsta":24,"punctaj":155},{"idParticipant":12,"nume":"Vasilescu","prenume":"Florin","varsta":23,"punctaj":472},{"idParticipant":37,"nume":"Vlad","prenume":"Anca","varsta":32,"punctaj":138},{"idParticipant":39,"nume":"Voicu","prenume":"Raluca","varsta":34,"punctaj":190},{"idParticipant":38,"nume":"Zamfir","prenume":"Lucian","varsta":23,"punctaj":177}]}
+13 Apr 2025 15:32:53,420 DEBUG ro.mpp2024.protocol.ClientWorkerJson 103 handleRequest - Get rezultate request forUserDTO{nume='', username='', password='', probaId='s1'}
+13 Apr 2025 15:32:53,420 TRACE ro.mpp2024.repository.RezultatRepository 168 listaParticiapntPuncteProbaDescrescator - Enter listaParticiapntPuncteProbaDescrescator
+13 Apr 2025 15:32:53,421 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+13 Apr 2025 15:32:53,421 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@d52e2fb)
+13 Apr 2025 15:32:53,421 TRACE ro.mpp2024.repository.RezultatRepository 186 listaParticiapntPuncteProbaDescrescator - Enter Terminat dictionar
+13 Apr 2025 15:32:53,422 DEBUG ro.mpp2024.protocol.ClientWorkerJson 79 sendResponse - sending response {"typeJava":"REZULTATE","typeCsharp":0,"punctaje":[{"idParticipant":28,"nume":"Lupu","prenume":"George","varsta":33,"punctaj":199},{"idParticipant":12,"nume":"Vasilescu","prenume":"Florin","varsta":23,"punctaj":198},{"idParticipant":11,"nume":"Iliescu","prenume":"Daniela","varsta":32,"punctaj":185},{"idParticipant":20,"nume":"Enache","prenume":"Laura","varsta":29,"punctaj":140},{"idParticipant":19,"nume":"Constantin","prenume":"Marius","varsta":30,"punctaj":100},{"idParticipant":22,"nume":"Filip","prenume":"Bianca","varsta":31,"punctaj":30},{"idParticipant":18,"nume":"Barbu","prenume":"Irina","varsta":27,"punctaj":20},{"idParticipant":3,"nume":"Georgescu","prenume":"Andrei","varsta":22,"punctaj":20},{"idParticipant":13,"nume":"Dobre","prenume":"Adriana","varsta":34,"punctaj":10}]}
+13 Apr 2025 15:32:54,437 DEBUG ro.mpp2024.protocol.ClientWorkerJson 141 handleRequest - Get participanti request fornull
+13 Apr 2025 15:32:54,437 TRACE ro.mpp2024.repository.ParticipantRepository 42 findAll - Enter
+13 Apr 2025 15:32:54,437 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+13 Apr 2025 15:32:54,438 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@d52e2fb)
+13 Apr 2025 15:32:54,438 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:54,438 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Popescu Ion)
+13 Apr 2025 15:32:54,439 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:54,439 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Ionescu Maria)
+13 Apr 2025 15:32:54,439 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:54,439 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Georgescu Andrei)
+13 Apr 2025 15:32:54,439 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:54,439 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Dumitrescu Elena)
+13 Apr 2025 15:32:54,440 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:54,440 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Popa Mihai)
+13 Apr 2025 15:32:54,440 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:54,440 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Stan Ioana)
+13 Apr 2025 15:32:54,440 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:54,440 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Radu Cristian)
+13 Apr 2025 15:32:54,440 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:54,441 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Marin Ana)
+13 Apr 2025 15:32:54,441 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:54,441 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Tudor Alexandru)
+13 Apr 2025 15:32:54,441 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:54,441 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Petrescu Gabriel)
+13 Apr 2025 15:32:54,441 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:54,441 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Iliescu Daniela)
+13 Apr 2025 15:32:54,442 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:54,442 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Vasilescu Florin)
+13 Apr 2025 15:32:54,442 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:54,442 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Dobre Adriana)
+13 Apr 2025 15:32:54,442 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:54,442 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Munteanu Sorin)
+13 Apr 2025 15:32:54,442 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:54,442 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Nistor Carmen)
+13 Apr 2025 15:32:54,443 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:54,443 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Lazar Roxana)
+13 Apr 2025 15:32:54,443 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:54,443 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Gheorghe Vlad)
+13 Apr 2025 15:32:54,443 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:54,443 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Barbu Irina)
+13 Apr 2025 15:32:54,443 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:54,443 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Constantin Marius)
+13 Apr 2025 15:32:54,444 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:54,444 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Enache Laura)
+13 Apr 2025 15:32:54,444 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:54,444 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Dragomir Adrian)
+13 Apr 2025 15:32:54,444 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:54,444 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Filip Bianca)
+13 Apr 2025 15:32:54,444 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:54,444 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Grigore Stefan)
+13 Apr 2025 15:32:54,444 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:54,445 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Hagi Diana)
+13 Apr 2025 15:32:54,445 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:54,445 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Iacob Radu)
+13 Apr 2025 15:32:54,445 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:54,445 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Jianu Oana)
+13 Apr 2025 15:32:54,445 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:54,445 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Kovacs Cristina)
+13 Apr 2025 15:32:54,445 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:54,446 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Lupu George)
+13 Apr 2025 15:32:54,446 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:54,446 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Manole Simona)
+13 Apr 2025 15:32:54,446 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:54,446 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Nedelcu Alexandra)
+13 Apr 2025 15:32:54,446 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:54,446 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Oprea Bogdan)
+13 Apr 2025 15:32:54,446 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:54,446 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Pavel Monica)
+13 Apr 2025 15:32:54,447 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:54,447 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Rusu Andreea)
+13 Apr 2025 15:32:54,447 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:54,447 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Sandu Victor)
+13 Apr 2025 15:32:54,447 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:54,447 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Toma Gabriela)
+13 Apr 2025 15:32:54,447 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:54,447 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Ursu Mihail)
+13 Apr 2025 15:32:54,447 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:54,448 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Vlad Anca)
+13 Apr 2025 15:32:54,448 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:54,448 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Zamfir Lucian)
+13 Apr 2025 15:32:54,448 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:54,448 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Voicu Raluca)
+13 Apr 2025 15:32:54,448 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:32:54,448 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(nume prenume)
+13 Apr 2025 15:32:54,449 TRACE ro.mpp2024.repository.ParticipantRepository 56 findAll - Exit with([Popescu Ion, Ionescu Maria, Georgescu Andrei, Dumitrescu Elena, Popa Mihai, Stan Ioana, Radu Cristian, Marin Ana, Tudor Alexandru, Petrescu Gabriel, Iliescu Daniela, Vasilescu Florin, Dobre Adriana, Munteanu Sorin, Nistor Carmen, Lazar Roxana, Gheorghe Vlad, Barbu Irina, Constantin Marius, Enache Laura, Dragomir Adrian, Filip Bianca, Grigore Stefan, Hagi Diana, Iacob Radu, Jianu Oana, Kovacs Cristina, Lupu George, Manole Simona, Nedelcu Alexandra, Oprea Bogdan, Pavel Monica, Rusu Andreea, Sandu Victor, Toma Gabriela, Ursu Mihail, Vlad Anca, Zamfir Lucian, Voicu Raluca, nume prenume])
+13 Apr 2025 15:32:54,450 DEBUG ro.mpp2024.protocol.ClientWorkerJson 79 sendResponse - sending response {"typeJava":"PARTICIPANTI","typeCsharp":0,"participanti":[{"idParticipant":1,"nume":"Popescu","prenume":"Ion","varsta":25,"punctaj":0},{"idParticipant":2,"nume":"Ionescu","prenume":"Maria","varsta":30,"punctaj":0},{"idParticipant":3,"nume":"Georgescu","prenume":"Andrei","varsta":22,"punctaj":0},{"idParticipant":4,"nume":"Dumitrescu","prenume":"Elena","varsta":28,"punctaj":0},{"idParticipant":5,"nume":"Popa","prenume":"Mihai","varsta":35,"punctaj":0},{"idParticipant":6,"nume":"Stan","prenume":"Ioana","varsta":27,"punctaj":0},{"idParticipant":7,"nume":"Radu","prenume":"Cristian","varsta":24,"punctaj":0},{"idParticipant":8,"nume":"Marin","prenume":"Ana","varsta":29,"punctaj":0},{"idParticipant":9,"nume":"Tudor","prenume":"Alexandru","varsta":31,"punctaj":0},{"idParticipant":10,"nume":"Petrescu","prenume":"Gabriel","varsta":26,"punctaj":0},{"idParticipant":11,"nume":"Iliescu","prenume":"Daniela","varsta":32,"punctaj":0},{"idParticipant":12,"nume":"Vasilescu","prenume":"Florin","varsta":23,"punctaj":0},{"idParticipant":13,"nume":"Dobre","prenume":"Adriana","varsta":34,"punctaj":0},{"idParticipant":14,"nume":"Munteanu","prenume":"Sorin","varsta":21,"punctaj":0},{"idParticipant":15,"nume":"Nistor","prenume":"Carmen","varsta":33,"punctaj":0},{"idParticipant":16,"nume":"Lazar","prenume":"Roxana","varsta":25,"punctaj":0},{"idParticipant":17,"nume":"Gheorghe","prenume":"Vlad","varsta":28,"punctaj":0},{"idParticipant":18,"nume":"Barbu","prenume":"Irina","varsta":27,"punctaj":0},{"idParticipant":19,"nume":"Constantin","prenume":"Marius","varsta":30,"punctaj":0},{"idParticipant":20,"nume":"Enache","prenume":"Laura","varsta":29,"punctaj":0},{"idParticipant":21,"nume":"Dragomir","prenume":"Adrian","varsta":26,"punctaj":0},{"idParticipant":22,"nume":"Filip","prenume":"Bianca","varsta":31,"punctaj":0},{"idParticipant":23,"nume":"Grigore","prenume":"Stefan","varsta":24,"punctaj":0},{"idParticipant":24,"nume":"Hagi","prenume":"Diana","varsta":32,"punctaj":0},{"idParticipant":25,"nume":"Iacob","prenume":"Radu","varsta":23,"punctaj":0},{"idParticipant":26,"nume":"Jianu","prenume":"Oana","varsta":34,"punctaj":0},{"idParticipant":27,"nume":"Kovacs","prenume":"Cristina","varsta":21,"punctaj":0},{"idParticipant":28,"nume":"Lupu","prenume":"George","varsta":33,"punctaj":0},{"idParticipant":29,"nume":"Manole","prenume":"Simona","varsta":25,"punctaj":0},{"idParticipant":30,"nume":"Nedelcu","prenume":"Alexandra","varsta":28,"punctaj":0},{"idParticipant":31,"nume":"Oprea","prenume":"Bogdan","varsta":27,"punctaj":0},{"idParticipant":32,"nume":"Pavel","prenume":"Monica","varsta":30,"punctaj":0},{"idParticipant":33,"nume":"Rusu","prenume":"Andreea","varsta":29,"punctaj":0},{"idParticipant":34,"nume":"Sandu","prenume":"Victor","varsta":26,"punctaj":0},{"idParticipant":35,"nume":"Toma","prenume":"Gabriela","varsta":31,"punctaj":0},{"idParticipant":36,"nume":"Ursu","prenume":"Mihail","varsta":24,"punctaj":0},{"idParticipant":37,"nume":"Vlad","prenume":"Anca","varsta":32,"punctaj":0},{"idParticipant":38,"nume":"Zamfir","prenume":"Lucian","varsta":23,"punctaj":0},{"idParticipant":39,"nume":"Voicu","prenume":"Raluca","varsta":34,"punctaj":0},{"idParticipant":40,"nume":"nume","prenume":"prenume","varsta":20,"punctaj":0}]}
+13 Apr 2025 15:33:05,081 DEBUG ro.mpp2024.protocol.ClientWorkerJson 126 handleRequest - Add rezultat request RezultatDTO{idProba='s1', idParticipant=4, puncte=1000}
+13 Apr 2025 15:33:05,082 TRACE ro.mpp2024.services.ServerService 56 addRezultat - Enter
+13 Apr 2025 15:33:05,082 TRACE ro.mpp2024.repository.ParticipantRepository 62 findOne - Enter
+13 Apr 2025 15:33:05,082 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+13 Apr 2025 15:33:05,082 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@d52e2fb)
+13 Apr 2025 15:33:05,082 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:33:05,083 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Dumitrescu Elena)
+13 Apr 2025 15:33:05,083 TRACE ro.mpp2024.repository.ParticipantRepository 76 findOne - Exit with(Dumitrescu Elena)
+13 Apr 2025 15:33:05,083 TRACE ro.mpp2024.repository.ProbaRepository 63 findOne - Enter findOne
+13 Apr 2025 15:33:05,083 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+13 Apr 2025 15:33:05,083 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@d52e2fb)
+13 Apr 2025 15:33:05,084 TRACE ro.mpp2024.repository.ProbaRepository 31 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:33:05,087 TRACE ro.mpp2024.repository.ProbaRepository 37 createEntityFromResultSet - Exit with(Proba{nume='Cursa 100 de m', arbitru=1, categorie=alergat})
+13 Apr 2025 15:33:05,087 TRACE ro.mpp2024.repository.ProbaRepository 77 findOne - Exit with(Proba{nume='Cursa 100 de m', arbitru=1, categorie=alergat})
+13 Apr 2025 15:33:05,087 TRACE ro.mpp2024.repository.RezultatRepository 116 save - Enter save
+13 Apr 2025 15:33:05,087 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+13 Apr 2025 15:33:05,087 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@d52e2fb)
+13 Apr 2025 15:33:05,096 TRACE ro.mpp2024.repository.RezultatRepository 127 save - Exit
+13 Apr 2025 15:33:05,096 TRACE ro.mpp2024.services.ServerService 60 addRezultat - Exit
+13 Apr 2025 15:33:05,097 DEBUG ro.mpp2024.services.ServerService 66 rezultatAdded - rezultat added
+13 Apr 2025 15:33:05,099 DEBUG ro.mpp2024.protocol.ClientWorkerJson 79 sendResponse - sending response {"typeJava":"OK","typeCsharp":0}
+13 Apr 2025 15:33:05,103 DEBUG ro.mpp2024.protocol.ClientWorkerJson 179 RezultatAdded - Sending rezultat added response Response{type=REZULTAT_ADDED, errormessage='null', user=null, rezultat=RezultatDTO{idProba='s1', idParticipant=4, puncte=1000}, punctaje=null}
+13 Apr 2025 15:33:05,103 DEBUG ro.mpp2024.protocol.ClientWorkerJson 79 sendResponse - sending response {"typeJava":"REZULTAT_ADDED","typeCsharp":0,"rezultat":{"idProba":"s1","idParticipant":4,"numeParticipant":"Dumitrescu","prenumeParticipant":"Elena","puncte":1000}}
+13 Apr 2025 15:33:11,681 DEBUG ro.mpp2024.protocol.ClientWorkerJson 151 handleRequest - Logout request forUserDTO{nume='Alice Johnson', username='alice.j', password='UGFzc3cwcmQxIQ==', probaId='s1'}
+13 Apr 2025 15:33:11,681 INFO  ro.mpp2024.services.ServerService 94 logout - Logout user alice.j
+13 Apr 2025 15:33:11,681 DEBUG ro.mpp2024.protocol.ClientWorkerJson 79 sendResponse - sending response {"typeJava":"OK","typeCsharp":0}
+13 Apr 2025 15:33:13,961 INFO  chat.network.utils.AbstractServer 27 start - Client connected ...
+13 Apr 2025 15:33:13,961 INFO  chat.network.utils.AbstractServer 25 start - Waiting for clients ...
+13 Apr 2025 15:33:13,962 DEBUG ro.mpp2024.protocol.ClientWorkerJson 90 handleRequest - Login request UserDTO{nume='', username='alice.j', password='', probaId=''}
+13 Apr 2025 15:33:13,962 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+13 Apr 2025 15:33:13,962 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@d52e2fb)
+13 Apr 2025 15:33:13,963 ERROR ro.mpp2024.services.ServerService 48 login - Authentication failed
+13 Apr 2025 15:33:13,963 ERROR ro.mpp2024.protocol.ClientWorkerJson 99 handleRequest - ro.mpp2024.ManageException: Authentication failed
+13 Apr 2025 15:33:13,963 DEBUG ro.mpp2024.protocol.ClientWorkerJson 79 sendResponse - sending response {"typeJava":"ERROR","typeCsharp":0,"errormessage":"Authentication failed"}
+13 Apr 2025 15:50:50,993 INFO  ro.mpp2024.StartJsonServer 24 main - Server properties: {server.port=55556, jdbc.url=jdbc:sqlite:src/main/resources/triatlon.db}
+13 Apr 2025 15:50:50,996 INFO  ro.mpp2024.repository.ArbitruRepository 23 <init> - Initializing IArbitruRepository with properties: {} 
+13 Apr 2025 15:50:50,997 INFO  ro.mpp2024.repository.ProbaRepository 25 <init> - Initializing ProbaRepository with properties: {} 
+13 Apr 2025 15:50:50,998 INFO  ro.mpp2024.repository.ParticipantRepository 24 <init> - Initializing ParticipantRepository with properties: {} 
+13 Apr 2025 15:50:50,999 INFO  ro.mpp2024.repository.RezultatRepository 25 <init> - Initializing RezultatRepository with properties: {} 
+13 Apr 2025 15:50:51,000 INFO  ro.mpp2024.services.ServerService 37 <init> - Service Rezultat made
+13 Apr 2025 15:50:51,001 DEBUG ro.mpp2024.StartJsonServer 50 main - Starting server on port: 55556
+13 Apr 2025 15:50:51,001 DEBUG ro.mpp2024.networkUtils.AbsConcurrentServer 13 <init> - Concurrent AbstractServer
+13 Apr 2025 15:50:51,001 INFO  ro.mpp2024.networkUtils.JsonConcurrentServer 17 <init> - JsonConcurrentServer
+13 Apr 2025 15:50:51,006 INFO  chat.network.utils.AbstractServer 25 start - Waiting for clients ...
+13 Apr 2025 15:51:22,303 INFO  chat.network.utils.AbstractServer 27 start - Client connected ...
+13 Apr 2025 15:51:22,332 INFO  chat.network.utils.AbstractServer 25 start - Waiting for clients ...
+13 Apr 2025 15:51:22,340 DEBUG ro.mpp2024.protocol.ClientWorkerJson 90 handleRequest - Login request UserDTO{nume='', username='alice.j', password='UGFzc3cwcmQxIQ==', probaId='c0'}
+13 Apr 2025 15:51:22,342 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+13 Apr 2025 15:51:22,342 TRACE ro.mpp2024.utils.JdbcUtils 25 getNewConnection - Enter
+13 Apr 2025 15:51:22,342 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src/main/resources/triatlon.db
+13 Apr 2025 15:51:22,342 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - user: null
+13 Apr 2025 15:51:22,342 INFO  ro.mpp2024.utils.JdbcUtils 32 getNewConnection - pass: null
+13 Apr 2025 15:51:22,438 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@10f5c909)
+13 Apr 2025 15:51:22,441 TRACE ro.mpp2024.repository.ArbitruRepository 29 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:22,441 TRACE ro.mpp2024.repository.ArbitruRepository 36 createEntityFromResultSet - Exit with(Arbitru{nume='Alice Johnson', username='alice.j', password='UGFzc3cwcmQxIQ==', id_proba=s1})
+13 Apr 2025 15:51:22,444 DEBUG ro.mpp2024.protocol.ClientWorkerJson 79 sendResponse - sending response {"typeJava":"LOGGED_ACC","typeCsharp":4,"user":{"id":20,"nume":"Alice Johnson","username":"alice.j","password":"UGFzc3cwcmQxIQ\u003d\u003d","id_proba":"s1"}}
+13 Apr 2025 15:51:23,455 DEBUG ro.mpp2024.protocol.ClientWorkerJson 115 handleRequest - Get all rezultate request fornull
+13 Apr 2025 15:51:23,456 TRACE ro.mpp2024.repository.RezultatRepository 144 listaParticipantiPuncteAlfabetic - Enter listaParticipantiPuncteAlfabetic
+13 Apr 2025 15:51:23,456 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+13 Apr 2025 15:51:23,456 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@10f5c909)
+13 Apr 2025 15:51:23,457 TRACE ro.mpp2024.repository.RezultatRepository 162 listaParticipantiPuncteAlfabetic - Enter Terminat dictionar
+13 Apr 2025 15:51:23,459 DEBUG ro.mpp2024.protocol.ClientWorkerJson 79 sendResponse - sending response {"typeJava":"ALL_REZULTATE","typeCsharp":3,"punctaje":[{"idParticipant":18,"nume":"Barbu","prenume":"Irina","varsta":27,"punctaj":240},{"idParticipant":19,"nume":"Constantin","prenume":"Marius","varsta":30,"punctaj":288},{"idParticipant":13,"nume":"Dobre","prenume":"Adriana","varsta":34,"punctaj":185},{"idParticipant":21,"nume":"Dragomir","prenume":"Adrian","varsta":26,"punctaj":140},{"idParticipant":4,"nume":"Dumitrescu","prenume":"Elena","varsta":28,"punctaj":1153},{"idParticipant":20,"nume":"Enache","prenume":"Laura","varsta":29,"punctaj":325},{"idParticipant":22,"nume":"Filip","prenume":"Bianca","varsta":31,"punctaj":347},{"idParticipant":3,"nume":"Georgescu","prenume":"Andrei","varsta":22,"punctaj":132},{"idParticipant":17,"nume":"Gheorghe","prenume":"Vlad","varsta":28,"punctaj":210},{"idParticipant":23,"nume":"Grigore","prenume":"Stefan","varsta":24,"punctaj":155},{"idParticipant":24,"nume":"Hagi","prenume":"Diana","varsta":32,"punctaj":203},{"idParticipant":25,"nume":"Iacob","prenume":"Radu","varsta":23,"punctaj":195},{"idParticipant":11,"nume":"Iliescu","prenume":"Daniela","varsta":32,"punctaj":320},{"idParticipant":2,"nume":"Ionescu","prenume":"Maria","varsta":30,"punctaj":166},{"idParticipant":26,"nume":"Jianu","prenume":"Oana","varsta":34,"punctaj":142},{"idParticipant":27,"nume":"Kovacs","prenume":"Cristina","varsta":21,"punctaj":199},{"idParticipant":16,"nume":"Lazar","prenume":"Roxana","varsta":25,"punctaj":185},{"idParticipant":28,"nume":"Lupu","prenume":"George","varsta":33,"punctaj":349},{"idParticipant":29,"nume":"Manole","prenume":"Simona","varsta":25,"punctaj":117},{"idParticipant":8,"nume":"Marin","prenume":"Ana","varsta":29,"punctaj":134},{"idParticipant":14,"nume":"Munteanu","prenume":"Sorin","varsta":21,"punctaj":301},{"idParticipant":30,"nume":"Nedelcu","prenume":"Alexandra","varsta":28,"punctaj":169},{"idParticipant":15,"nume":"Nistor","prenume":"Carmen","varsta":33,"punctaj":189},{"idParticipant":40,"nume":"nume","prenume":"prenume","varsta":20,"punctaj":300},{"idParticipant":31,"nume":"Oprea","prenume":"Bogdan","varsta":27,"punctaj":282},{"idParticipant":32,"nume":"Pavel","prenume":"Monica","varsta":30,"punctaj":111},{"idParticipant":10,"nume":"Petrescu","prenume":"Gabriel","varsta":26,"punctaj":188},{"idParticipant":5,"nume":"Popa","prenume":"Mihai","varsta":35,"punctaj":282},{"idParticipant":1,"nume":"Popescu","prenume":"Ion","varsta":25,"punctaj":158},{"idParticipant":7,"nume":"Radu","prenume":"Cristian","varsta":24,"punctaj":256},{"idParticipant":33,"nume":"Rusu","prenume":"Andreea","varsta":29,"punctaj":313},{"idParticipant":34,"nume":"Sandu","prenume":"Victor","varsta":26,"punctaj":115},{"idParticipant":6,"nume":"Stan","prenume":"Ioana","varsta":27,"punctaj":289},{"idParticipant":35,"nume":"Toma","prenume":"Gabriela","varsta":31,"punctaj":132},{"idParticipant":9,"nume":"Tudor","prenume":"Alexandru","varsta":31,"punctaj":288},{"idParticipant":36,"nume":"Ursu","prenume":"Mihail","varsta":24,"punctaj":155},{"idParticipant":12,"nume":"Vasilescu","prenume":"Florin","varsta":23,"punctaj":472},{"idParticipant":37,"nume":"Vlad","prenume":"Anca","varsta":32,"punctaj":138},{"idParticipant":39,"nume":"Voicu","prenume":"Raluca","varsta":34,"punctaj":190},{"idParticipant":38,"nume":"Zamfir","prenume":"Lucian","varsta":23,"punctaj":177}]}
+13 Apr 2025 15:51:24,468 DEBUG ro.mpp2024.protocol.ClientWorkerJson 103 handleRequest - Get rezultate request forUserDTO{nume='', username='', password='', probaId='s1'}
+13 Apr 2025 15:51:24,469 TRACE ro.mpp2024.repository.RezultatRepository 168 listaParticiapntPuncteProbaDescrescator - Enter listaParticiapntPuncteProbaDescrescator
+13 Apr 2025 15:51:24,469 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+13 Apr 2025 15:51:24,469 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@10f5c909)
+13 Apr 2025 15:51:24,470 TRACE ro.mpp2024.repository.RezultatRepository 186 listaParticiapntPuncteProbaDescrescator - Enter Terminat dictionar
+13 Apr 2025 15:51:24,470 DEBUG ro.mpp2024.protocol.ClientWorkerJson 79 sendResponse - sending response {"typeJava":"REZULTATE","typeCsharp":2,"punctaje":[{"idParticipant":4,"nume":"Dumitrescu","prenume":"Elena","varsta":28,"punctaj":1000},{"idParticipant":28,"nume":"Lupu","prenume":"George","varsta":33,"punctaj":199},{"idParticipant":12,"nume":"Vasilescu","prenume":"Florin","varsta":23,"punctaj":198},{"idParticipant":11,"nume":"Iliescu","prenume":"Daniela","varsta":32,"punctaj":185},{"idParticipant":20,"nume":"Enache","prenume":"Laura","varsta":29,"punctaj":140},{"idParticipant":19,"nume":"Constantin","prenume":"Marius","varsta":30,"punctaj":100},{"idParticipant":22,"nume":"Filip","prenume":"Bianca","varsta":31,"punctaj":30},{"idParticipant":18,"nume":"Barbu","prenume":"Irina","varsta":27,"punctaj":20},{"idParticipant":3,"nume":"Georgescu","prenume":"Andrei","varsta":22,"punctaj":20},{"idParticipant":13,"nume":"Dobre","prenume":"Adriana","varsta":34,"punctaj":10}]}
+13 Apr 2025 15:51:25,479 DEBUG ro.mpp2024.protocol.ClientWorkerJson 141 handleRequest - Get participanti request fornull
+13 Apr 2025 15:51:25,479 TRACE ro.mpp2024.repository.ParticipantRepository 42 findAll - Enter
+13 Apr 2025 15:51:25,480 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+13 Apr 2025 15:51:25,480 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@10f5c909)
+13 Apr 2025 15:51:25,480 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:25,481 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Popescu Ion)
+13 Apr 2025 15:51:25,481 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:25,481 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Ionescu Maria)
+13 Apr 2025 15:51:25,481 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:25,481 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Georgescu Andrei)
+13 Apr 2025 15:51:25,482 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:25,482 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Dumitrescu Elena)
+13 Apr 2025 15:51:25,482 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:25,482 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Popa Mihai)
+13 Apr 2025 15:51:25,482 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:25,482 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Stan Ioana)
+13 Apr 2025 15:51:25,482 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:25,482 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Radu Cristian)
+13 Apr 2025 15:51:25,483 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:25,483 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Marin Ana)
+13 Apr 2025 15:51:25,483 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:25,483 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Tudor Alexandru)
+13 Apr 2025 15:51:25,483 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:25,483 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Petrescu Gabriel)
+13 Apr 2025 15:51:25,483 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:25,483 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Iliescu Daniela)
+13 Apr 2025 15:51:25,484 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:25,484 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Vasilescu Florin)
+13 Apr 2025 15:51:25,484 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:25,484 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Dobre Adriana)
+13 Apr 2025 15:51:25,484 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:25,484 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Munteanu Sorin)
+13 Apr 2025 15:51:25,484 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:25,484 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Nistor Carmen)
+13 Apr 2025 15:51:25,485 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:25,485 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Lazar Roxana)
+13 Apr 2025 15:51:25,485 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:25,485 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Gheorghe Vlad)
+13 Apr 2025 15:51:25,485 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:25,485 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Barbu Irina)
+13 Apr 2025 15:51:25,485 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:25,485 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Constantin Marius)
+13 Apr 2025 15:51:25,486 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:25,486 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Enache Laura)
+13 Apr 2025 15:51:25,486 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:25,486 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Dragomir Adrian)
+13 Apr 2025 15:51:25,486 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:25,486 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Filip Bianca)
+13 Apr 2025 15:51:25,486 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:25,486 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Grigore Stefan)
+13 Apr 2025 15:51:25,486 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:25,487 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Hagi Diana)
+13 Apr 2025 15:51:25,487 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:25,487 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Iacob Radu)
+13 Apr 2025 15:51:25,487 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:25,487 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Jianu Oana)
+13 Apr 2025 15:51:25,487 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:25,487 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Kovacs Cristina)
+13 Apr 2025 15:51:25,487 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:25,487 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Lupu George)
+13 Apr 2025 15:51:25,488 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:25,488 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Manole Simona)
+13 Apr 2025 15:51:25,488 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:25,488 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Nedelcu Alexandra)
+13 Apr 2025 15:51:25,488 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:25,488 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Oprea Bogdan)
+13 Apr 2025 15:51:25,488 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:25,494 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Pavel Monica)
+13 Apr 2025 15:51:25,494 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:25,494 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Rusu Andreea)
+13 Apr 2025 15:51:25,494 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:25,494 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Sandu Victor)
+13 Apr 2025 15:51:25,495 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:25,495 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Toma Gabriela)
+13 Apr 2025 15:51:25,495 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:25,495 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Ursu Mihail)
+13 Apr 2025 15:51:25,495 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:25,495 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Vlad Anca)
+13 Apr 2025 15:51:25,495 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:25,495 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Zamfir Lucian)
+13 Apr 2025 15:51:25,495 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:25,496 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Voicu Raluca)
+13 Apr 2025 15:51:25,496 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:25,496 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(nume prenume)
+13 Apr 2025 15:51:25,496 TRACE ro.mpp2024.repository.ParticipantRepository 56 findAll - Exit with([Popescu Ion, Ionescu Maria, Georgescu Andrei, Dumitrescu Elena, Popa Mihai, Stan Ioana, Radu Cristian, Marin Ana, Tudor Alexandru, Petrescu Gabriel, Iliescu Daniela, Vasilescu Florin, Dobre Adriana, Munteanu Sorin, Nistor Carmen, Lazar Roxana, Gheorghe Vlad, Barbu Irina, Constantin Marius, Enache Laura, Dragomir Adrian, Filip Bianca, Grigore Stefan, Hagi Diana, Iacob Radu, Jianu Oana, Kovacs Cristina, Lupu George, Manole Simona, Nedelcu Alexandra, Oprea Bogdan, Pavel Monica, Rusu Andreea, Sandu Victor, Toma Gabriela, Ursu Mihail, Vlad Anca, Zamfir Lucian, Voicu Raluca, nume prenume])
+13 Apr 2025 15:51:25,497 DEBUG ro.mpp2024.protocol.ClientWorkerJson 79 sendResponse - sending response {"typeJava":"PARTICIPANTI","typeCsharp":6,"participanti":[{"idParticipant":1,"nume":"Popescu","prenume":"Ion","varsta":25,"punctaj":0},{"idParticipant":2,"nume":"Ionescu","prenume":"Maria","varsta":30,"punctaj":0},{"idParticipant":3,"nume":"Georgescu","prenume":"Andrei","varsta":22,"punctaj":0},{"idParticipant":4,"nume":"Dumitrescu","prenume":"Elena","varsta":28,"punctaj":0},{"idParticipant":5,"nume":"Popa","prenume":"Mihai","varsta":35,"punctaj":0},{"idParticipant":6,"nume":"Stan","prenume":"Ioana","varsta":27,"punctaj":0},{"idParticipant":7,"nume":"Radu","prenume":"Cristian","varsta":24,"punctaj":0},{"idParticipant":8,"nume":"Marin","prenume":"Ana","varsta":29,"punctaj":0},{"idParticipant":9,"nume":"Tudor","prenume":"Alexandru","varsta":31,"punctaj":0},{"idParticipant":10,"nume":"Petrescu","prenume":"Gabriel","varsta":26,"punctaj":0},{"idParticipant":11,"nume":"Iliescu","prenume":"Daniela","varsta":32,"punctaj":0},{"idParticipant":12,"nume":"Vasilescu","prenume":"Florin","varsta":23,"punctaj":0},{"idParticipant":13,"nume":"Dobre","prenume":"Adriana","varsta":34,"punctaj":0},{"idParticipant":14,"nume":"Munteanu","prenume":"Sorin","varsta":21,"punctaj":0},{"idParticipant":15,"nume":"Nistor","prenume":"Carmen","varsta":33,"punctaj":0},{"idParticipant":16,"nume":"Lazar","prenume":"Roxana","varsta":25,"punctaj":0},{"idParticipant":17,"nume":"Gheorghe","prenume":"Vlad","varsta":28,"punctaj":0},{"idParticipant":18,"nume":"Barbu","prenume":"Irina","varsta":27,"punctaj":0},{"idParticipant":19,"nume":"Constantin","prenume":"Marius","varsta":30,"punctaj":0},{"idParticipant":20,"nume":"Enache","prenume":"Laura","varsta":29,"punctaj":0},{"idParticipant":21,"nume":"Dragomir","prenume":"Adrian","varsta":26,"punctaj":0},{"idParticipant":22,"nume":"Filip","prenume":"Bianca","varsta":31,"punctaj":0},{"idParticipant":23,"nume":"Grigore","prenume":"Stefan","varsta":24,"punctaj":0},{"idParticipant":24,"nume":"Hagi","prenume":"Diana","varsta":32,"punctaj":0},{"idParticipant":25,"nume":"Iacob","prenume":"Radu","varsta":23,"punctaj":0},{"idParticipant":26,"nume":"Jianu","prenume":"Oana","varsta":34,"punctaj":0},{"idParticipant":27,"nume":"Kovacs","prenume":"Cristina","varsta":21,"punctaj":0},{"idParticipant":28,"nume":"Lupu","prenume":"George","varsta":33,"punctaj":0},{"idParticipant":29,"nume":"Manole","prenume":"Simona","varsta":25,"punctaj":0},{"idParticipant":30,"nume":"Nedelcu","prenume":"Alexandra","varsta":28,"punctaj":0},{"idParticipant":31,"nume":"Oprea","prenume":"Bogdan","varsta":27,"punctaj":0},{"idParticipant":32,"nume":"Pavel","prenume":"Monica","varsta":30,"punctaj":0},{"idParticipant":33,"nume":"Rusu","prenume":"Andreea","varsta":29,"punctaj":0},{"idParticipant":34,"nume":"Sandu","prenume":"Victor","varsta":26,"punctaj":0},{"idParticipant":35,"nume":"Toma","prenume":"Gabriela","varsta":31,"punctaj":0},{"idParticipant":36,"nume":"Ursu","prenume":"Mihail","varsta":24,"punctaj":0},{"idParticipant":37,"nume":"Vlad","prenume":"Anca","varsta":32,"punctaj":0},{"idParticipant":38,"nume":"Zamfir","prenume":"Lucian","varsta":23,"punctaj":0},{"idParticipant":39,"nume":"Voicu","prenume":"Raluca","varsta":34,"punctaj":0},{"idParticipant":40,"nume":"nume","prenume":"prenume","varsta":20,"punctaj":0}]}
+13 Apr 2025 15:51:59,658 DEBUG ro.mpp2024.protocol.ClientWorkerJson 126 handleRequest - Add rezultat request RezultatDTO{idProba='s1', idParticipant=30, puncte=400}
+13 Apr 2025 15:51:59,658 TRACE ro.mpp2024.services.ServerService 56 addRezultat - Enter
+13 Apr 2025 15:51:59,658 TRACE ro.mpp2024.repository.ParticipantRepository 62 findOne - Enter
+13 Apr 2025 15:51:59,659 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+13 Apr 2025 15:51:59,659 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@10f5c909)
+13 Apr 2025 15:51:59,659 TRACE ro.mpp2024.repository.ParticipantRepository 30 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:59,659 TRACE ro.mpp2024.repository.ParticipantRepository 36 createEntityFromResultSet - Exit with(Nedelcu Alexandra)
+13 Apr 2025 15:51:59,659 TRACE ro.mpp2024.repository.ParticipantRepository 76 findOne - Exit with(Nedelcu Alexandra)
+13 Apr 2025 15:51:59,660 TRACE ro.mpp2024.repository.ProbaRepository 63 findOne - Enter findOne
+13 Apr 2025 15:51:59,660 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+13 Apr 2025 15:51:59,660 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@10f5c909)
+13 Apr 2025 15:51:59,660 TRACE ro.mpp2024.repository.ProbaRepository 31 createEntityFromResultSet - Enter createEntityFromResultSet
+13 Apr 2025 15:51:59,662 TRACE ro.mpp2024.repository.ProbaRepository 37 createEntityFromResultSet - Exit with(Proba{nume='Cursa 100 de m', arbitru=1, categorie=alergat})
+13 Apr 2025 15:51:59,663 TRACE ro.mpp2024.repository.ProbaRepository 77 findOne - Exit with(Proba{nume='Cursa 100 de m', arbitru=1, categorie=alergat})
+13 Apr 2025 15:51:59,663 TRACE ro.mpp2024.repository.RezultatRepository 116 save - Enter save
+13 Apr 2025 15:51:59,663 TRACE ro.mpp2024.utils.JdbcUtils 48 getConnection - Enter
+13 Apr 2025 15:51:59,663 TRACE ro.mpp2024.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@10f5c909)
+13 Apr 2025 15:51:59,672 TRACE ro.mpp2024.repository.RezultatRepository 127 save - Exit
+13 Apr 2025 15:51:59,672 TRACE ro.mpp2024.services.ServerService 60 addRezultat - Exit
+13 Apr 2025 15:51:59,672 DEBUG ro.mpp2024.services.ServerService 66 rezultatAdded - rezultat added
+13 Apr 2025 15:51:59,675 DEBUG ro.mpp2024.protocol.ClientWorkerJson 79 sendResponse - sending response {"typeJava":"OK","typeCsharp":0}
+13 Apr 2025 15:51:59,678 DEBUG ro.mpp2024.protocol.ClientWorkerJson 179 RezultatAdded - Sending rezultat added response Response{type=REZULTAT_ADDED, errormessage='null', user=null, rezultat=RezultatDTO{idProba='s1', idParticipant=30, puncte=400}, punctaje=null}
+13 Apr 2025 15:51:59,678 DEBUG ro.mpp2024.protocol.ClientWorkerJson 79 sendResponse - sending response {"typeJava":"REZULTAT_ADDED","typeCsharp":5,"rezultat":{"idProba":"s1","idParticipant":30,"numeParticipant":"Nedelcu","prenumeParticipant":"Alexandra","puncte":400}}
+13 Apr 2025 15:52:06,653 DEBUG ro.mpp2024.protocol.ClientWorkerJson 151 handleRequest - Logout request forUserDTO{nume='Alice Johnson', username='alice.j', password='UGFzc3cwcmQxIQ==', probaId='s1'}
+13 Apr 2025 15:52:06,654 INFO  ro.mpp2024.services.ServerService 94 logout - Logout user alice.j
+13 Apr 2025 15:52:06,654 DEBUG ro.mpp2024.protocol.ClientWorkerJson 79 sendResponse - sending response {"typeJava":"OK","typeCsharp":0}

@@ -8,7 +8,8 @@ import java.io.Serializable;
 import java.util.Arrays;
 
 public class Response implements Serializable {
-    private ResponseType type;
+    private ResponseType typeJava;
+    private int typeCsharp;
     private String errormessage;
     private UserDTO user;
     private RezultatDTO rezultat;
@@ -18,12 +19,20 @@ public class Response implements Serializable {
     public Response() {
     }
 
-    public ResponseType getType() {
-        return type;
+    public ResponseType getTypeJava() {
+        return typeJava;
     }
 
-    public void setType(ResponseType type) {
-        this.type = type;
+    public void setTypeJava(ResponseType type) {
+        this.typeJava = type;
+    }
+
+    public int getTypeCsharp() {
+        return CharpTranslateType.toNumber(typeJava);
+    }
+
+    public void setTypeCsharp(int typeCsharp) {
+        this.typeCsharp = typeCsharp;
     }
 
     public String getErrormessage() {
@@ -69,7 +78,7 @@ public class Response implements Serializable {
     @Override
     public String toString() {
         return "Response{" +
-                "type=" + type +
+                "type=" + typeJava +
                 ", errormessage='" + errormessage + '\'' +
                 ", user=" + user +
                 ", rezultat=" + rezultat +

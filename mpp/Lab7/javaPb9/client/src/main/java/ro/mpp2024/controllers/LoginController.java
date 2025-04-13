@@ -37,16 +37,7 @@ public class LoginController {
         try{
             System.out.println(usernameField.getText());
             Arbitru arbitru = service.login(usernameField.getText(), Encryption.code(passwordField.getText()),mainCtr);
-            if(arbitru.getId() > 0) {
-                System.out.println("Login successful");
-                changeToMainWindow(arbitru);
-            }
-            else{
-                if(arbitru.getId() == -2){
-                    throw new Exception("User already logged in");
-                }
-                throw new Exception("Username or password Wrong");
-            }
+            changeToMainWindow(arbitru);
         }
         catch (Exception e){
             Alert alert = new Alert(Alert.AlertType.ERROR);

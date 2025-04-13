@@ -1,26 +1,33 @@
 package ro.mpp2024.protocol;
 
-import ro.mpp2024.DTO.PunctajParticipantDTO;
 import ro.mpp2024.DTO.RezultatDTO;
 import ro.mpp2024.DTO.UserDTO;
-import ro.mpp2024.model.Rezultat;
 
-import java.util.Arrays;
+import java.io.Serializable;
 
-public class Request {
-    private RequestType type;
+public class Request implements Serializable {
+    private RequestType typeJava;
+    private int typeCsharp;
     private UserDTO user;
     private RezultatDTO rezultat;
 
 
     public Request() {}
 
-    public RequestType getType() {
-        return type;
+    public RequestType getTypeJava() {
+        return typeJava;
     }
 
-    public void setType(RequestType type) {
-        this.type = type;
+    public void setTypeJava(RequestType type) {
+        this.typeJava = type;
+    }
+
+    public int getTypeCsharp() {
+        return CharpTranslateType.toNumber(typeJava);
+    }
+
+    public void setTypeCsharp(int typeCsharp) {
+        this.typeCsharp = typeCsharp;
     }
 
     public RezultatDTO getRezultat() {
@@ -50,7 +57,7 @@ public class Request {
     @Override
     public String toString() {
         return "Request{" +
-                "type=" + type +
+                "type=" + typeJava +
                 ", user=" + user +
                 ", rezultat=" + rezultat +
                 '}';

@@ -50,8 +50,9 @@ public class ServicesJsonProxy implements IService {
         sendRequest(request);
          Response response=readResponse();
 
-        if (response.getType()== ResponseType.ERROR) {
+        if (response.getTypeJava()== ResponseType.ERROR) {
             closeConnection();
+            logger.debug("Error logging in {}",response.getErrormessage());
             throw new ManageException(response.getErrormessage());
         }
 
@@ -67,7 +68,7 @@ public class ServicesJsonProxy implements IService {
         Request request=JsonProtocolUtils.createAddRezultatRequest(new Rezultat(-1L,participant,proba,puncte));
         sendRequest(request);
          Response response=readResponse();
-        if (response.getType()== ResponseType.ERROR) {
+        if (response.getTypeJava()== ResponseType.ERROR) {
             throw new ManageException(response.getErrormessage());
         }
 
@@ -78,7 +79,7 @@ public class ServicesJsonProxy implements IService {
         Request request= JsonProtocolUtils.createGetAllRezultateRequest();
         sendRequest(request);
          Response response=readResponse();
-        if (response.getType()== ResponseType.ERROR) {
+        if (response.getTypeJava()== ResponseType.ERROR) {
             throw new ManageException(response.getErrormessage());
         }
 
@@ -91,7 +92,7 @@ public class ServicesJsonProxy implements IService {
         request.setUser(DTOutils.getDTO(new Arbitru("","","",Proba)));
         sendRequest(request);
          Response response=readResponse();
-        if (response.getType()== ResponseType.ERROR) {
+        if (response.getTypeJava()== ResponseType.ERROR) {
             throw new ManageException(response.getErrormessage());
         }
 
@@ -103,7 +104,7 @@ public class ServicesJsonProxy implements IService {
         Request request= JsonProtocolUtils.createGetParticipantiRequest();
         sendRequest(request);
          Response response=readResponse();
-        if (response.getType()== ResponseType.ERROR) {
+        if (response.getTypeJava()== ResponseType.ERROR) {
             throw new ManageException(response.getErrormessage());
         }
 
@@ -118,7 +119,7 @@ public class ServicesJsonProxy implements IService {
         Request request= JsonProtocolUtils.createLogoutRequest(arbitru);
         sendRequest(request);
          Response response=readResponse();
-        if (response.getType()== ResponseType.ERROR) {
+        if (response.getTypeJava()== ResponseType.ERROR) {
             throw new ManageException(response.getErrormessage());
         }
         closeConnection();
@@ -128,12 +129,13 @@ public class ServicesJsonProxy implements IService {
     private void closeConnection() {
         finished=true;
         try {
+
             input.close();
             output.close();
             connection.close();
             logger.debug("Connection closed with {}" ,client);
             client=null;
-        } catch (IOException e) {
+        } catch (Exception e) {
             logger.error(e);
             logger.error(e.getStackTrace());
         }
@@ -143,6 +145,7 @@ public class ServicesJsonProxy implements IService {
     private void sendRequest(Request request)throws ManageException {
         String reqLine=gsonFormatter.toJson(request);
         try {
+            logger.debug("sending request {}",reqLine);
             output.println(reqLine);
             output.flush();
         } catch (Exception e) {
@@ -181,7 +184,7 @@ public class ServicesJsonProxy implements IService {
     }
 
     private void handleUpdate(Response response){
-        if (response.getType()==ResponseType.REZULTAT_ADDED){
+        if (response.getTypeJava()==ResponseType.REZULTAT_ADDED){
             try {
                 client.RezultatAdded(response.getRezultat().getIdParticipant(),
                         response.getRezultat().getNumeParticipant(),
@@ -198,7 +201,7 @@ public class ServicesJsonProxy implements IService {
     private boolean isUpdate(Response response){
         if(response==null)
             return false;
-        return response.getType()==ResponseType.REZULTAT_ADDED;
+        return response.getTypeJava()==ResponseType.REZULTAT_ADDED;
     }
 
     private class ReaderThread implements Runnable{
@@ -221,6 +224,12 @@ public class ServicesJsonProxy implements IService {
                     }
                 } catch (IOException e) {
                     logger.error("Reading error "+e);
+                }
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    logger.error(e);
+                    logger.error(e.getStackTrace());
                 }
             }
         }

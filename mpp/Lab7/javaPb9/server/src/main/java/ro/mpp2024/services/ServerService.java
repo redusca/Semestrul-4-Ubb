@@ -42,7 +42,11 @@ public class ServerService implements IService {
 
         Arbitru arbitru =  arbitruRepository.findByUser(username, password);
         if(loggedClients.containsKey(username)){
-            return new Arbitru(-2L,"","","","");
+           throw new ManageException("User already logged in");
+        }
+        if (arbitru == null) {
+            logger.error("Authentication failed");
+            throw new ManageException("Authentication failed");
         }
         loggedClients.put(username, client);
         return arbitru;

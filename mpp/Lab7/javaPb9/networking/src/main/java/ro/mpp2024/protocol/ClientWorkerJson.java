@@ -14,7 +14,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
-import java.lang.annotation.Repeatable;
 import java.net.Socket;
 import com.google.gson.Gson;
 
@@ -86,7 +85,7 @@ public class ClientWorkerJson implements Runnable, IManageObserver {
 
     private Response handleRequest(Request request) {
         Response response=null;
-        switch (request.getType()){
+        switch (request.getTypeJava()){
             case LOGIN:
                 logger.debug("Login request "+request.getUser());
                 UserDTO userDTO=request.getUser();
@@ -170,13 +169,13 @@ public class ClientWorkerJson implements Runnable, IManageObserver {
 
     @Override
     public void RezultatAdded(Long id,String nume,String prenume, String proba, long puncte) throws ManageException {
-        Response response=JsonProtocolUtils.createRezultatAddedResponse(DTOutils
-                .getDTO(new Rezultat(
+        Response response=JsonProtocolUtils.createRezultatAddedResponse(
+                new Rezultat(
                         -1L,
                         new Participant(id, nume, prenume, 0),
                         new Proba(proba,"", Categorie.ciclism),
                         puncte
-                )));
+                ));
         logger.debug("Sending rezultat added response "+response);
         try{
             sendResponse(response);

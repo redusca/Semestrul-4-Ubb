@@ -119,9 +119,6 @@ public class ArbitruRepository implements IArbitruRepository {
                 if (result.next()) {
                     arbitru = createEntityFromResultSet(result);
                 }
-                else{
-                    arbitru = new Arbitru(-1L,"","test","","");
-                }
             }
         } catch (SQLException e) {
             logger.error(e);
