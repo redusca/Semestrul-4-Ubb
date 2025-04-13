@@ -1,35 +1,49 @@
-# Cerinte :
+# Cerințe
 
-## 1. Sa se scrie o pagina HTML ce contine doua liste cu mai multe elemente fiecare, create cu ajutorul tagului <select>. La un dubluclick pe un element al primei liste, acesta va fi mutat in lista a doua si invers. Nu se vor folosi biblioteci de functii, jQuery, pluginuri, etc.
+## 1. Mutare elemente între liste
 
-## 2. Un formular web va permite unui utilizator sa isi introduca numele, data nasterii, varsta si adresa de e-mail. La apasarea unui buton “Trimite” se vor valida toate aceste campuri daca sunt completate si daca sunt completate corect. Daca da, se va afisa un mesaj “Datele sunt completate corect”, altfel, se va afisa un mesaj de genul “Campurile nume si varsta nu sunt completate corect”, aceste campuri fiind “incercuite” intr-o bordura rosie. Toate aceste validari vor fi implementate pe client in JavaScript. Nu se vor folosi biblioteci de functii, jQuery, pluginuri, etc.
+Se va scrie o pagină HTML care conține două liste cu mai multe elemente fiecare, create cu ajutorul tagului `<select>`. La un dublu click pe un element al primei liste, acesta va fi mutat în lista a doua și invers. Nu se vor folosi biblioteci de funcții, jQuery, pluginuri, etc.
 
-### 3. Sa se implementeze folosind JavaScript urmatoarea problema. O matrice cu numar par de elemente, reprezentata vizual sub forma unui tabel, contine perechi de numere initial ascunse. Daca utilizatorul da click pe doua celule ale tabelului ce contin numere egale acestea vor fi afisate si vor ramane afisate. Daca numerele continute in cele doua celule nu sunt egale, vor fi ascunse din nou dupa un numar de 2, 3 secunde. Jocul se termina cand toate perechile de numere au fost ghicite. Dupa prima implementare a jocului, se va crea o noua versiune in care numerele vor fi inlocuite cu imagini (ce contin fructe spre exemplu, sau “profi” de pe pagina facultatii). Problema mai este recunoscuta si sub numele de Memory Game. Nu se vor folosi biblioteci de functii, jQuery, pluginuri, etc.
+## 2. Formular web cu validare
 
-### 4. Sa se scrie o pagina HTML ce contine un tabel cu cel putin trei coloane si cel putin trei linii. Prima coloana reprezinta antetul. Cand utilizatorul va da click pe o celula din antet, elementele din tabel se vor sorta crescator sau descrescator in functie de valorile prezente pe linia corespunzatoare antetului pe care s-a dat click. Codul JavaScript va fi reutilizabil si va permite crearea unui comportament de tabel sortabil pentru mai multe tabele existente in cadrul paginii. Nu se vor folosi biblioteci de functii, jQuery, pluginuri, etc. Exemplu de tabel ce se doreste a fi sortat (sortarea se va face alfabetic dupa numele fructului, dupa pret sau dupa cantitate):
+Un formular web va permite unui utilizator să își introducă numele, data nașterii, vârsta și adresa de e-mail. La apăsarea unui buton “Trimite” se vor valida toate aceste câmpuri dacă sunt completate și dacă sunt completate corect. Dacă da, se va afișa un mesaj “Datele sunt completate corect”, altfel, se va afișa un mesaj de genul “Câmpurile nume și vârstă nu sunt completate corect”, aceste câmpuri fiind încercuite într-o bordură roșie. Toate aceste validări vor fi implementate pe client în JavaScript. Nu se vor folosi biblioteci de funcții, jQuery, pluginuri, etc.
+
+## 3. Memory Game
+
+Se va implementa folosind JavaScript următoarea problemă: o matrice cu număr par de elemente, reprezentată vizual sub forma unui tabel, conține perechi de numere inițial ascunse. Dacă utilizatorul dă click pe două celule ale tabelului ce conțin numere egale, acestea vor fi afișate și vor rămâne afișate. Dacă numerele conținute în cele două celule nu sunt egale, vor fi ascunse din nou după un număr de 2-3 secunde. Jocul se termină când toate perechile de numere au fost ghicite. 
+
+După prima implementare a jocului, se va crea o nouă versiune în care numerele vor fi înlocuite cu imagini (ce conțin fructe, spre exemplu, sau “profi” de pe pagina facultății). Problema mai este recunoscută și sub numele de Memory Game. Nu se vor folosi biblioteci de funcții, jQuery, pluginuri, etc.
+
+## 4. Tabel sortabil
+
+Se va scrie o pagină HTML care conține un tabel cu cel puțin trei coloane și cel puțin trei linii. Prima coloană reprezintă antetul. Când utilizatorul va da click pe o celulă din antet, elementele din tabel se vor sorta crescător sau descrescător în funcție de valorile prezente pe linia corespunzătoare antetului pe care s-a dat click. Codul JavaScript va fi reutilizabil și va permite crearea unui comportament de tabel sortabil pentru mai multe tabele existente în cadrul paginii. Nu se vor folosi biblioteci de funcții, jQuery, pluginuri, etc.
+
+Exemplu de tabel ce se dorește a fi sortat (sortarea se va face alfabetic după numele fructului, după preț sau după cantitate):
 
 <table style="width: 180px;">
-<tbody>
-  <tr>
-    <th>
-      Fruncte
-    </th>
-    <td> Mere </td>
-    <td> Pere </td>
-  </tr>
-  <tr>
-    <th>Pret</th>
-    <td>3</td>
-    <td>4</td>
-  </tr>
-  <tr>
-    <th>Cantitate</th>
-    <td>6</td>
-    <td>8</td>
-  </tr>
-</tbody>
+    <tbody>
+        <tr>
+            <th>Fructe</th>
+            <td>Mere</td>
+            <td>Pere</td>
+        </tr>
+        <tr>
+            <th>Preț</th>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <th>Cantitate</th>
+            <td>6</td>
+            <td>8</td>
+        </tr>
+    </tbody>
 </table>
 
-### Dupa rezolvarea problemei, implementati o noua varianta in care capul de tabel este orizontal, nu vertical. Nu se vor folosi biblioteci de functii, jQuery, pluginuri, etc.
+După rezolvarea problemei, se va implementa o nouă variantă în care capul de tabel este orizontal, nu vertical. Nu se vor folosi biblioteci de funcții, jQuery, pluginuri, etc.
 
-## 5. Intr-o pagina HTML exista o lista descrisa cu ajutorul tagului <ol>. Fiecare element din lista (<li>) contine o imagine (<img>), si un link (<a>). Elemente listei, mai putin primul dintre ele, nu sunt vizibile initial (se poate folosi in acest sens CSS). Afisarea unui element din lista presupune afisarea imaginii si a textului ca link peste imagine (a se vedea ca exemplu carouselul din pagina facultatii). Dupa n secunde printr-un efect de tranzitie va fi afisat urmatorul element din lista. Se vor implementa si doua butoane Next si Previous care vor permite afisarea elementelor urmatoare sau anterioare fara a se astepta trecerea celor n secunde. Nu se vor folosi biblioteci de functii, jQuery, pluginuri, etc.
+## 5. Carousel cu listă ordonată
+
+Într-o pagină HTML există o listă descrisă cu ajutorul tagului `<ol>`. Fiecare element din listă (`<li>`) conține o imagine (`<img>`) și un link (`<a>`). Elementele listei, mai puțin primul dintre ele, nu sunt vizibile inițial (se poate folosi în acest sens CSS). 
+
+Afișarea unui element din listă presupune afișarea imaginii și a textului ca link peste imagine (a se vedea ca exemplu carouselul din pagina facultății). După `n` secunde, printr-un efect de tranziție, va fi afișat următorul element din listă. Se vor implementa și două butoane Next și Previous care vor permite afișarea elementelor următoare sau anterioare fără a se aștepta trecerea celor `n` secunde. Nu se vor folosi biblioteci de funcții, jQuery, pluginuri, etc.
