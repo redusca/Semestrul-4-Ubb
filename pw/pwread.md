@@ -25,3 +25,10 @@
   - ### [JsPb3](Lab3JS/pb3.js)
   - ### [JsPb4](Lab3JS/pb4.js)
   - ### [JsPb5](Lab3JS/pb5.js)
+
+- ## [Lab4:](Lab4JQuery) Facut javascript pentru problemele : ([cerinta](Lab4JQuery/cerinta.md) ):
+  - ### [JsPb1](Lab4JQuery/pb1.js)
+  - ### [JsPb2](Lab4JQuery/pb2.js)
+  - ### [JsPb3](Lab4JQuery/pb3.js)
+  - ### [JsPb4](Lab4JQuery/pb4.js)
+  - ### [JsPb5](Lab4JQuery/pb5.js)
