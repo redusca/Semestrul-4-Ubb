@@ -1,10 +1,11 @@
 
+
 function sortTable(rowIndex, tableId) {
     let table, sorting; 
     switchCount = 0;
     table = document.getElementById(tableId)
-    sorting = true;
     let order = "asc";
+    sorting = true;
 
     while(sorting){
         sorting = false;
@@ -18,52 +19,55 @@ function sortTable(rowIndex, tableId) {
                 for (let j = 0; j < table.rows.length; j++) {
                     table.rows[j].insertBefore(table.rows[j].cells[i + 1], table.rows[j].cells[i]);
                 }
+                switchCount++;
                 sorting = true;
                 break;
             }
+        }
+
+        if(sorting == false && switchCount == 0){
+            order = "desc";
+            sorting = true;
         }
     }
 
 }
 
 document.querySelectorAll("#animalTabel th").forEach((header, index) => {
-    console.log("1");
-    header.addEventListener("click", () => {console.log("2");
+    header.addEventListener("click", () => {
         sortTable(index, 'animalTabel');
     });
 });
 
-let orderV = "asc";
 function sortTableV(cellIndex, tableId) {
-    let table, sorting; 
-    switchCount = 0;
-    table = document.getElementById(tableId)
-    sorting = true;
+    let table = document.getElementById(tableId)
+    let rows = Array.from(table.tBodies[0].rows).slice(1); 
+    let copyRows = [...rows];
 
-    while(sorting){
-        for(let i = 1 ; i < (table.rows.length-1 ) ; i++){
-            swaped = false
-            let x = table.rows[i].cells[cellIndex];
-            let y = table.rows[i+1].cells[cellIndex]
-            let xVal = isNaN(parseFloat(x.innerHTML)) ? x.innerHTML.toLowerCase() : parseFloat(x.innerHTML);
-            let yval = isNaN(parseFloat(y.innerHTML)) ? y.innerHTML.toLowerCase() : parseFloat(y.innerHTML);
-            console.log("i=",i,"xval=",xVal,"yval=",yval);
-            if(orderV == "asc" && xVal > yval || orderV == "desc" && xVal < yval){
-                console.log("i+1",i+1,table.rows[i + 1]);
-                console.log("i",i,table.rows[i])
-                table.insertBefore(table.rows[i + 1], table.rows[i]);
-                sorting = true;
-                break;
-            }
+    rows.sort((a, b) => {
+        const valoareA = a.cells[cellIndex].innerText;
+        const valoareB = b.cells[cellIndex].innerText;
+
+        const isNumber = !isNaN(parseFloat(valoareA)) && !isNaN(parseFloat(valoareB));
+        if(isNumber) {
+            return parseFloat(valoareA) - parseFloat(valoareB);
         }
+        else {
+            return valoareA.localeCompare(valoareB);
+        }
+    });
 
+    let isSame = rows.every((row, index) => row === copyRows[index]);
+    if(isSame) {
+        rows.reverse();
     }
+
+    table.tBodies[0].append(...rows);
 }
 
-let col = 0;
-document.querySelectorAll("#animalTabelH th").forEach((header) => {
-    console.log("1");
-    header.addEventListener("click", () => {console.log("2");
-        sortTableV(col++, 'animalTabelH');
+document.querySelectorAll("#animalTabelH th").forEach((header,index) => {
+    console.log(index,header);
+    header.addEventListener("click", () => {
+        sortTableV(index, 'animalTabelH');
     });
 });
