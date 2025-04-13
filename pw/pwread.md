@@ -19,14 +19,14 @@
   - ### [Problema 7](Lab2/pb7.html):
       - [CSS_7](Lab2/pb7.css)
 
-- ## [Lab3:](Lab3) Facut javascript pentru problemele : ([cerinta](lab3/cerinta.md) ):
+- ## [Lab3:](Lab3) Facut javascript pentru problemele : ([cerinta](Lab3/cerinta.md)):
   - ### [JsPb1](Lab3/pb1.js)
   - ### [JsPb2](Lab3/pb2.js)
   - ### [JsPb3](Lab3/pb3.js)
   - ### [JsPb4](Lab3/pb4.js)
   - ### [JsPb5](Lab3/pb5.js)
  
-- ## [Lab3:](Lab3) Facut Jquery pentru problemele : ([cerinta](lab3/cerinta.md) ):
+- ## [Lab3:](Lab3) Facut Jquery pentru problemele : ([cerinta](Lab3/cerinta.md)):
   - ### [JQPb1](Lab4/pb1.js)
   - ### [JQPb2](Lab4/pb2.js)
   - ### [JQPb3](Lab4/pb3.js)
