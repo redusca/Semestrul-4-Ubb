@@ -18,3 +18,10 @@
       - [CSS_6](Lab2/pb6.css)
   - ### [Problema 7](Lab2/pb7.html):
       - [CSS_7](Lab2/pb7.css)
+
+- ## [Lab3:](Lab3) Facut javascript pentru problemele : ([cerinta](lab3/cerinta.md) ):
+  - ### [JsPb1](Lab3/pb1.js)
+  - ### [JsPb2](Lab3/pb2.js)
+  - ### [JsPb3](Lab3/pb3.js)
+  - ### [JsPb4](Lab3/pb4.js)
+  - ### [JsPb5](Lab3/pb5.js)
