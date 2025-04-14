@@ -10993,3 +10993,13 @@ System.Exception: Wrong Password!
 2025-04-13 15:50:43,430 [11] INFO networking.protocol.ClientWorker - Logout request
 2025-04-13 15:50:43,431 [11] INFO server.ServiceServer - Logout user Arbitru{id=8, nume='Bubu bubu', username='bucatarul', password='MTIzNDU2Nzg5V3c=', id_proba='s0'}
 2025-04-13 15:50:43,431 [11] DEBUG networking.protocol.ClientWorker - Sending Response: {"typeCsharp":0,"typeJava":"OK","errormessage":null,"user":null,"rezultat":null,"punctaje":null,"participanti":null}
+2025-04-14 14:26:35,835 [1] INFO server.StartServer - Start Sever
+2025-04-14 14:26:35,851 [1] INFO server.StartServer - Configuration Settings for database: Data source=C:\Users\redis\Desktop\Faculta\sem4\mpp\mpp-proiect-csharp-redarcher69\csharpPb9\server\triatlon.db
+2025-04-14 14:26:35,859 [1] INFO  - Creating ArbitruRepository with properties: System.Collections.Generic.SortedList`2[System.String,System.String]
+2025-04-14 14:26:35,860 [1] INFO  - Creating ProbaRepository with properties: System.Collections.Generic.SortedList`2[System.String,System.String]
+2025-04-14 14:26:35,860 [1] INFO  - Creating ArbitruRepository with properties: System.Collections.Generic.SortedList`2[System.String,System.String]
+2025-04-14 14:26:35,861 [1] INFO  - Creating ProbaRepository with properties: System.Collections.Generic.SortedList`2[System.String,System.String]
+2025-04-14 14:26:35,863 [1] INFO server.ServiceServer - Creating Service
+2025-04-14 14:26:35,863 [1] DEBUG server.StartServer - Starting server on IP 127.0.0.1 and port 55556
+2025-04-14 14:26:35,870 [1] DEBUG networking.Utils.JsonServer - Creating JsonChatServer...
+2025-04-14 14:26:35,987 [1] DEBUG networking.Utils.AbstractServer - Waiting for clients ...

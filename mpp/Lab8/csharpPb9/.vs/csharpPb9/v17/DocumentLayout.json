@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A3B05B61-13A2-4B60-927A-32511D929243}|persistene\\persistene.csproj|c:\\users\\redis\\desktop\\faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharppb9\\persistene\\repository\\arbitrurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3B05B61-13A2-4B60-927A-32511D929243}|persistene\\persistene.csproj|solutionrelative:persistene\\repository\\arbitrurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51ADDEE4-31DE-4667-BEB3-CAD4BC22CBB0}|Interfata\\client.csproj|C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\interfata\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{51ADDEE4-31DE-4667-BEB3-CAD4BC22CBB0}|Interfata\\client.csproj|solutionrelative:interfata\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288DDE21-DF0A-48A5-A418-69123430B6E0}|server\\server.csproj|c:\\users\\redis\\desktop\\faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharppb9\\server\\serviceserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288DDE21-DF0A-48A5-A418-69123430B6E0}|server\\server.csproj|solutionrelative:server\\serviceserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7CA13579-2830-4E99-AFF7-7951743AE3F0}|networking\\networking.csproj|c:\\users\\redis\\desktop\\faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharppb9\\networking\\protocol\\requesttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CA13579-2830-4E99-AFF7-7951743AE3F0}|networking\\networking.csproj|solutionrelative:networking\\protocol\\requesttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -63,16 +75,8 @@
       "RelativeMoniker": "D:0:0:{51ADDEE4-31DE-4667-BEB3-CAD4BC22CBB0}|Interfata\\client.csproj|solutionrelative:interfata\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{288DDE21-DF0A-48A5-A418-69123430B6E0}|server\\server.csproj|c:\\users\\redis\\desktop\\faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharppb9\\server\\serviceserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{288DDE21-DF0A-48A5-A418-69123430B6E0}|server\\server.csproj|solutionrelative:server\\serviceserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{51ADDEE4-31DE-4667-BEB3-CAD4BC22CBB0}|Interfata\\client.csproj|c:\\users\\redis\\desktop\\faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharppb9\\interfata\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51ADDEE4-31DE-4667-BEB3-CAD4BC22CBB0}|Interfata\\client.csproj|solutionrelative:interfata\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51ADDEE4-31DE-4667-BEB3-CAD4BC22CBB0}|Interfata\\client.csproj|C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\interfata\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{51ADDEE4-31DE-4667-BEB3-CAD4BC22CBB0}|Interfata\\client.csproj|solutionrelative:interfata\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{51ADDEE4-31DE-4667-BEB3-CAD4BC22CBB0}|Interfata\\client.csproj|c:\\users\\redis\\desktop\\faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharppb9\\interfata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -134,11 +138,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Response.cs",
               "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\networking\\protocol\\Response.cs",
               "RelativeDocumentMoniker": "networking\\protocol\\Response.cs",
@@ -147,8 +151,7 @@
               "ViewState": "AgIAAAoAAAAAAAAAAAAiwBAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-12T19:37:12.256Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -159,47 +162,41 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Request.cs",
-              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\networking\\protocol\\Request.cs",
-              "RelativeDocumentMoniker": "networking\\protocol\\Request.cs",
-              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\networking\\protocol\\Request.cs",
-              "RelativeToolTip": "networking\\protocol\\Request.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T19:43:53.794Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RequestType.cs",
-              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\networking\\protocol\\RequestType.cs",
-              "RelativeDocumentMoniker": "networking\\protocol\\RequestType.cs",
-              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\networking\\protocol\\RequestType.cs",
-              "RelativeToolTip": "networking\\protocol\\RequestType.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Title": "ArbitruRepository.cs",
+              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\persistene\\repository\\ArbitruRepository.cs",
+              "RelativeDocumentMoniker": "persistene\\repository\\ArbitruRepository.cs",
+              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\persistene\\repository\\ArbitruRepository.cs",
+              "RelativeToolTip": "persistene\\repository\\ArbitruRepository.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAAAJ0AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T19:48:08.042Z",
+              "WhenOpened": "2025-04-14T11:25:13.22Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ResponseType.cs",
-              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\networking\\protocol\\ResponseType.cs",
-              "RelativeDocumentMoniker": "networking\\protocol\\ResponseType.cs",
-              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\networking\\protocol\\ResponseType.cs",
-              "RelativeToolTip": "networking\\protocol\\ResponseType.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
+              "Title": "RequestType.cs",
+              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\networking\\protocol\\RequestType.cs",
+              "RelativeDocumentMoniker": "networking\\protocol\\RequestType.cs",
+              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\networking\\protocol\\RequestType.cs",
+              "RelativeToolTip": "networking\\protocol\\RequestType.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T19:50:18.48Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-12T19:48:08.042Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "DTOutils.cs",
               "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\networking\\DTO\\DTOutils.cs",
               "RelativeDocumentMoniker": "networking\\DTO\\DTOutils.cs",
@@ -207,12 +204,11 @@
               "RelativeToolTip": "networking\\DTO\\DTOutils.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T17:09:20.951Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-12T17:09:20.951Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "JsonProtocolUtils.cs",
               "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\networking\\protocol\\JsonProtocolUtils.cs",
               "RelativeDocumentMoniker": "networking\\protocol\\JsonProtocolUtils.cs",
@@ -220,12 +216,11 @@
               "RelativeToolTip": "networking\\protocol\\JsonProtocolUtils.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T19:49:40.136Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-12T19:49:40.136Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "ServerProxy.cs",
               "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\networking\\protocol\\ServerProxy.cs",
               "RelativeDocumentMoniker": "networking\\protocol\\ServerProxy.cs",
@@ -233,12 +228,11 @@
               "RelativeToolTip": "networking\\protocol\\ServerProxy.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAEEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T18:11:47.552Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-12T18:11:47.552Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "ServerUtils.cs",
               "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\networking\\Utils\\ServerUtils.cs",
               "RelativeDocumentMoniker": "networking\\Utils\\ServerUtils.cs",
@@ -246,12 +240,34 @@
               "RelativeToolTip": "networking\\Utils\\ServerUtils.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAmwFcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T23:13:32.71Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-12T23:13:32.71Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
+              "Title": "LoginController.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\Interfata\\controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Interfata\\controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\Interfata\\controllers\\LoginController.cs [Design]",
+              "RelativeToolTip": "Interfata\\controllers\\LoginController.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T20:54:56.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ResponseType.cs",
+              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\networking\\protocol\\ResponseType.cs",
+              "RelativeDocumentMoniker": "networking\\protocol\\ResponseType.cs",
+              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\networking\\protocol\\ResponseType.cs",
+              "RelativeToolTip": "networking\\protocol\\ResponseType.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T19:50:18.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "ClientWorker.cs",
               "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\networking\\protocol\\ClientWorker.cs",
               "RelativeDocumentMoniker": "networking\\protocol\\ClientWorker.cs",
@@ -259,12 +275,35 @@
               "RelativeToolTip": "networking\\protocol\\ClientWorker.cs",
               "ViewState": "AgIAAEgAAAAAAAAAAAAkwFIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T17:35:57.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-12T17:35:57.126Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
+              "Title": "ServiceServer.cs",
+              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\server\\ServiceServer.cs",
+              "RelativeDocumentMoniker": "server\\ServiceServer.cs",
+              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\server\\ServiceServer.cs",
+              "RelativeToolTip": "server\\ServiceServer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T18:53:50.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Request.cs",
+              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\networking\\protocol\\Request.cs",
+              "RelativeDocumentMoniker": "networking\\protocol\\Request.cs",
+              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\networking\\protocol\\Request.cs",
+              "RelativeToolTip": "networking\\protocol\\Request.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T19:43:53.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "RezultatDTO.cs",
               "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\networking\\DTO\\RezultatDTO.cs",
               "RelativeDocumentMoniker": "networking\\DTO\\RezultatDTO.cs",
@@ -272,12 +311,11 @@
               "RelativeToolTip": "networking\\DTO\\RezultatDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T20:21:42.912Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-12T20:21:42.912Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "StartServer.cs",
               "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\server\\StartServer.cs",
               "RelativeDocumentMoniker": "server\\StartServer.cs",
@@ -285,12 +323,11 @@
               "RelativeToolTip": "server\\StartServer.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAkwEUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T19:18:38.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-12T19:18:38.46Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "AppController.cs",
               "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\Interfata\\controllers\\AppController.cs",
               "RelativeDocumentMoniker": "Interfata\\controllers\\AppController.cs",
@@ -303,19 +340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AppController.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\Interfata\\controllers\\AppController.cs",
-              "RelativeDocumentMoniker": "Interfata\\controllers\\AppController.cs",
-              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\Interfata\\controllers\\AppController.cs [Design]",
-              "RelativeToolTip": "Interfata\\controllers\\AppController.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T21:03:51.317Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\Interfata\\Form1.cs",
               "RelativeDocumentMoniker": "Interfata\\Form1.cs",
@@ -328,32 +353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\Interfata\\Form1.cs",
-              "RelativeDocumentMoniker": "Interfata\\Form1.cs",
-              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\Interfata\\Form1.cs [Design]",
-              "RelativeToolTip": "Interfata\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T19:25:21.45Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ServiceServer.cs",
-              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\server\\ServiceServer.cs",
-              "RelativeDocumentMoniker": "server\\ServiceServer.cs",
-              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\server\\ServiceServer.cs",
-              "RelativeToolTip": "server\\ServiceServer.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwDYAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T18:53:50.954Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\Interfata\\controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "Interfata\\controllers\\LoginController.cs",
@@ -361,32 +361,33 @@
               "RelativeToolTip": "Interfata\\controllers\\LoginController.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAgwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T10:41:33.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-13T10:41:33.258Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AppController.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\Interfata\\controllers\\AppController.cs",
+              "RelativeDocumentMoniker": "Interfata\\controllers\\AppController.cs",
+              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\Interfata\\controllers\\AppController.cs [Design]",
+              "RelativeToolTip": "Interfata\\controllers\\AppController.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T21:03:51.317Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "LoginController.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\Interfata\\controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "Interfata\\controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\Interfata\\controllers\\LoginController.cs [Design]",
-              "RelativeToolTip": "Interfata\\controllers\\LoginController.cs [Design]",
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\Interfata\\Form1.cs",
+              "RelativeDocumentMoniker": "Interfata\\Form1.cs",
+              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\Interfata\\Form1.cs [Design]",
+              "RelativeToolTip": "Interfata\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T20:54:56.464Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-12T19:25:21.45Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "IService.cs",
               "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\services\\services\\IService.cs",
               "RelativeDocumentMoniker": "services\\services\\IService.cs",
@@ -398,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\Interfata\\Program.cs",
               "RelativeDocumentMoniker": "Interfata\\Program.cs",
@@ -410,7 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "AppController.Designer.cs",
               "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\Interfata\\controllers\\AppController.Designer.cs",
               "RelativeDocumentMoniker": "Interfata\\controllers\\AppController.Designer.cs",
@@ -418,12 +419,11 @@
               "RelativeToolTip": "Interfata\\controllers\\AppController.Designer.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAQwCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T10:49:43.93Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-13T10:49:43.93Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\Interfata\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Interfata\\Form1.Designer.cs",
@@ -431,12 +431,11 @@
               "RelativeToolTip": "Interfata\\Form1.Designer.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T21:49:29.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-12T21:49:29.22Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "service.cs",
               "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\services\\service.cs",
               "RelativeDocumentMoniker": "services\\service.cs",
@@ -448,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "PunctajParticipantDTO.cs",
               "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\networking\\DTO\\PunctajParticipantDTO.cs",
               "RelativeDocumentMoniker": "networking\\DTO\\PunctajParticipantDTO.cs",
@@ -460,7 +459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\networking\\DTO\\UserDTO.cs",
               "RelativeDocumentMoniker": "networking\\DTO\\UserDTO.cs",
@@ -472,7 +471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "app.config",
               "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\Interfata\\app.config",
               "RelativeDocumentMoniker": "Interfata\\app.config",
@@ -484,7 +483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "client",
               "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\Interfata\\client.csproj",
               "RelativeDocumentMoniker": "Interfata\\client.csproj",
@@ -495,7 +494,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "parole.txt",
               "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\Interfata\\resources\\parole.txt",
               "RelativeDocumentMoniker": "Interfata\\resources\\parole.txt",
@@ -507,7 +506,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "app.config",
               "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\server\\app.config",
               "RelativeDocumentMoniker": "server\\app.config",
@@ -519,7 +518,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "log4net.config",
               "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\server\\log4net.config",
               "RelativeDocumentMoniker": "server\\log4net.config",
@@ -531,7 +530,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "AppController.cs [Design]",
               "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\Interfata\\controllers\\AppController.cs",
               "RelativeDocumentMoniker": "Interfata\\controllers\\AppController.cs",
