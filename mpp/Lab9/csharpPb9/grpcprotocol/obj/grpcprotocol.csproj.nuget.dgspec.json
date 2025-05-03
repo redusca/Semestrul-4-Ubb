@@ -1,0 +1,309 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\grpcprotocol\\grpcprotocol.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\csharpPb9\\model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\csharpPb9\\model.csproj",
+        "projectName": "model",
+        "projectPath": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\csharpPb9\\model.csproj",
+        "packagesPath": "C:\\Users\\redis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\csharpPb9\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\redis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[3.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\grpcprotocol\\grpcprotocol.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\grpcprotocol\\grpcprotocol.csproj",
+        "projectName": "grpcprotocol",
+        "projectPath": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\grpcprotocol\\grpcprotocol.csproj",
+        "packagesPath": "C:\\Users\\redis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\grpcprotocol\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\redis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\services\\services.csproj": {
+                "projectPath": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\services\\services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.71.0, )"
+            },
+            "Grpc.Core": {
+              "target": "Package",
+              "version": "[2.46.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\persistene\\persistene.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\persistene\\persistene.csproj",
+        "projectName": "persistene",
+        "projectPath": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\persistene\\persistene.csproj",
+        "packagesPath": "C:\\Users\\redis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\persistene\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\redis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\csharpPb9\\model.csproj": {
+                "projectPath": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\csharpPb9\\model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\services\\services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\services\\services.csproj",
+        "projectName": "services",
+        "projectPath": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\services\\services.csproj",
+        "packagesPath": "C:\\Users\\redis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\redis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\csharpPb9\\model.csproj": {
+                "projectPath": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\csharpPb9\\model.csproj"
+              },
+              "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\persistene\\persistene.csproj": {
+                "projectPath": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\persistene\\persistene.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.71.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

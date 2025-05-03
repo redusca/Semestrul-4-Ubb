@@ -1,4 +1,1 @@
-# Proiectele [C#](https://github.com/redusca/Semestrul-4-Ubb/tree/main/mpp/Lab8) , [Java](https://github.com/redusca/Semestrul-4-Ubb/tree/main/mpp/Lab7) au functiile / componentele necesare de traduce a obiectelor de tip enum prin json , astfel facand comunicarea posibila intre java si cSharp:
-- Responsurile si Requesturile au 2 campuri de tip , unul csharp , unul java ( In java enum este string iar in C# numar)
-- In java clasa [CsharpTranslateType](https://github.com/redusca/Semestrul-4-Ubb/blob/main/mpp/Lab7/javaPb9/networking/src/main/java/ro/mpp2024/protocol/CharpTranslateType.java) : traduce tipul java in csharp cu un dictionar
-- In C# : [Response](https://github.com/redusca/Semestrul-4-Ubb/blob/main/mpp/Lab8/csharpPb9/networking/protocol/Response.cs) si [Request](https://github.com/redusca/Semestrul-4-Ubb/blob/main/mpp/Lab8/csharpPb9/networking/protocol/Request.cs) au set-uri si get-uri specifice pentru tipul java
+# Proiectele [C#](https://github.com/redusca/Semestrul-4-Ubb/tree/main/mpp/Lab9/csharpPb9) , [Java](https://github.com/redusca/Semestrul-4-Ubb/tree/main/mpp/Lab9/javaPb9) au comunicat prin server C# si client Java cu ajutorul grpc

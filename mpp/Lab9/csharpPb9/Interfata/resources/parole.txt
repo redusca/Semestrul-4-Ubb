@@ -1,0 +1,6 @@
+andrei03 = 12345678Wa
+bucatarul = 123456789Ww
+coco123 = abcdefgW123
+supermario = 12341234Ab
+"jojoBiz "= part2bestPart
+ARBITRU = a123123123A

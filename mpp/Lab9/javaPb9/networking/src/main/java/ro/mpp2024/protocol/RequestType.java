@@ -1,0 +1,5 @@
+package ro.mpp2024.protocol;
+
+public enum RequestType {
+    LOGIN,LOGOUT,GET_REZULTATE,ADD_REZULTAT,GET_ALL_REZULTATE,GET_PARTICIPANTI;
+}

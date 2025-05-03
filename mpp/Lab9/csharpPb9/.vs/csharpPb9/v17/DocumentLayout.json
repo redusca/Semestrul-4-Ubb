@@ -1,0 +1,271 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{51ADDEE4-31DE-4667-BEB3-CAD4BC22CBB0}|Interfata\\client.csproj|c:\\users\\redis\\desktop\\faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharppb9\\interfata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51ADDEE4-31DE-4667-BEB3-CAD4BC22CBB0}|Interfata\\client.csproj|solutionrelative:interfata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51ADDEE4-31DE-4667-BEB3-CAD4BC22CBB0}|Interfata\\client.csproj|c:\\users\\redis\\desktop\\faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharppb9\\interfata\\controllers\\appcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51ADDEE4-31DE-4667-BEB3-CAD4BC22CBB0}|Interfata\\client.csproj|solutionrelative:interfata\\controllers\\appcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51ADDEE4-31DE-4667-BEB3-CAD4BC22CBB0}|Interfata\\client.csproj|c:\\users\\redis\\desktop\\faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharppb9\\interfata\\controllers\\appcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{51ADDEE4-31DE-4667-BEB3-CAD4BC22CBB0}|Interfata\\client.csproj|solutionrelative:interfata\\controllers\\appcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA12E64-6334-496A-A720-6F401199133A}|grpcprotocol\\grpcprotocol.csproj|c:\\users\\redis\\desktop\\faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharppb9\\grpcprotocol\\grpcproxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA12E64-6334-496A-A720-6F401199133A}|grpcprotocol\\grpcprotocol.csproj|solutionrelative:grpcprotocol\\grpcproxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA12E64-6334-496A-A720-6F401199133A}|grpcprotocol\\grpcprotocol.csproj|c:\\users\\redis\\desktop\\faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharppb9\\grpcprotocol\\triatlonserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA12E64-6334-496A-A720-6F401199133A}|grpcprotocol\\grpcprotocol.csproj|solutionrelative:grpcprotocol\\triatlonserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA12E64-6334-496A-A720-6F401199133A}|grpcprotocol\\grpcprotocol.csproj|c:\\users\\redis\\desktop\\faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharppb9\\grpcprotocol\\grpcserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA12E64-6334-496A-A720-6F401199133A}|grpcprotocol\\grpcprotocol.csproj|solutionrelative:grpcprotocol\\grpcserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288DDE21-DF0A-48A5-A418-69123430B6E0}|server\\server.csproj|c:\\users\\redis\\desktop\\faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharppb9\\server\\startserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288DDE21-DF0A-48A5-A418-69123430B6E0}|server\\server.csproj|solutionrelative:server\\startserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA12E64-6334-496A-A720-6F401199133A}|grpcprotocol\\grpcprotocol.csproj|c:\\users\\redis\\desktop\\faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharppb9\\grpcprotocol\\protos\\grpc.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{2BA12E64-6334-496A-A720-6F401199133A}|grpcprotocol\\grpcprotocol.csproj|solutionrelative:grpcprotocol\\protos\\grpc.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D86D448D-DDE8-46EA-9B11-94835A5E5D07}|csharpPb9\\model.csproj|c:\\users\\redis\\desktop\\faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharppb9\\csharppb9\\model.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D86D448D-DDE8-46EA-9B11-94835A5E5D07}|csharpPb9\\model.csproj|solutionrelative:csharppb9\\model.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CA13579-2830-4E99-AFF7-7951743AE3F0}|networking\\networking.csproj|c:\\users\\redis\\desktop\\faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharppb9\\networking\\protocol\\clientworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CA13579-2830-4E99-AFF7-7951743AE3F0}|networking\\networking.csproj|solutionrelative:networking\\protocol\\clientworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CA13579-2830-4E99-AFF7-7951743AE3F0}|networking\\networking.csproj|c:\\users\\redis\\desktop\\faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharppb9\\networking\\utils\\serverutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CA13579-2830-4E99-AFF7-7951743AE3F0}|networking\\networking.csproj|solutionrelative:networking\\utils\\serverutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288DDE21-DF0A-48A5-A418-69123430B6E0}|server\\server.csproj|c:\\users\\redis\\desktop\\faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharppb9\\server\\server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{288DDE21-DF0A-48A5-A418-69123430B6E0}|server\\server.csproj|solutionrelative:server\\server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39A989E4-3506-4730-AFF5-681B7E05F9FB}|services\\services.csproj|c:\\users\\redis\\desktop\\faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharppb9\\services\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39A989E4-3506-4730-AFF5-681B7E05F9FB}|services\\services.csproj|solutionrelative:services\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B90296-508E-4F48-9AE8-55E5ED24A393}|Protos{57B90296-508E-4F48-9AE8-55E5ED24A393}|C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\triatlon.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{57B90296-508E-4F48-9AE8-55E5ED24A393}|Protos{57B90296-508E-4F48-9AE8-55E5ED24A393}|solutionrelative:triatlon.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 165,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GrpcProxy.cs",
+              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\grpcprotocol\\GrpcProxy.cs",
+              "RelativeDocumentMoniker": "grpcprotocol\\GrpcProxy.cs",
+              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\grpcprotocol\\GrpcProxy.cs",
+              "RelativeToolTip": "grpcprotocol\\GrpcProxy.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAvwE0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T22:00:11.115Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppController.cs",
+              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\Interfata\\controllers\\AppController.cs",
+              "RelativeDocumentMoniker": "Interfata\\controllers\\AppController.cs",
+              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\Interfata\\controllers\\AppController.cs",
+              "RelativeToolTip": "Interfata\\controllers\\AppController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T23:29:06.228Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TriatlonServiceImpl.cs",
+              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\grpcprotocol\\TriatlonServiceImpl.cs",
+              "RelativeDocumentMoniker": "grpcprotocol\\TriatlonServiceImpl.cs",
+              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\grpcprotocol\\TriatlonServiceImpl.cs",
+              "RelativeToolTip": "grpcprotocol\\TriatlonServiceImpl.cs",
+              "ViewState": "AgIAALYAAAAAAAAAAAAgwMYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T21:48:17.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GrpcServer.cs",
+              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\grpcprotocol\\GrpcServer.cs",
+              "RelativeDocumentMoniker": "grpcprotocol\\GrpcServer.cs",
+              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\grpcprotocol\\GrpcServer.cs",
+              "RelativeToolTip": "grpcprotocol\\GrpcServer.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAqwFUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T23:12:02.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppController.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\Interfata\\controllers\\AppController.cs",
+              "RelativeDocumentMoniker": "Interfata\\controllers\\AppController.cs",
+              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\Interfata\\controllers\\AppController.cs [Design]",
+              "RelativeToolTip": "Interfata\\controllers\\AppController.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T23:28:57.232Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StartServer.cs",
+              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\server\\StartServer.cs",
+              "RelativeDocumentMoniker": "server\\StartServer.cs",
+              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\server\\StartServer.cs",
+              "RelativeToolTip": "server\\StartServer.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwD0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T20:49:06.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "grpc.proto",
+              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\grpcprotocol\\Protos\\grpc.proto",
+              "RelativeDocumentMoniker": "grpcprotocol\\Protos\\grpc.proto",
+              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\grpcprotocol\\Protos\\grpc.proto",
+              "RelativeToolTip": "grpcprotocol\\Protos\\grpc.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-05-02T21:33:16.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\Interfata\\Program.cs",
+              "RelativeDocumentMoniker": "Interfata\\Program.cs",
+              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\Interfata\\Program.cs",
+              "RelativeToolTip": "Interfata\\Program.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAQwDkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T22:04:45.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "model",
+              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\csharpPb9\\model.csproj",
+              "RelativeDocumentMoniker": "csharpPb9\\model.csproj",
+              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\csharpPb9\\model.csproj",
+              "RelativeToolTip": "csharpPb9\\model.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-02T22:20:15.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ServerUtils.cs",
+              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\networking\\Utils\\ServerUtils.cs",
+              "RelativeDocumentMoniker": "networking\\Utils\\ServerUtils.cs",
+              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\networking\\Utils\\ServerUtils.cs",
+              "RelativeToolTip": "networking\\Utils\\ServerUtils.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T21:28:14.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClientWorker.cs",
+              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\networking\\protocol\\ClientWorker.cs",
+              "RelativeDocumentMoniker": "networking\\protocol\\ClientWorker.cs",
+              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\networking\\protocol\\ClientWorker.cs",
+              "RelativeToolTip": "networking\\protocol\\ClientWorker.cs",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T20:58:16.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "server",
+              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\server\\server.csproj",
+              "RelativeDocumentMoniker": "server\\server.csproj",
+              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\server\\server.csproj",
+              "RelativeToolTip": "server\\server.csproj",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-02T20:48:19.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "service.cs",
+              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\services\\service.cs",
+              "RelativeDocumentMoniker": "services\\service.cs",
+              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\services\\service.cs",
+              "RelativeToolTip": "services\\service.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T20:31:27.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "triatlon.proto",
+              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\triatlon.proto",
+              "RelativeDocumentMoniker": "triatlon.proto",
+              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\triatlon.proto",
+              "RelativeToolTip": "triatlon.proto",
+              "ViewState": "AgIAADwAAAAAAAAAAAAIwF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-05-02T20:28:12.39Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

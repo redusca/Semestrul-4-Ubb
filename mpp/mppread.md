@@ -10,4 +10,4 @@
    - **[Lab6](Lab6)** - interfata grafica pentru proiectul java
    - **[Lab7](Lab7)** - Server/Client conexiuni protocol Json pentru proiectul Java
    - **[Lab8](Lab8)** - Server/Client conexiuni protocol Json pentru proiectul C#
-   - **[Lab9](Lab9)** - Comunicare C# si Java
+   - **[Lab9](Lab9)** - Comunicare C#(server) si Java(client) prin gRPC

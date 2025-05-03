@@ -1,0 +1,91 @@
+syntax = "proto3";
+
+option csharp_namespace = "csharpPb9.Protos";
+
+package triatlonapp;
+
+// Service definition
+service TriatlonService {
+  // Authentication
+  rpc Login (LoginRequest) returns (ArbitruResponse);
+  rpc Logout (LogoutRequest) returns (StatusResponse);
+  
+  // Data operations
+  rpc GetParticipanti (EmptyRequest) returns (ParticipantiResponse);
+  rpc GetRezultate (RezultateRequest) returns (PunctajeResponse);
+  rpc GetAllRezultate (EmptyRequest) returns (PunctajeResponse);
+  rpc AddRezultat (RezultatRequest) returns (StatusResponse);
+  
+  // Server streaming for updates
+  rpc SubscribeToRezultatUpdates (EmptyRequest) returns (stream RezultatNotification);
+}
+
+// Request messages
+message EmptyRequest {}
+
+message LoginRequest {
+  string username = 1;
+  string password = 2;
+}
+
+message LogoutRequest {
+  int64 id = 1;
+  string username = 2;
+}
+
+message RezultateRequest {
+  string id_proba = 1;
+}
+
+message RezultatRequest {
+  int64 id_participant = 1;
+  string nume_participant = 2;
+  string prenume_participant = 3;
+  string id_proba = 4;
+  int64 punctaj = 5;
+}
+
+// Response messages
+message StatusResponse {
+  bool success = 1;
+  string error_message = 2;
+}
+
+message PunctajParticipantDTO {
+  int32 id = 1;
+  string nume = 2;
+  string prenume = 3;
+  int32 varsta = 4;
+  double punctaj = 5;
+}
+
+message ArbitruResponse {
+  bool success = 1;
+  string error_message = 2;
+  
+  // User data if successful
+  int64 id = 3;
+  string nume = 4;
+  string username = 5;
+  string id_proba = 6;
+}
+
+message ParticipantiResponse {
+  bool success = 1;
+  string error_message = 2;
+  repeated PunctajParticipantDTO participanti = 3;
+}
+
+message PunctajeResponse {
+  bool success = 1;
+  string error_message = 2;
+  repeated PunctajParticipantDTO punctaje = 3;
+}
+
+message RezultatNotification {
+  int64 id_participant = 1;
+  string nume_participant = 2;
+  string prenume_participant = 3;
+  string id_proba = 4;
+  int64 punctaj = 5;
+}
