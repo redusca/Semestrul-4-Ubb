@@ -19,3 +19,8 @@
   3. [Tester](Faza1/Interfete/TesterPageExample.PNG),
   4. [Programmer](Faza1/Interfete/ProgrammerPageExample.PNG)
 
+# [Faza2](Faza2)
+
+## - Proiect
+
+## - Diagrame sequence si collab ()
