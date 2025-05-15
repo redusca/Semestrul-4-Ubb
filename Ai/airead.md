@@ -19,5 +19,5 @@
       - rezolvarea regresie pentru datele oferite cu metoda patratelor ([cerinta](Lab5/AI-lab05.md)).
 - 🛒 [Lab6](Lab6) Regresie liniara si Regresie logistica binara si multipla:
       - rezolvarea cu gradient descrescator ([cerinta](Lab6/AI-lab6.md)).
-- 🤖[Lab7](Lab7) Antrenare ANN si CNN pentru problema de clasificare filtru poze ([cerinta](Lab7/AI-lab7.md)
-- 🎭[Lab8](Lab8) Clasificare de emotii din text ([cerinta](Lab8/AI-lab8.md)
+- 🤖[Lab7](Lab7) Antrenare ANN si CNN pentru problema de clasificare filtru poze ([cerinta](Lab7/AI-lab7.md))
+- 🎭[Lab8](Lab8) Clasificare de emotii din text ([cerinta](Lab8/AI-lab8.md))
