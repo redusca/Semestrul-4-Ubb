@@ -1,0 +1,12 @@
+rootProject.name = 'javaPb9'
+include 'model'
+include 'services'
+include 'persistence'
+include 'server'
+include 'client'
+include 'networking'
+include 'grpcClient'
+include 'untitled'
+include 'httpClient'
+include 'restClient'
+

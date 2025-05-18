@@ -1,0 +1,457 @@
+18 May 2025 16:07:02,188 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+18 May 2025 16:07:02,190 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - scheme set to 'http'
+18 May 2025 16:07:02,190 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - SCHEME_OR_PATH -> START, index=4, componentIndex=0
+18 May 2025 16:07:02,190 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> HOST_OR_PATH, index=5, componentIndex=5
+18 May 2025 16:07:02,191 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to ''
+18 May 2025 16:07:02,191 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST_OR_PATH -> HOST, index=6, componentIndex=7
+18 May 2025 16:07:02,194 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to 'localhost'
+18 May 2025 16:07:02,195 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST -> PORT, index=16, componentIndex=17
+18 May 2025 16:07:02,195 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - port set to '7063'
+18 May 2025 16:07:02,195 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - PORT -> PATH, index=21, componentIndex=21
+18 May 2025 16:07:02,195 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - path set to '/api/proba'
+18 May 2025 16:07:02,207 DEBUG org.springframework.core.log.CompositeLog 127 debug - HTTP POST http://localhost:7063/api/proba
+18 May 2025 16:07:02,223 DEBUG org.springframework.core.log.CompositeLog 127 debug - Accept=[text/plain, application/json, application/*+json, */*]
+18 May 2025 16:07:02,224 DEBUG org.springframework.core.log.CompositeLog 127 debug - Writing [dto.ProbaDTO{nume='Proba1', categorie='ciclism'}] with org.springframework.http.converter.json.GsonHttpMessageConverter
+18 May 2025 16:07:02,251 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+18 May 2025 16:07:02,251 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - scheme set to 'http'
+18 May 2025 16:07:02,251 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - SCHEME_OR_PATH -> START, index=4, componentIndex=0
+18 May 2025 16:07:02,251 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> HOST_OR_PATH, index=5, componentIndex=5
+18 May 2025 16:07:02,251 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to ''
+18 May 2025 16:07:02,251 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST_OR_PATH -> HOST, index=6, componentIndex=7
+18 May 2025 16:07:02,252 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to 'localhost'
+18 May 2025 16:07:02,252 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST -> PORT, index=16, componentIndex=17
+18 May 2025 16:07:02,252 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - port set to '7063'
+18 May 2025 16:07:02,252 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - PORT -> PATH, index=21, componentIndex=21
+18 May 2025 16:07:02,252 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - path set to '/api/proba'
+18 May 2025 16:07:02,253 DEBUG org.springframework.core.log.CompositeLog 127 debug - HTTP GET http://localhost:7063/api/proba
+18 May 2025 16:07:02,253 DEBUG org.springframework.core.log.CompositeLog 127 debug - Accept=[text/plain, application/json, application/*+json, */*]
+18 May 2025 16:07:23,674 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+18 May 2025 16:07:23,677 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - scheme set to 'http'
+18 May 2025 16:07:23,677 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - SCHEME_OR_PATH -> START, index=4, componentIndex=0
+18 May 2025 16:07:23,678 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> HOST_OR_PATH, index=5, componentIndex=5
+18 May 2025 16:07:23,678 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to ''
+18 May 2025 16:07:23,678 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST_OR_PATH -> HOST, index=6, componentIndex=7
+18 May 2025 16:07:23,682 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to 'localhost'
+18 May 2025 16:07:23,683 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST -> PORT, index=16, componentIndex=17
+18 May 2025 16:07:23,683 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - port set to '7063'
+18 May 2025 16:07:23,683 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - PORT -> PATH, index=21, componentIndex=21
+18 May 2025 16:07:23,683 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - path set to '/api/proba'
+18 May 2025 16:07:23,693 DEBUG org.springframework.core.log.CompositeLog 127 debug - HTTP POST http://localhost:7063/api/proba
+18 May 2025 16:07:23,706 DEBUG org.springframework.core.log.CompositeLog 127 debug - Accept=[text/plain, application/json, application/*+json, */*]
+18 May 2025 16:07:23,707 DEBUG org.springframework.core.log.CompositeLog 127 debug - Writing [dto.ProbaDTO{nume='Proba1', categorie='ciclism'}] with org.springframework.http.converter.json.GsonHttpMessageConverter
+18 May 2025 16:07:23,758 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+18 May 2025 16:07:23,759 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - scheme set to 'http'
+18 May 2025 16:07:23,759 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - SCHEME_OR_PATH -> START, index=4, componentIndex=0
+18 May 2025 16:07:23,760 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> HOST_OR_PATH, index=5, componentIndex=5
+18 May 2025 16:07:23,760 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to ''
+18 May 2025 16:07:23,760 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST_OR_PATH -> HOST, index=6, componentIndex=7
+18 May 2025 16:07:23,760 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to 'localhost'
+18 May 2025 16:07:23,760 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST -> PORT, index=16, componentIndex=17
+18 May 2025 16:07:23,760 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - port set to '7063'
+18 May 2025 16:07:23,761 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - PORT -> PATH, index=21, componentIndex=21
+18 May 2025 16:07:23,761 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - path set to '/api/proba'
+18 May 2025 16:07:23,761 DEBUG org.springframework.core.log.CompositeLog 127 debug - HTTP GET http://localhost:7063/api/proba
+18 May 2025 16:07:23,761 DEBUG org.springframework.core.log.CompositeLog 127 debug - Accept=[text/plain, application/json, application/*+json, */*]
+18 May 2025 16:10:53,335 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+18 May 2025 16:10:53,338 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - scheme set to 'http'
+18 May 2025 16:10:53,338 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - SCHEME_OR_PATH -> START, index=4, componentIndex=0
+18 May 2025 16:10:53,338 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> HOST_OR_PATH, index=5, componentIndex=5
+18 May 2025 16:10:53,339 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to ''
+18 May 2025 16:10:53,339 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST_OR_PATH -> HOST, index=6, componentIndex=7
+18 May 2025 16:10:53,341 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to 'localhost'
+18 May 2025 16:10:53,342 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST -> PORT, index=16, componentIndex=17
+18 May 2025 16:10:53,342 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - port set to '7063'
+18 May 2025 16:10:53,342 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - PORT -> PATH, index=21, componentIndex=21
+18 May 2025 16:10:53,343 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - path set to '/api/proba'
+18 May 2025 16:10:53,351 DEBUG org.springframework.core.log.CompositeLog 127 debug - HTTP POST http://localhost:7063/api/proba
+18 May 2025 16:10:53,363 DEBUG org.springframework.core.log.CompositeLog 127 debug - Accept=[text/plain, application/json, application/*+json, */*]
+18 May 2025 16:10:53,364 DEBUG org.springframework.core.log.CompositeLog 127 debug - Writing [dto.ProbaDTO{nume='Proba1', categorie='ciclism'}] with org.springframework.http.converter.json.GsonHttpMessageConverter
+18 May 2025 16:10:53,394 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+18 May 2025 16:10:53,394 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - scheme set to 'http'
+18 May 2025 16:10:53,394 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - SCHEME_OR_PATH -> START, index=4, componentIndex=0
+18 May 2025 16:10:53,394 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> HOST_OR_PATH, index=5, componentIndex=5
+18 May 2025 16:10:53,395 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to ''
+18 May 2025 16:10:53,395 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST_OR_PATH -> HOST, index=6, componentIndex=7
+18 May 2025 16:10:53,395 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to 'localhost'
+18 May 2025 16:10:53,395 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST -> PORT, index=16, componentIndex=17
+18 May 2025 16:10:53,395 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - port set to '7063'
+18 May 2025 16:10:53,395 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - PORT -> PATH, index=21, componentIndex=21
+18 May 2025 16:10:53,395 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - path set to '/api/proba'
+18 May 2025 16:10:53,396 DEBUG org.springframework.core.log.CompositeLog 127 debug - HTTP GET http://localhost:7063/api/proba
+18 May 2025 16:10:53,396 DEBUG org.springframework.core.log.CompositeLog 127 debug - Accept=[text/plain, application/json, application/*+json, */*]
+18 May 2025 16:12:08,344 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+18 May 2025 16:12:08,346 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - scheme set to 'http'
+18 May 2025 16:12:08,347 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - SCHEME_OR_PATH -> START, index=4, componentIndex=0
+18 May 2025 16:12:08,347 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> HOST_OR_PATH, index=5, componentIndex=5
+18 May 2025 16:12:08,348 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to ''
+18 May 2025 16:12:08,348 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST_OR_PATH -> HOST, index=6, componentIndex=7
+18 May 2025 16:12:08,351 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to 'localhost'
+18 May 2025 16:12:08,351 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST -> PORT, index=16, componentIndex=17
+18 May 2025 16:12:08,351 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - port set to '7063'
+18 May 2025 16:12:08,351 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - PORT -> PATH, index=21, componentIndex=21
+18 May 2025 16:12:08,352 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - path set to '/api/proba'
+18 May 2025 16:12:08,366 DEBUG org.springframework.core.log.CompositeLog 127 debug - HTTP GET http://localhost:7063/api/proba
+18 May 2025 16:12:08,380 DEBUG org.springframework.core.log.CompositeLog 127 debug - Accept=[text/plain, application/json, application/*+json, */*]
+18 May 2025 16:12:23,873 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+18 May 2025 16:12:23,876 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - scheme set to 'http'
+18 May 2025 16:12:23,876 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - SCHEME_OR_PATH -> START, index=4, componentIndex=0
+18 May 2025 16:12:23,876 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> HOST_OR_PATH, index=5, componentIndex=5
+18 May 2025 16:12:23,877 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to ''
+18 May 2025 16:12:23,877 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST_OR_PATH -> HOST, index=6, componentIndex=7
+18 May 2025 16:12:23,880 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to 'localhost'
+18 May 2025 16:12:23,880 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST -> PORT, index=16, componentIndex=17
+18 May 2025 16:12:23,880 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - port set to '7063'
+18 May 2025 16:12:23,881 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - PORT -> PATH, index=21, componentIndex=21
+18 May 2025 16:12:23,881 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - path set to '/api/proba'
+18 May 2025 16:12:23,895 DEBUG org.springframework.core.log.CompositeLog 127 debug - HTTP GET http://localhost:7063/api/proba
+18 May 2025 16:12:23,912 DEBUG org.springframework.core.log.CompositeLog 127 debug - Accept=[text/plain, application/json, application/*+json, */*]
+18 May 2025 16:14:08,125 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+18 May 2025 16:14:08,137 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - scheme set to 'http'
+18 May 2025 16:14:08,137 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - SCHEME_OR_PATH -> START, index=4, componentIndex=0
+18 May 2025 16:14:08,139 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> HOST_OR_PATH, index=5, componentIndex=5
+18 May 2025 16:14:08,140 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to ''
+18 May 2025 16:14:08,142 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST_OR_PATH -> HOST, index=6, componentIndex=7
+18 May 2025 16:14:08,159 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to 'localhost'
+18 May 2025 16:14:08,160 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST -> PORT, index=16, componentIndex=17
+18 May 2025 16:14:08,161 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - port set to '7063'
+18 May 2025 16:14:08,162 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - PORT -> PATH, index=21, componentIndex=21
+18 May 2025 16:14:08,162 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - path set to '/api/proba'
+18 May 2025 16:14:08,214 DEBUG org.springframework.core.log.CompositeLog 127 debug - HTTP GET http://localhost:7063/api/proba
+18 May 2025 16:14:08,260 DEBUG org.springframework.core.log.CompositeLog 127 debug - Accept=[text/plain, application/json, application/*+json, */*]
+18 May 2025 16:16:16,051 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+18 May 2025 16:16:16,054 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - scheme set to 'http'
+18 May 2025 16:16:16,054 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - SCHEME_OR_PATH -> START, index=4, componentIndex=0
+18 May 2025 16:16:16,054 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> HOST_OR_PATH, index=5, componentIndex=5
+18 May 2025 16:16:16,055 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to ''
+18 May 2025 16:16:16,055 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST_OR_PATH -> HOST, index=6, componentIndex=7
+18 May 2025 16:16:16,058 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to 'localhost'
+18 May 2025 16:16:16,058 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST -> PORT, index=16, componentIndex=17
+18 May 2025 16:16:16,059 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - port set to '7063'
+18 May 2025 16:16:16,059 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - PORT -> PATH, index=21, componentIndex=21
+18 May 2025 16:16:16,059 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - path set to '/api/proba'
+18 May 2025 16:16:16,079 DEBUG org.springframework.core.log.CompositeLog 127 debug - HTTP GET http://localhost:7063/api/proba
+18 May 2025 16:16:16,093 DEBUG org.springframework.core.log.CompositeLog 127 debug - Accept=[text/plain, application/json, application/*+json, */*]
+18 May 2025 16:17:07,657 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+18 May 2025 16:17:07,660 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - scheme set to 'https'
+18 May 2025 16:17:07,660 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - SCHEME_OR_PATH -> START, index=5, componentIndex=0
+18 May 2025 16:17:07,660 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> HOST_OR_PATH, index=6, componentIndex=6
+18 May 2025 16:17:07,660 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to ''
+18 May 2025 16:17:07,660 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST_OR_PATH -> HOST, index=7, componentIndex=8
+18 May 2025 16:17:07,663 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to 'localhost'
+18 May 2025 16:17:07,663 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST -> PORT, index=17, componentIndex=18
+18 May 2025 16:17:07,663 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - port set to '7063'
+18 May 2025 16:17:07,664 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - PORT -> PATH, index=22, componentIndex=22
+18 May 2025 16:17:07,664 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - path set to '/api/proba'
+18 May 2025 16:17:07,685 DEBUG org.springframework.core.log.CompositeLog 127 debug - HTTP GET https://localhost:7063/api/proba
+18 May 2025 16:17:07,696 DEBUG org.springframework.core.log.CompositeLog 127 debug - Accept=[text/plain, application/json, application/*+json, */*]
+18 May 2025 16:17:07,859 DEBUG org.springframework.core.log.CompositeLog 127 debug - Response 200 OK
+18 May 2025 16:17:07,863 DEBUG org.springframework.core.log.CompositeLog 127 debug - Reading to [java.lang.String] as "application/json;charset=utf-8"
+18 May 2025 16:17:33,528 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+18 May 2025 16:17:33,531 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - scheme set to 'http'
+18 May 2025 16:17:33,531 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - SCHEME_OR_PATH -> START, index=4, componentIndex=0
+18 May 2025 16:17:33,532 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> HOST_OR_PATH, index=5, componentIndex=5
+18 May 2025 16:17:33,532 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to ''
+18 May 2025 16:17:33,532 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST_OR_PATH -> HOST, index=6, componentIndex=7
+18 May 2025 16:17:33,535 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to 'localhost'
+18 May 2025 16:17:33,535 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST -> PORT, index=16, componentIndex=17
+18 May 2025 16:17:33,536 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - port set to '7063'
+18 May 2025 16:17:33,536 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - PORT -> PATH, index=21, componentIndex=21
+18 May 2025 16:17:33,536 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - path set to '/api/proba'
+18 May 2025 16:17:33,546 DEBUG org.springframework.core.log.CompositeLog 127 debug - HTTP POST http://localhost:7063/api/proba
+18 May 2025 16:17:33,560 DEBUG org.springframework.core.log.CompositeLog 127 debug - Accept=[text/plain, application/json, application/*+json, */*]
+18 May 2025 16:17:33,562 DEBUG org.springframework.core.log.CompositeLog 127 debug - Writing [dto.ProbaDTO{nume='Proba1', categorie='ciclism'}] with org.springframework.http.converter.json.GsonHttpMessageConverter
+18 May 2025 16:17:33,592 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+18 May 2025 16:17:33,592 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - scheme set to 'http'
+18 May 2025 16:17:33,592 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - SCHEME_OR_PATH -> START, index=4, componentIndex=0
+18 May 2025 16:17:33,592 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> HOST_OR_PATH, index=5, componentIndex=5
+18 May 2025 16:17:33,592 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to ''
+18 May 2025 16:17:33,593 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST_OR_PATH -> HOST, index=6, componentIndex=7
+18 May 2025 16:17:33,593 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to 'localhost'
+18 May 2025 16:17:33,593 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST -> PORT, index=16, componentIndex=17
+18 May 2025 16:17:33,593 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - port set to '7063'
+18 May 2025 16:17:33,593 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - PORT -> PATH, index=21, componentIndex=21
+18 May 2025 16:17:33,593 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - path set to '/api/proba'
+18 May 2025 16:17:33,594 DEBUG org.springframework.core.log.CompositeLog 127 debug - HTTP GET http://localhost:7063/api/proba
+18 May 2025 16:17:33,594 DEBUG org.springframework.core.log.CompositeLog 127 debug - Accept=[text/plain, application/json, application/*+json, */*]
+18 May 2025 16:17:45,026 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+18 May 2025 16:17:45,029 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - scheme set to 'https'
+18 May 2025 16:17:45,029 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - SCHEME_OR_PATH -> START, index=5, componentIndex=0
+18 May 2025 16:17:45,029 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> HOST_OR_PATH, index=6, componentIndex=6
+18 May 2025 16:17:45,030 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to ''
+18 May 2025 16:17:45,030 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST_OR_PATH -> HOST, index=7, componentIndex=8
+18 May 2025 16:17:45,033 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to 'localhost'
+18 May 2025 16:17:45,034 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST -> PORT, index=17, componentIndex=18
+18 May 2025 16:17:45,034 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - port set to '7063'
+18 May 2025 16:17:45,034 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - PORT -> PATH, index=22, componentIndex=22
+18 May 2025 16:17:45,034 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - path set to '/api/proba'
+18 May 2025 16:17:45,045 DEBUG org.springframework.core.log.CompositeLog 127 debug - HTTP POST https://localhost:7063/api/proba
+18 May 2025 16:17:45,058 DEBUG org.springframework.core.log.CompositeLog 127 debug - Accept=[text/plain, application/json, application/*+json, */*]
+18 May 2025 16:17:45,059 DEBUG org.springframework.core.log.CompositeLog 127 debug - Writing [dto.ProbaDTO{nume='Proba1', categorie='ciclism'}] with org.springframework.http.converter.json.GsonHttpMessageConverter
+18 May 2025 16:17:45,281 DEBUG org.springframework.core.log.CompositeLog 127 debug - Response 201 CREATED
+18 May 2025 16:17:45,282 DEBUG org.springframework.core.log.CompositeLog 127 debug - Reading to [java.lang.String] as "text/plain;charset=utf-8"
+18 May 2025 16:17:45,298 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+18 May 2025 16:17:45,298 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - scheme set to 'https'
+18 May 2025 16:17:45,298 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - SCHEME_OR_PATH -> START, index=5, componentIndex=0
+18 May 2025 16:17:45,298 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> HOST_OR_PATH, index=6, componentIndex=6
+18 May 2025 16:17:45,298 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to ''
+18 May 2025 16:17:45,299 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST_OR_PATH -> HOST, index=7, componentIndex=8
+18 May 2025 16:17:45,299 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to 'localhost'
+18 May 2025 16:17:45,299 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST -> PORT, index=17, componentIndex=18
+18 May 2025 16:17:45,299 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - port set to '7063'
+18 May 2025 16:17:45,299 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - PORT -> PATH, index=22, componentIndex=22
+18 May 2025 16:17:45,300 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - path set to '/api/proba'
+18 May 2025 16:17:45,300 DEBUG org.springframework.core.log.CompositeLog 127 debug - HTTP GET https://localhost:7063/api/proba
+18 May 2025 16:17:45,300 DEBUG org.springframework.core.log.CompositeLog 127 debug - Accept=[text/plain, application/json, application/*+json, */*]
+18 May 2025 16:17:45,304 DEBUG org.springframework.core.log.CompositeLog 127 debug - Response 200 OK
+18 May 2025 16:17:45,305 DEBUG org.springframework.core.log.CompositeLog 127 debug - Reading to [java.lang.String] as "application/json;charset=utf-8"
+18 May 2025 16:18:26,690 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+18 May 2025 16:18:26,693 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - scheme set to 'https'
+18 May 2025 16:18:26,693 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - SCHEME_OR_PATH -> START, index=5, componentIndex=0
+18 May 2025 16:18:26,693 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> HOST_OR_PATH, index=6, componentIndex=6
+18 May 2025 16:18:26,694 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to ''
+18 May 2025 16:18:26,694 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST_OR_PATH -> HOST, index=7, componentIndex=8
+18 May 2025 16:18:26,698 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to 'localhost'
+18 May 2025 16:18:26,698 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST -> PORT, index=17, componentIndex=18
+18 May 2025 16:18:26,698 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - port set to '7063'
+18 May 2025 16:18:26,699 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - PORT -> PATH, index=22, componentIndex=22
+18 May 2025 16:18:26,699 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - path set to '/api/proba'
+18 May 2025 16:18:26,711 DEBUG org.springframework.core.log.CompositeLog 127 debug - HTTP POST https://localhost:7063/api/proba
+18 May 2025 16:18:26,724 DEBUG org.springframework.core.log.CompositeLog 127 debug - Accept=[text/plain, application/json, application/*+json, */*]
+18 May 2025 16:18:26,726 DEBUG org.springframework.core.log.CompositeLog 127 debug - Writing [dto.ProbaDTO{nume='Proba1', categorie='ciclism'}] with org.springframework.http.converter.json.GsonHttpMessageConverter
+18 May 2025 16:18:26,842 DEBUG org.springframework.core.log.CompositeLog 127 debug - Response 201 CREATED
+18 May 2025 16:18:26,844 DEBUG org.springframework.core.log.CompositeLog 127 debug - Reading to [java.lang.String] as "text/plain;charset=utf-8"
+18 May 2025 16:18:26,861 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+18 May 2025 16:18:26,861 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - scheme set to 'https'
+18 May 2025 16:18:26,862 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - SCHEME_OR_PATH -> START, index=5, componentIndex=0
+18 May 2025 16:18:26,862 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> HOST_OR_PATH, index=6, componentIndex=6
+18 May 2025 16:18:26,862 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to ''
+18 May 2025 16:18:26,862 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST_OR_PATH -> HOST, index=7, componentIndex=8
+18 May 2025 16:18:26,862 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to 'localhost'
+18 May 2025 16:18:26,863 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST -> PORT, index=17, componentIndex=18
+18 May 2025 16:18:26,863 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - port set to '7063'
+18 May 2025 16:18:26,863 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - PORT -> PATH, index=22, componentIndex=22
+18 May 2025 16:18:26,864 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - path set to '/api/proba'
+18 May 2025 16:18:26,865 DEBUG org.springframework.core.log.CompositeLog 127 debug - HTTP GET https://localhost:7063/api/proba
+18 May 2025 16:18:26,865 DEBUG org.springframework.core.log.CompositeLog 127 debug - Accept=[text/plain, application/json, application/*+json, */*]
+18 May 2025 16:18:26,869 DEBUG org.springframework.core.log.CompositeLog 127 debug - Response 200 OK
+18 May 2025 16:18:26,869 DEBUG org.springframework.core.log.CompositeLog 127 debug - Reading to [java.lang.String] as "application/json;charset=utf-8"
+18 May 2025 16:24:36,385 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+18 May 2025 16:24:36,387 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - scheme set to 'https'
+18 May 2025 16:24:36,388 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - SCHEME_OR_PATH -> START, index=5, componentIndex=0
+18 May 2025 16:24:36,388 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> HOST_OR_PATH, index=6, componentIndex=6
+18 May 2025 16:24:36,388 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to ''
+18 May 2025 16:24:36,388 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST_OR_PATH -> HOST, index=7, componentIndex=8
+18 May 2025 16:24:36,391 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to 'localhost'
+18 May 2025 16:24:36,392 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST -> PORT, index=17, componentIndex=18
+18 May 2025 16:24:36,392 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - port set to '7063'
+18 May 2025 16:24:36,392 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - PORT -> PATH, index=22, componentIndex=22
+18 May 2025 16:24:36,393 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - path set to '/api/proba'
+18 May 2025 16:24:36,404 DEBUG org.springframework.core.log.CompositeLog 127 debug - HTTP POST https://localhost:7063/api/proba
+18 May 2025 16:24:36,420 DEBUG org.springframework.core.log.CompositeLog 127 debug - Accept=[text/plain, application/json, application/*+json, */*]
+18 May 2025 16:24:36,422 DEBUG org.springframework.core.log.CompositeLog 127 debug - Writing [dto.ProbaDTO{nume='Proba1', categorie='ciclism'}] with org.springframework.http.converter.json.GsonHttpMessageConverter
+18 May 2025 16:24:36,545 DEBUG org.springframework.core.log.CompositeLog 127 debug - Response 201 CREATED
+18 May 2025 16:24:36,547 DEBUG org.springframework.core.log.CompositeLog 127 debug - Reading to [java.lang.String] as "text/plain;charset=utf-8"
+18 May 2025 16:24:36,559 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+18 May 2025 16:24:36,559 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - scheme set to 'https'
+18 May 2025 16:24:36,559 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - SCHEME_OR_PATH -> START, index=5, componentIndex=0
+18 May 2025 16:24:36,559 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> HOST_OR_PATH, index=6, componentIndex=6
+18 May 2025 16:24:36,560 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to ''
+18 May 2025 16:24:36,560 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST_OR_PATH -> HOST, index=7, componentIndex=8
+18 May 2025 16:24:36,560 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to 'localhost'
+18 May 2025 16:24:36,560 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST -> PORT, index=17, componentIndex=18
+18 May 2025 16:24:36,560 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - port set to '7063'
+18 May 2025 16:24:36,561 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - PORT -> PATH, index=22, componentIndex=22
+18 May 2025 16:24:36,561 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - path set to '/api/proba/c4'
+18 May 2025 16:24:36,561 DEBUG org.springframework.core.log.CompositeLog 127 debug - HTTP GET https://localhost:7063/api/proba/c4
+18 May 2025 16:24:36,562 DEBUG org.springframework.core.log.CompositeLog 127 debug - Accept=[text/plain, application/json, application/*+json, */*]
+18 May 2025 16:24:36,587 DEBUG org.springframework.core.log.CompositeLog 127 debug - Response 200 OK
+18 May 2025 16:24:36,587 DEBUG org.springframework.core.log.CompositeLog 127 debug - Reading to [java.lang.String] as "application/json;charset=utf-8"
+18 May 2025 16:24:36,590 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+18 May 2025 16:24:36,590 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - scheme set to 'https'
+18 May 2025 16:24:36,590 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - SCHEME_OR_PATH -> START, index=5, componentIndex=0
+18 May 2025 16:24:36,590 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> HOST_OR_PATH, index=6, componentIndex=6
+18 May 2025 16:24:36,591 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to ''
+18 May 2025 16:24:36,591 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST_OR_PATH -> HOST, index=7, componentIndex=8
+18 May 2025 16:24:36,591 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to 'localhost'
+18 May 2025 16:24:36,591 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST -> PORT, index=17, componentIndex=18
+18 May 2025 16:24:36,591 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - port set to '7063'
+18 May 2025 16:24:36,592 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - PORT -> PATH, index=22, componentIndex=22
+18 May 2025 16:24:36,592 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - path set to '/api/proba/c4'
+18 May 2025 16:24:36,592 DEBUG org.springframework.core.log.CompositeLog 127 debug - HTTP PUT https://localhost:7063/api/proba/c4
+18 May 2025 16:24:36,593 DEBUG org.springframework.core.log.CompositeLog 127 debug - Accept=[text/plain, application/json, application/*+json, */*]
+18 May 2025 16:24:36,593 DEBUG org.springframework.core.log.CompositeLog 127 debug - Writing [dto.ProbaDTO{nume='Proba1Uptdated', categorie='ciclism'}] as "application/json"
+18 May 2025 16:24:36,612 DEBUG org.springframework.core.log.CompositeLog 127 debug - Response 200 OK
+18 May 2025 16:24:36,612 DEBUG org.springframework.core.log.CompositeLog 127 debug - Reading to [java.lang.String] as "application/json;charset=utf-8"
+18 May 2025 16:24:36,615 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+18 May 2025 16:24:36,615 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - scheme set to 'https'
+18 May 2025 16:24:36,615 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - SCHEME_OR_PATH -> START, index=5, componentIndex=0
+18 May 2025 16:24:36,615 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> HOST_OR_PATH, index=6, componentIndex=6
+18 May 2025 16:24:36,616 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to ''
+18 May 2025 16:24:36,616 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST_OR_PATH -> HOST, index=7, componentIndex=8
+18 May 2025 16:24:36,616 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to 'localhost'
+18 May 2025 16:24:36,616 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST -> PORT, index=17, componentIndex=18
+18 May 2025 16:24:36,616 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - port set to '7063'
+18 May 2025 16:24:36,617 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - PORT -> PATH, index=22, componentIndex=22
+18 May 2025 16:24:36,617 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - path set to '/api/proba/c4'
+18 May 2025 16:24:36,617 DEBUG org.springframework.core.log.CompositeLog 127 debug - HTTP DELETE https://localhost:7063/api/proba/c4
+18 May 2025 16:24:36,618 DEBUG org.springframework.core.log.CompositeLog 127 debug - Accept=[text/plain, application/json, application/*+json, */*]
+18 May 2025 16:24:36,620 DEBUG org.springframework.core.log.CompositeLog 127 debug - Response 405 METHOD_NOT_ALLOWED
+18 May 2025 16:24:36,703 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+18 May 2025 16:24:36,703 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - scheme set to 'https'
+18 May 2025 16:24:36,704 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - SCHEME_OR_PATH -> START, index=5, componentIndex=0
+18 May 2025 16:24:36,704 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> HOST_OR_PATH, index=6, componentIndex=6
+18 May 2025 16:24:36,704 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to ''
+18 May 2025 16:24:36,704 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST_OR_PATH -> HOST, index=7, componentIndex=8
+18 May 2025 16:24:36,704 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to 'localhost'
+18 May 2025 16:24:36,704 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST -> PORT, index=17, componentIndex=18
+18 May 2025 16:24:36,704 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - port set to '7063'
+18 May 2025 16:24:36,705 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - PORT -> PATH, index=22, componentIndex=22
+18 May 2025 16:24:36,705 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - path set to '/api/proba'
+18 May 2025 16:24:36,705 DEBUG org.springframework.core.log.CompositeLog 127 debug - HTTP GET https://localhost:7063/api/proba
+18 May 2025 16:24:36,705 DEBUG org.springframework.core.log.CompositeLog 127 debug - Accept=[text/plain, application/json, application/*+json, */*]
+18 May 2025 16:24:36,708 DEBUG org.springframework.core.log.CompositeLog 127 debug - Response 200 OK
+18 May 2025 16:24:36,708 DEBUG org.springframework.core.log.CompositeLog 127 debug - Reading to [java.lang.String] as "application/json;charset=utf-8"
+18 May 2025 16:27:59,980 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+18 May 2025 16:27:59,982 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - scheme set to 'https'
+18 May 2025 16:27:59,983 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - SCHEME_OR_PATH -> START, index=5, componentIndex=0
+18 May 2025 16:27:59,983 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> HOST_OR_PATH, index=6, componentIndex=6
+18 May 2025 16:27:59,983 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to ''
+18 May 2025 16:27:59,983 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST_OR_PATH -> HOST, index=7, componentIndex=8
+18 May 2025 16:27:59,986 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to 'localhost'
+18 May 2025 16:27:59,986 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST -> PORT, index=17, componentIndex=18
+18 May 2025 16:27:59,987 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - port set to '7063'
+18 May 2025 16:27:59,987 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - PORT -> PATH, index=22, componentIndex=22
+18 May 2025 16:27:59,987 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - path set to '/api/proba'
+18 May 2025 16:27:59,997 DEBUG org.springframework.core.log.CompositeLog 127 debug - HTTP POST https://localhost:7063/api/proba
+18 May 2025 16:28:00,009 DEBUG org.springframework.core.log.CompositeLog 127 debug - Accept=[text/plain, application/json, application/*+json, */*]
+18 May 2025 16:28:00,011 DEBUG org.springframework.core.log.CompositeLog 127 debug - Writing [dto.ProbaDTO{nume='Proba1', categorie='ciclism'}] with org.springframework.http.converter.json.GsonHttpMessageConverter
+18 May 2025 16:28:00,059 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+18 May 2025 16:28:00,060 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - scheme set to 'https'
+18 May 2025 16:28:00,060 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - SCHEME_OR_PATH -> START, index=5, componentIndex=0
+18 May 2025 16:28:00,060 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> HOST_OR_PATH, index=6, componentIndex=6
+18 May 2025 16:28:00,060 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to ''
+18 May 2025 16:28:00,060 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST_OR_PATH -> HOST, index=7, componentIndex=8
+18 May 2025 16:28:00,061 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to 'localhost'
+18 May 2025 16:28:00,061 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST -> PORT, index=17, componentIndex=18
+18 May 2025 16:28:00,061 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - port set to '7063'
+18 May 2025 16:28:00,061 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - PORT -> PATH, index=22, componentIndex=22
+18 May 2025 16:28:00,061 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - path set to '/api/proba/c4'
+18 May 2025 16:28:00,062 DEBUG org.springframework.core.log.CompositeLog 127 debug - HTTP GET https://localhost:7063/api/proba/c4
+18 May 2025 16:28:00,062 DEBUG org.springframework.core.log.CompositeLog 127 debug - Accept=[text/plain, application/json, application/*+json, */*]
+18 May 2025 16:28:00,065 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+18 May 2025 16:28:00,066 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - scheme set to 'https'
+18 May 2025 16:28:00,066 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - SCHEME_OR_PATH -> START, index=5, componentIndex=0
+18 May 2025 16:28:00,066 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> HOST_OR_PATH, index=6, componentIndex=6
+18 May 2025 16:28:00,066 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to ''
+18 May 2025 16:28:00,066 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST_OR_PATH -> HOST, index=7, componentIndex=8
+18 May 2025 16:28:00,066 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to 'localhost'
+18 May 2025 16:28:00,067 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST -> PORT, index=17, componentIndex=18
+18 May 2025 16:28:00,067 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - port set to '7063'
+18 May 2025 16:28:00,067 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - PORT -> PATH, index=22, componentIndex=22
+18 May 2025 16:28:00,067 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - path set to '/api/proba/c4'
+18 May 2025 16:28:00,068 DEBUG org.springframework.core.log.CompositeLog 127 debug - HTTP PUT https://localhost:7063/api/proba/c4
+18 May 2025 16:28:00,068 DEBUG org.springframework.core.log.CompositeLog 127 debug - Accept=[text/plain, application/json, application/*+json, */*]
+18 May 2025 16:28:00,069 DEBUG org.springframework.core.log.CompositeLog 127 debug - Writing [dto.ProbaDTO{nume='Proba1Uptdated', categorie='ciclism'}] as "application/json"
+18 May 2025 16:28:00,072 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+18 May 2025 16:28:00,072 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - scheme set to 'https'
+18 May 2025 16:28:00,072 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - SCHEME_OR_PATH -> START, index=5, componentIndex=0
+18 May 2025 16:28:00,073 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> HOST_OR_PATH, index=6, componentIndex=6
+18 May 2025 16:28:00,073 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to ''
+18 May 2025 16:28:00,073 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST_OR_PATH -> HOST, index=7, componentIndex=8
+18 May 2025 16:28:00,073 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to 'localhost'
+18 May 2025 16:28:00,073 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST -> PORT, index=17, componentIndex=18
+18 May 2025 16:28:00,073 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - port set to '7063'
+18 May 2025 16:28:00,073 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - PORT -> PATH, index=22, componentIndex=22
+18 May 2025 16:28:00,074 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - path set to '/api/proba/c4'
+18 May 2025 16:28:00,074 DEBUG org.springframework.core.log.CompositeLog 127 debug - HTTP DELETE https://localhost:7063/api/proba/c4
+18 May 2025 16:28:00,074 DEBUG org.springframework.core.log.CompositeLog 127 debug - Accept=[text/plain, application/json, application/*+json, */*]
+18 May 2025 16:28:00,078 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+18 May 2025 16:28:00,079 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - scheme set to 'https'
+18 May 2025 16:28:00,079 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - SCHEME_OR_PATH -> START, index=5, componentIndex=0
+18 May 2025 16:28:00,079 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> HOST_OR_PATH, index=6, componentIndex=6
+18 May 2025 16:28:00,079 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to ''
+18 May 2025 16:28:00,079 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST_OR_PATH -> HOST, index=7, componentIndex=8
+18 May 2025 16:28:00,080 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to 'localhost'
+18 May 2025 16:28:00,080 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST -> PORT, index=17, componentIndex=18
+18 May 2025 16:28:00,080 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - port set to '7063'
+18 May 2025 16:28:00,080 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - PORT -> PATH, index=22, componentIndex=22
+18 May 2025 16:28:00,080 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - path set to '/api/proba'
+18 May 2025 16:28:00,081 DEBUG org.springframework.core.log.CompositeLog 127 debug - HTTP GET https://localhost:7063/api/proba
+18 May 2025 16:28:00,081 DEBUG org.springframework.core.log.CompositeLog 127 debug - Accept=[text/plain, application/json, application/*+json, */*]
+18 May 2025 16:28:20,155 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+18 May 2025 16:28:20,158 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - scheme set to 'https'
+18 May 2025 16:28:20,159 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - SCHEME_OR_PATH -> START, index=5, componentIndex=0
+18 May 2025 16:28:20,159 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> HOST_OR_PATH, index=6, componentIndex=6
+18 May 2025 16:28:20,160 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to ''
+18 May 2025 16:28:20,160 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST_OR_PATH -> HOST, index=7, componentIndex=8
+18 May 2025 16:28:20,163 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to 'localhost'
+18 May 2025 16:28:20,163 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST -> PORT, index=17, componentIndex=18
+18 May 2025 16:28:20,163 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - port set to '7063'
+18 May 2025 16:28:20,163 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - PORT -> PATH, index=22, componentIndex=22
+18 May 2025 16:28:20,163 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - path set to '/api/proba'
+18 May 2025 16:28:20,174 DEBUG org.springframework.core.log.CompositeLog 127 debug - HTTP POST https://localhost:7063/api/proba
+18 May 2025 16:28:20,192 DEBUG org.springframework.core.log.CompositeLog 127 debug - Accept=[text/plain, application/json, application/*+json, */*]
+18 May 2025 16:28:20,193 DEBUG org.springframework.core.log.CompositeLog 127 debug - Writing [dto.ProbaDTO{nume='Proba1', categorie='ciclism'}] with org.springframework.http.converter.json.GsonHttpMessageConverter
+18 May 2025 16:28:21,172 DEBUG org.springframework.core.log.CompositeLog 127 debug - Response 201 CREATED
+18 May 2025 16:28:21,174 DEBUG org.springframework.core.log.CompositeLog 127 debug - Reading to [java.lang.String] as "text/plain;charset=utf-8"
+18 May 2025 16:28:21,185 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+18 May 2025 16:28:21,185 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - scheme set to 'https'
+18 May 2025 16:28:21,186 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - SCHEME_OR_PATH -> START, index=5, componentIndex=0
+18 May 2025 16:28:21,186 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> HOST_OR_PATH, index=6, componentIndex=6
+18 May 2025 16:28:21,186 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to ''
+18 May 2025 16:28:21,186 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST_OR_PATH -> HOST, index=7, componentIndex=8
+18 May 2025 16:28:21,187 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to 'localhost'
+18 May 2025 16:28:21,187 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST -> PORT, index=17, componentIndex=18
+18 May 2025 16:28:21,187 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - port set to '7063'
+18 May 2025 16:28:21,187 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - PORT -> PATH, index=22, componentIndex=22
+18 May 2025 16:28:21,187 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - path set to '/api/proba/c4'
+18 May 2025 16:28:21,188 DEBUG org.springframework.core.log.CompositeLog 127 debug - HTTP GET https://localhost:7063/api/proba/c4
+18 May 2025 16:28:21,189 DEBUG org.springframework.core.log.CompositeLog 127 debug - Accept=[text/plain, application/json, application/*+json, */*]
+18 May 2025 16:28:21,294 DEBUG org.springframework.core.log.CompositeLog 127 debug - Response 200 OK
+18 May 2025 16:28:21,294 DEBUG org.springframework.core.log.CompositeLog 127 debug - Reading to [java.lang.String] as "application/json;charset=utf-8"
+18 May 2025 16:28:21,297 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+18 May 2025 16:28:21,298 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - scheme set to 'https'
+18 May 2025 16:28:21,298 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - SCHEME_OR_PATH -> START, index=5, componentIndex=0
+18 May 2025 16:28:21,298 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> HOST_OR_PATH, index=6, componentIndex=6
+18 May 2025 16:28:21,299 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to ''
+18 May 2025 16:28:21,299 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST_OR_PATH -> HOST, index=7, componentIndex=8
+18 May 2025 16:28:21,299 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to 'localhost'
+18 May 2025 16:28:21,299 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST -> PORT, index=17, componentIndex=18
+18 May 2025 16:28:21,299 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - port set to '7063'
+18 May 2025 16:28:21,300 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - PORT -> PATH, index=22, componentIndex=22
+18 May 2025 16:28:21,300 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - path set to '/api/proba/c4'
+18 May 2025 16:28:21,300 DEBUG org.springframework.core.log.CompositeLog 127 debug - HTTP PUT https://localhost:7063/api/proba/c4
+18 May 2025 16:28:21,300 DEBUG org.springframework.core.log.CompositeLog 127 debug - Accept=[text/plain, application/json, application/*+json, */*]
+18 May 2025 16:28:21,302 DEBUG org.springframework.core.log.CompositeLog 127 debug - Writing [dto.ProbaDTO{nume='Proba1Uptdated', categorie='ciclism'}] as "application/json"
+18 May 2025 16:28:21,365 DEBUG org.springframework.core.log.CompositeLog 127 debug - Response 200 OK
+18 May 2025 16:28:21,366 DEBUG org.springframework.core.log.CompositeLog 127 debug - Reading to [java.lang.String] as "application/json;charset=utf-8"
+18 May 2025 16:28:21,369 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+18 May 2025 16:28:21,369 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - scheme set to 'https'
+18 May 2025 16:28:21,370 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - SCHEME_OR_PATH -> START, index=5, componentIndex=0
+18 May 2025 16:28:21,370 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> HOST_OR_PATH, index=6, componentIndex=6
+18 May 2025 16:28:21,370 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to ''
+18 May 2025 16:28:21,370 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST_OR_PATH -> HOST, index=7, componentIndex=8
+18 May 2025 16:28:21,370 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to 'localhost'
+18 May 2025 16:28:21,371 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST -> PORT, index=17, componentIndex=18
+18 May 2025 16:28:21,371 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - port set to '7063'
+18 May 2025 16:28:21,371 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - PORT -> PATH, index=22, componentIndex=22
+18 May 2025 16:28:21,371 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - path set to '/api/proba/c4'
+18 May 2025 16:28:21,372 DEBUG org.springframework.core.log.CompositeLog 127 debug - HTTP DELETE https://localhost:7063/api/proba/c4
+18 May 2025 16:28:21,372 DEBUG org.springframework.core.log.CompositeLog 127 debug - Accept=[text/plain, application/json, application/*+json, */*]
+18 May 2025 16:28:21,400 DEBUG org.springframework.core.log.CompositeLog 127 debug - Response 200 OK
+18 May 2025 16:28:21,401 DEBUG org.springframework.core.log.CompositeLog 127 debug - Reading to [java.lang.String] as "application/json;charset=utf-8"
+18 May 2025 16:28:21,403 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+18 May 2025 16:28:21,403 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - scheme set to 'https'
+18 May 2025 16:28:21,403 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - SCHEME_OR_PATH -> START, index=5, componentIndex=0
+18 May 2025 16:28:21,404 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - START -> HOST_OR_PATH, index=6, componentIndex=6
+18 May 2025 16:28:21,404 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to ''
+18 May 2025 16:28:21,404 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST_OR_PATH -> HOST, index=7, componentIndex=8
+18 May 2025 16:28:21,404 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - host set to 'localhost'
+18 May 2025 16:28:21,404 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - HOST -> PORT, index=17, componentIndex=18
+18 May 2025 16:28:21,404 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - port set to '7063'
+18 May 2025 16:28:21,405 TRACE org.springframework.web.util.RfcUriParser$InternalParser 475 advanceTo - PORT -> PATH, index=22, componentIndex=22
+18 May 2025 16:28:21,405 TRACE org.springframework.web.util.RfcUriParser$InternalParser 573 captureComponent - path set to '/api/proba'
+18 May 2025 16:28:21,405 DEBUG org.springframework.core.log.CompositeLog 127 debug - HTTP GET https://localhost:7063/api/proba
+18 May 2025 16:28:21,405 DEBUG org.springframework.core.log.CompositeLog 127 debug - Accept=[text/plain, application/json, application/*+json, */*]
+18 May 2025 16:28:21,410 DEBUG org.springframework.core.log.CompositeLog 127 debug - Response 200 OK
+18 May 2025 16:28:21,411 DEBUG org.springframework.core.log.CompositeLog 127 debug - Reading to [java.lang.String] as "application/json;charset=utf-8"
