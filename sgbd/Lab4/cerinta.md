@@ -1,0 +1,5 @@
+# Implementaţi următoarele scenarii pentru baza de date proprie:
+- Creaţi 4 scenarii ce reproduc următoarele situaţii generate de execuţia concurentă: dirty reads, non-repeatable reads, phantom reads şi un deadlock. Puteţi implementa aceste scenarii atât ca proceduri stocate cât şi ca interogări de sine stătătoare. De asemenea, pentru fiecare dintre scenariile create, găsiţi soluţii de rezolvare/evitare a acestor situaţii.
+- Creaţi un scenariu de deadlock prin intermediul unei aplicaţii .NET, folosind multithreading. Va trebui ca două proceduri stocate/interogări să fie executate în 2 firede execuţie diferite. Firul de execuţie ce eşuează din cauza deadlock-ului va trebui să fiereluat (stabiliţi un număr maxim de reluări până când procedura stocată/interogarea esteconsiderată terminată fără succes - aborted).
+
+### Observaţie: Pentru toate scenariile trebuie să stabiliţi un sistem de logare ce vă va permite să memoraţi istoricul acţiunilor executate. Pentru detectarea erorilor se recomandă folosirea clauzei try-catch, atât în aplicaţia .NET cât şi în codul SQL.
