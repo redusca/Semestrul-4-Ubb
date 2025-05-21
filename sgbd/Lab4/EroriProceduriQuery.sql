@@ -44,8 +44,6 @@ Delete from GamePublishers 	WHERE nume = 'New Blood Interactive'
 
 Exec NonRepeatableReads
 
-Select * from Logs
-
 -- Phantom Reads
 Go
 Create or Alter Procedure PhantomReads As
@@ -74,14 +72,14 @@ Go
 Create or Alter Procedure DeadLockOne As
 Begin
 begin tran
-update GamePublishers set Nume='deadlock Books Transaction 1' where id=2
-INSERT INTO Logs (source_procedure, log_type, log_message)
-	Values (OBJECT_NAME(@@PROCID),'Info', 'Name changed GamePublisher id 2')
---block GamePublishers
-waitfor delay '00:00:10'
-update GameDeveloperi set Nume='deadlock Authors Transaction 1' where id=1
-INSERT INTO Logs (source_procedure, log_type, log_message)
-	Values (OBJECT_NAME(@@PROCID),'Info', 'Name changed GameDeveloperi id 1')
+	update GamePublishers set Nume='deadlock Books Transaction 1' where id=2
+	INSERT INTO Logs (source_procedure, log_type, log_message)
+		Values (OBJECT_NAME(@@PROCID),'Info', 'Name changed GamePublisher id 2')
+	--block GamePublishers
+	waitfor delay '00:00:10'
+	update GameDeveloperi set Nume='deadlock Authors Transaction 1' where id=1
+	INSERT INTO Logs (source_procedure, log_type, log_message)
+		Values (OBJECT_NAME(@@PROCID),'Info', 'Name changed GameDeveloperi id 1')
 commit tran
 End
 

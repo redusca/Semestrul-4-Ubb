@@ -1,7 +1,7 @@
 ﻿using Microsoft.Data.SqlClient;
 using System.Data;
 
-namespace Deadlock
+namespace Lab4SGBD
 {
     class Program
     {
@@ -10,7 +10,7 @@ namespace Deadlock
         "Integrated Security=True;" +
         "TrustServerCertificate=True";
         private const int MaxRetries = 3;
-        private const int CommandTimeout = 30; 
+        private const int CommandTimeout = 30;
 
         static async Task Main(string[] args)
         {
