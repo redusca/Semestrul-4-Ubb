@@ -336,21 +336,5 @@ namespace ServiceTests
             }
             Console.WriteLine();
         }
-
-        private void TestNonExistentBugStatusChange()
-        {
-            Console.WriteLine("Testing ChangeBugStatus with non-existent bug...");
-            try
-            {
-                var nonExistentBug = new Bug(99999, "Non-existent bug", BugStatus.Solved);
-                _service.ChangeBugStatus(nonExistentBug);
-                Console.WriteLine("✗ Should have failed with non-existent bug");
-            }
-            catch (Exception)
-            {
-                Console.WriteLine("✓ Correctly rejected non-existent bug status change");
-            }
-            Console.WriteLine();
-        }
     }
 }

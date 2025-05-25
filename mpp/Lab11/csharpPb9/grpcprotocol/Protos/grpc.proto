@@ -1,0 +1,108 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "networking.grpc";
+
+package triatlon;
+
+// Service definition
+service TriatlonService {
+  // Authentication
+  rpc Login (LoginRequest) returns (LoginResponse);
+  rpc Logout (LogoutRequest) returns (StatusResponse);
+  
+  // Participants
+  rpc GetParticipants (EmptyRequest) returns (ParticipantsResponse);
+  
+  // Results
+  rpc GetRezultateByProba (ProbaRequest) returns (PunctajeResponse);
+  rpc GetAllRezultate (EmptyRequest) returns (PunctajeResponse);
+  rpc AddRezultat (RezultatRequest) returns (StatusResponse);
+  
+  // Notifications (server streaming)
+  rpc SubscribeToNotifications (SubscribeRequest) returns (stream NotificationResponse);
+}
+
+// Request Messages
+message EmptyRequest {}
+
+message LoginRequest {
+  string username = 1;
+  string password = 2;
+}
+
+message LogoutRequest {
+  int64 arbitruId = 1;
+}
+
+message ProbaRequest {
+  string probaId = 1;
+}
+
+message RezultatRequest {
+  int64 participantId = 1;
+  string nume = 2;
+  string prenume = 3;
+  string probaId = 4;
+  int64 puncte = 5;
+}
+
+message SubscribeRequest {
+  int64 arbitruId = 1;
+}
+
+// Response Messages
+message StatusResponse {
+  bool success = 1;
+  string errorMessage = 2;
+}
+
+message LoginResponse {
+  bool success = 1;
+  string errorMessage = 2;
+  ArbitruDTO arbitru = 3;
+}
+
+message ArbitruDTO {
+  int64 id = 1;
+  string nume = 2;
+  string username = 3;
+  string password = 4;
+  string idProba = 5;
+}
+
+message PunctajParticipantDTO {
+  int64 idParticipant = 1;
+  string nume = 2;
+  string prenume = 3;
+  int32 varsta = 4;
+  int64 punctaj = 5;
+}
+
+message ParticipantsResponse {
+  bool success = 1;
+  string errorMessage = 2;
+  repeated PunctajParticipantDTO participanti = 3;
+}
+
+message PunctajeResponse {
+  bool success = 1;
+  string errorMessage = 2;
+  repeated PunctajParticipantDTO punctaje = 3;
+}
+
+message RezultatDTO {
+  string idProba = 1;
+  int64 idParticipant = 2;
+  string numeParticipant = 3;
+  string prenumeParticipant = 4;
+  int64 puncte = 5;
+}
+
+message NotificationResponse {
+  enum NotificationType {
+    REZULTAT_ADDED = 0;
+  }
+  
+  NotificationType type = 1;
+  RezultatDTO rezultat = 2;
+}

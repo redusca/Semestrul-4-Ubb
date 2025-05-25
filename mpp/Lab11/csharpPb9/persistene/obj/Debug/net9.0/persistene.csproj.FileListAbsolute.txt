@@ -1,0 +1,16 @@
+C:\Users\redis\Desktop\Faculta\sem4\mpp\mpp-proiect-csharp-redarcher69\csharpPb9\persistene\bin\Debug\net9.0\persistene.deps.json
+C:\Users\redis\Desktop\Faculta\sem4\mpp\mpp-proiect-csharp-redarcher69\csharpPb9\persistene\bin\Debug\net9.0\persistene.dll
+C:\Users\redis\Desktop\Faculta\sem4\mpp\mpp-proiect-csharp-redarcher69\csharpPb9\persistene\bin\Debug\net9.0\persistene.pdb
+C:\Users\redis\Desktop\Faculta\sem4\mpp\mpp-proiect-csharp-redarcher69\csharpPb9\persistene\obj\Debug\net9.0\persistene.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\redis\Desktop\Faculta\sem4\mpp\mpp-proiect-csharp-redarcher69\csharpPb9\persistene\obj\Debug\net9.0\persistene.AssemblyInfoInputs.cache
+C:\Users\redis\Desktop\Faculta\sem4\mpp\mpp-proiect-csharp-redarcher69\csharpPb9\persistene\obj\Debug\net9.0\persistene.AssemblyInfo.cs
+C:\Users\redis\Desktop\Faculta\sem4\mpp\mpp-proiect-csharp-redarcher69\csharpPb9\persistene\obj\Debug\net9.0\persistene.csproj.CoreCompileInputs.cache
+C:\Users\redis\Desktop\Faculta\sem4\mpp\mpp-proiect-csharp-redarcher69\csharpPb9\persistene\obj\Debug\net9.0\persistene.sourcelink.json
+C:\Users\redis\Desktop\Faculta\sem4\mpp\mpp-proiect-csharp-redarcher69\csharpPb9\persistene\obj\Debug\net9.0\persistene.dll
+C:\Users\redis\Desktop\Faculta\sem4\mpp\mpp-proiect-csharp-redarcher69\csharpPb9\persistene\obj\Debug\net9.0\refint\persistene.dll
+C:\Users\redis\Desktop\Faculta\sem4\mpp\mpp-proiect-csharp-redarcher69\csharpPb9\persistene\obj\Debug\net9.0\persistene.pdb
+C:\Users\redis\Desktop\Faculta\sem4\mpp\mpp-proiect-csharp-redarcher69\csharpPb9\persistene\obj\Debug\net9.0\ref\persistene.dll
+C:\Users\redis\Desktop\Faculta\sem4\mpp\mpp-proiect-csharp-redarcher69\csharpPb9\persistene\bin\Debug\net9.0\model.dll
+C:\Users\redis\Desktop\Faculta\sem4\mpp\mpp-proiect-csharp-redarcher69\csharpPb9\persistene\bin\Debug\net9.0\model.pdb
+C:\Users\redis\Desktop\Faculta\sem4\mpp\mpp-proiect-csharp-redarcher69\csharpPb9\persistene\obj\Debug\net9.0\persistene.csproj.AssemblyReference.cache
+C:\Users\redis\Desktop\Faculta\sem4\mpp\mpp-proiect-csharp-redarcher69\csharpPb9\persistene\obj\Debug\net9.0\persistene.csproj.Up2Date
