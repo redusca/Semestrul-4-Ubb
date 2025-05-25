@@ -1,0 +1,190 @@
+/* Reset and base styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.5;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Tree structure */
+#lista {
+    background: white;
+    border: 1px solid #e1e5e9;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    max-height: 400px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+/* List styling */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    position: relative;
+    cursor: pointer;
+    padding: 8px 12px;
+    margin: 2px 0;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    user-select: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Hover effects */
+li:hover {
+    background-color: #f1f3f4;
+    transform: translateX(2px);
+}
+
+/* Nested list indentation */
+li ul {
+    margin-left: 25px;
+    border-left: 2px solid #e9ecef;
+    padding-left: 15px;
+}
+
+/* Directory indicators */
+li:not([style*="black"]):not([style*="orange"]):before {
+    content: "📁 ";
+    margin-right: 5px;
+}
+
+/* File type indicators */
+li[style*="black"]:before {
+    content: "📄 ";
+    margin-right: 5px;
+}
+
+li[style*="orange"]:before {
+    content: "🌐 ";
+    margin-right: 5px;
+}
+
+/* Opened state styling */
+li.opened > ul {
+    animation: slideDown 0.3s ease;
+}
+
+li.opened:not([style*="black"]):not([style*="orange"]):before {
+    content: "📂 ";
+    margin-right: 5px;
+}
+
+/* Active/selected state */
+li:active {
+    background-color: #e3f2fd;
+    color: #1976d2;
+}
+
+/* File explorer textarea */
+#explorer {
+    width: 100%;
+    min-height: 250px;
+    padding: 15px;
+    border: 2px solid #e1e5e9;
+    border-radius: 8px;
+    font-family: 'Courier New', monospace;
+    font-size: 13px;
+    line-height: 1.4;
+    background-color: #fafbfc;
+    color: #24292e;
+    resize: vertical;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: border-color 0.2s ease;
+}
+
+#explorer:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+/* Custom scrollbar for webkit browsers */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}
+
+/* Animation for expanding folders */
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        max-height: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        max-height: 500px;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    body {
+        margin: 10px;
+    }
+    
+    h1 {
+        font-size: 1.5em;
+        padding: 8px;
+    }
+    
+    #lista {
+        padding: 10px;
+    }
+    
+    li {
+        padding: 6px 8px;
+        font-size: 13px;
+    }
+    
+    li ul {
+        margin-left: 15px;
+        padding-left: 10px;
+    }
+    
+    #explorer {
+        font-size: 12px;
+        padding: 10px;
+    }
+}

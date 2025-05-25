@@ -1,0 +1,63 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+/* Game board table styling */
+#gameBoard {
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Individual cell styling */
+#gameBoard td {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #333;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 48px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+/* Hover effect for empty cells */
+#gameBoard td:hover {
+    background-color: #f9f9f9;
+}
+
+/* Remove borders for outer edges to create clean grid */
+#gameBoard td:nth-child(1) {
+    border-left: none;
+}
+
+#gameBoard td:nth-child(3) {
+    border-right: none;
+}
+
+#gameBoard tr:first-child td {
+    border-top: none;
+}
+
+#gameBoard tr:last-child td {
+    border-bottom: none;
+}
+
+
+#gameBoard tr td.symbol-O {
+    color : rgb(117, 192, 218)
+}
+
+#gameBoard tr td.symbol-X {
+    color : rgb(197, 7, 7)
+}

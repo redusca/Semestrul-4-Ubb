@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    min-height: 100vh;
+    color: #333;
+    position: relative;
+    overflow-x: hidden;
+}
+
+/* Animated background pattern */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        linear-gradient(45deg, rgba(255,255,255,0.05) 25%, transparent 25%),
+        linear-gradient(-45deg, rgba(255,255,255,0.05) 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, rgba(255,255,255,0.05) 75%),
+        linear-gradient(-45deg, transparent 75%, rgba(255,255,255,0.05) 75%);
+    background-size: 60px 60px;
+    background-position: 0 0, 0 30px, 30px -30px, -30px 0px;
+    z-index: -1;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin: 40px 0;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+    letter-spacing: 2px;
+    position: relative;
+}
+
+h1::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 4px;
+    background: linear-gradient(90deg, #ff6b6b, #4ecdc4);
+    border-radius: 2px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+span {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    flex: 1;
+    max-width: 400px;
+}
+
+label {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+label::before {
+    content: '🚂';
+    font-size: 1.4rem;
+    filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.3));
+}
+
+select {
+    background: rgba(255, 255, 255, 0.95);
+    border: 3px solid transparent;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 1rem;
+    color: #333;
+    outline: none;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    box-shadow: 
+        0 8px 32px rgba(0,0,0,0.1),
+        inset 0 1px 0 rgba(255,255,255,0.5);
+    min-height: 200px;
+}
+
+select:hover {
+    border-color: #4ecdc4;
+    transform: translateY(-2px);
+    box-shadow: 
+        0 12px 40px rgba(0,0,0,0.15),
+        inset 0 1px 0 rgba(255,255,255,0.5);
+}
+
+select:focus {
+    border-color: #ff6b6b;
+    transform: translateY(-3px);
+    box-shadow: 
+        0 15px 50px rgba(0,0,0,0.2),
+        0 0 0 4px rgba(255, 107, 107, 0.2),
+        inset 0 1px 0 rgba(255,255,255,0.5);
+}
+
+option {
+    padding: 10px;
+    background: white;
+    color: #333;
+    font-weight: 500;
+    border-radius: 5px;
+    margin: 2px 0;
+}
+
+option:hover {
+    background: linear-gradient(90deg, #4ecdc4, #44a08d);
+    color: white;
+}
+
+option:checked {
+    background: linear-gradient(90deg, #ff6b6b, #ee5a52);
+    color: white;
+    font-weight: 600;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px 15px;
+    }
+    
+    span {
+        min-width: auto;
+        max-width: none;
+    }
+    
+    h1 {
+        font-size: 2.2rem;
+        margin: 30px 0;
+    }
+    
+    select {
+        min-height: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8rem;
+        letter-spacing: 1px;
+    }
+    
+    label {
+        font-size: 1.1rem;
+    }
+    
+    select {
+        padding: 12px;
+        font-size: 0.9rem;
+    }
+}
+
+/* Loading animation for selects */
+select:empty::before {
+    content: 'Se incarca...';
+    color: #666;
+    font-style: italic;
+    padding: 20px;
+    display: block;
+    text-align: center;
+}
+
+/* Custom scrollbar for select elements */
+select::-webkit-scrollbar {
+    width: 8px;
+}
+
+select::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0.1);
+    border-radius: 4px;
+}
+
+select::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #4ecdc4, #44a08d);
+    border-radius: 4px;
+}
+
+select::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(45deg, #ff6b6b, #ee5a52);
+}
+
+/* Subtle animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.container span {
+    animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.container span:nth-child(2) {
+    animation-delay: 0.2s;
+}

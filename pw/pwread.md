@@ -32,3 +32,12 @@
   - ### [JsPb3](Lab4JQuery/pb3.js)
   - ### [JsPb4](Lab4JQuery/pb4.js)
   - ### [JsPb5](Lab4JQuery/pb5.js)
+
+- ## [Lab5:](Lab5Ajax) Ajax / Php probleme (Needs to be run on web server): ([cerinta](Lab5Ajax/cerinta.md)):
+  - ### [Problema 1 Files](Lab5Ajax/pb1)
+  - ### [Problema 2 Files](Lab5Ajax/pb2)
+  - ### [Problema 3 Files](Lab5Ajax/pb3)
+  - ### [Problema 4 Files](Lab5Ajax/pb4)
+  - ### [Problema 5 Files](Lab5Ajax/pb5)
+  - ### [Problema 6 Files](Lab5Ajax/pb6)
+

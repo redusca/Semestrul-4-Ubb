@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Prioblema 1 : Trenuri </title>
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="script_jquerry.js"></script>
+    <!--
+        <script src="script_javascript.js"></script>
+    -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body onload="getPlecari()">
+<h1>Traseul trenurilor</h1>
+<div class="container">
+    <span>
+        <label>Statii plecare:</label>
+        <select id="orasPlecare" size=5 onchange="getSosiri(this.value)">
+        </select>
+    </span>
+    <span>
+        <label>Statii sosire:</label>
+        <select id="orasSosire" size=5>
+            <option>(Fara sosire)</option>
+        </select>
+    </span>
+</div>
+</body>
+</html>
