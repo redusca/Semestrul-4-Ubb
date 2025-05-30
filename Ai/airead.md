@@ -22,3 +22,6 @@
 - 🤖[Lab7](Lab7) Antrenare ANN si CNN pentru problema de clasificare filtru poze ([cerinta](Lab7/AI-lab7.md))
 - 🎭[Lab8](Lab8) Clasificare de emotii din text ([cerinta](Lab8/AI-lab8.md))
 - 📓[Lab9](Lab9) Generare Poezi cu LLM-uri ([cerinta](Lab9/AI-lab09.md))
+- 🐾[Lab10](Lab10) Algoritm Evolutiv , Cromozomi gasirea de comunitati grafuri ([cerinta](Lab10/AI-lab10.md))
+
+- 🖼 [Proiect](https://github.com/LauraDiosan-CS/ai-projects-helpdesk) Proiect colaborativ RAG 
