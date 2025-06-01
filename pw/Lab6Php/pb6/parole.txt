@@ -1,0 +1,12 @@
+'apopescu' => 'parola123',
+    'mionescu' => 'abc456',
+    'igeorgescu' => 'george789',
+    'edumitrescu' => 'dumitru321',
+    'vmarinescu' => 'vasile999',
+    'ipetrescu' => 'irina2024',
+    'menache' => 'mihai001',
+    'aradu' => 'radu432',
+    'cpavel' => 'pavelpass',
+    'odobre' => 'dobre22',
+    'riliescu' => 'radu111',
+    'btudor' => 'bt2025'

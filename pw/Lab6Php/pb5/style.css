@@ -1,0 +1,359 @@
+/* Nature Photography Website - Green Theme */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+/* CSS Variables for consistent theming */
+:root {
+    --primary-green: #2d5016;
+    --secondary-green: #4a7c59;
+    --accent-green: #7fb069;
+    --light-green: #a7c957;
+    --forest-green: #1a3409;
+    --sage-green: #9caf88;
+    --cream: #f7f5f0;
+    --soft-white: #fefefe;
+    --dark-text: #2c3e50;
+    --shadow: rgba(45, 80, 22, 0.1);
+    --shadow-hover: rgba(45, 80, 22, 0.15);
+}
+
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, var(--cream) 0%, #f0f4ec 100%);
+    color: var(--dark-text);
+    line-height: 1.6;
+    min-height: 100vh;
+    position: relative;
+}
+
+/* Background leaf pattern */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23a7c957' fill-opacity='0.03'%3E%3Cpath d='M30 30c0-11.046-8.954-20-20-20s-20 8.954-20 20 8.954 20 20 20 20-8.954 20-20zm0 0c0 11.046 8.954 20 20 20s20-8.954 20-20-8.954-20-20-20-20 8.954-20 20z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    z-index: -1;
+    pointer-events: none;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Headers */
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--primary-green);
+    text-align: center;
+    margin-bottom: 2rem;
+    position: relative;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h1::after {
+    content: '🌿';
+    position: absolute;
+    right: -50px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+    opacity: 0.7;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    color: var(--secondary-green);
+    font-size: 1.5rem;
+    margin: 2rem 0 1rem 0;
+    position: relative;
+    padding-left: 20px;
+}
+
+h3::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 12px;
+    background: var(--accent-green);
+    border-radius: 50%;
+}
+
+/* Navigation Links */
+a {
+    color: var(--secondary-green);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    position: relative;
+    padding: 8px 16px;
+    border-radius: 25px;
+    display: inline-block;
+    margin: 5px;
+    background: rgba(167, 201, 87, 0.1);
+    border: 1px solid transparent;
+}
+
+a:hover {
+    color: var(--primary-green);
+    background: var(--light-green);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px var(--shadow-hover);
+    border-color: var(--accent-green);
+}
+
+/* Forms */
+form {
+    background: var(--soft-white);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px var(--shadow);
+    margin: 2rem 0;
+    border: 1px solid rgba(167, 201, 87, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+form::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--primary-green), var(--accent-green), var(--light-green));
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: var(--secondary-green);
+    font-size: 0.95rem;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="file"] {
+    width: 100%;
+    padding: 12px 16px;
+    border: 2px solid rgba(167, 201, 87, 0.3);
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+    background: var(--cream);
+    font-family: 'Inter', sans-serif;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="file"]:focus {
+    outline: none;
+    border-color: var(--accent-green);
+    background: var(--soft-white);
+    box-shadow: 0 0 0 3px rgba(167, 201, 87, 0.2);
+}
+
+button {
+    background: linear-gradient(135deg, var(--secondary-green), var(--accent-green));
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(74, 124, 89, 0.3);
+    font-family: 'Inter', sans-serif;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(74, 124, 89, 0.4);
+    background: linear-gradient(135deg, var(--primary-green), var(--secondary-green));
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+/* Lists */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: var(--soft-white);
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px var(--shadow);
+    border-left: 4px solid var(--accent-green);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px var(--shadow-hover);
+    border-left-color: var(--secondary-green);
+}
+
+li::before {
+    content: '🍃';
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    opacity: 0.3;
+    font-size: 1.2rem;
+}
+
+/* Images */
+img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+    border: 3px solid var(--soft-white);
+    margin-bottom: 1rem;
+}
+
+img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 12px 35px rgba(0,0,0,0.2);
+    border-color: var(--light-green);
+}
+
+/* Error Messages */
+p {
+    color: #d63384;
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin: 1rem 0;
+    font-weight: 500;
+}
+
+/* Special styling for main navigation */
+.main-nav {
+    text-align: center;
+    margin: 2rem 0;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+}
+
+/* Photo gallery grid */
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h1::after {
+        right: -30px;
+        font-size: 1.2rem;
+    }
+    
+    form {
+        padding: 1.5rem;
+        margin: 1rem 0;
+    }
+    
+    img {
+        max-width: 100%;
+    }
+    
+    .container {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.7rem;
+    }
+    
+    h1::after {
+        display: none;
+    }
+    
+    li {
+        padding: 1rem;
+    }
+    
+    form {
+        padding: 1rem;
+    }
+}
+
+/* Loading animation for images */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+li {
+    animation: fadeIn 0.6s ease-out;
+}
+
+/* Decorative elements */
+.leaf-decoration {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 2rem;
+    opacity: 0.1;
+    color: var(--accent-green);
+    pointer-events: none;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--cream);
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, var(--accent-green), var(--secondary-green));
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom, var(--secondary-green), var(--primary-green));
+}
