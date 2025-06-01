@@ -22,6 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $prof = $result->fetch_assoc();
         if (password_verify($password, $prof["password"])) {
             $_SESSION["profesor_id"] = $prof["id"];
+            $_SESSION["csrfToken"] = md5(uniqid(mt_rand(), true));
             header("Location: profesori.php");
             exit();
         } else {

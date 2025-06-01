@@ -15,6 +15,11 @@ if ($connection->connect_error) {
 
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
+
+    if (!isset($_POST['csrfToken']) || $_POST['csrfToken'] !== $_SESSION['csrfToken']) {
+        die("CSRF token invalid.");
+    }
+
     $id_student = $_POST["id_student"];
     $id_materie = $_POST["id_materie"];
     $nota = $_POST["nota"];
@@ -65,6 +70,7 @@ $materii = $connection->query("SELECT * FROM materii");
         </select>
         <label for="nota">Notă:</label>
         <input type="number" step="0.01" id="nota" name="nota" min="0" max="10" required>
+        <input type="hidden" name="csrfToken" value="<?php echo $_SESSION['csrfToken']; ?>">
         <button type="submit">Salvează</button>
     </form>
 </body>
