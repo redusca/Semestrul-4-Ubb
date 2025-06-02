@@ -1,0 +1,15 @@
+C:\Users\redis\Desktop\Faculta\sem4\mpp\mpp-proiect-csharp-redarcher69\csharpPb9\httpClient\bin\Debug\net9.0\httpClient.exe
+C:\Users\redis\Desktop\Faculta\sem4\mpp\mpp-proiect-csharp-redarcher69\csharpPb9\httpClient\bin\Debug\net9.0\httpClient.deps.json
+C:\Users\redis\Desktop\Faculta\sem4\mpp\mpp-proiect-csharp-redarcher69\csharpPb9\httpClient\bin\Debug\net9.0\httpClient.runtimeconfig.json
+C:\Users\redis\Desktop\Faculta\sem4\mpp\mpp-proiect-csharp-redarcher69\csharpPb9\httpClient\bin\Debug\net9.0\httpClient.dll
+C:\Users\redis\Desktop\Faculta\sem4\mpp\mpp-proiect-csharp-redarcher69\csharpPb9\httpClient\bin\Debug\net9.0\httpClient.pdb
+C:\Users\redis\Desktop\Faculta\sem4\mpp\mpp-proiect-csharp-redarcher69\csharpPb9\httpClient\obj\Debug\net9.0\httpClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\redis\Desktop\Faculta\sem4\mpp\mpp-proiect-csharp-redarcher69\csharpPb9\httpClient\obj\Debug\net9.0\httpClient.AssemblyInfoInputs.cache
+C:\Users\redis\Desktop\Faculta\sem4\mpp\mpp-proiect-csharp-redarcher69\csharpPb9\httpClient\obj\Debug\net9.0\httpClient.AssemblyInfo.cs
+C:\Users\redis\Desktop\Faculta\sem4\mpp\mpp-proiect-csharp-redarcher69\csharpPb9\httpClient\obj\Debug\net9.0\httpClient.csproj.CoreCompileInputs.cache
+C:\Users\redis\Desktop\Faculta\sem4\mpp\mpp-proiect-csharp-redarcher69\csharpPb9\httpClient\obj\Debug\net9.0\httpClient.sourcelink.json
+C:\Users\redis\Desktop\Faculta\sem4\mpp\mpp-proiect-csharp-redarcher69\csharpPb9\httpClient\obj\Debug\net9.0\httpClient.dll
+C:\Users\redis\Desktop\Faculta\sem4\mpp\mpp-proiect-csharp-redarcher69\csharpPb9\httpClient\obj\Debug\net9.0\refint\httpClient.dll
+C:\Users\redis\Desktop\Faculta\sem4\mpp\mpp-proiect-csharp-redarcher69\csharpPb9\httpClient\obj\Debug\net9.0\httpClient.pdb
+C:\Users\redis\Desktop\Faculta\sem4\mpp\mpp-proiect-csharp-redarcher69\csharpPb9\httpClient\obj\Debug\net9.0\httpClient.genruntimeconfig.cache
+C:\Users\redis\Desktop\Faculta\sem4\mpp\mpp-proiect-csharp-redarcher69\csharpPb9\httpClient\obj\Debug\net9.0\ref\httpClient.dll

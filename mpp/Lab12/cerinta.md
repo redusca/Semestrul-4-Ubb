@@ -1,0 +1,1 @@
+Autentificarea clienților web folosind JWT. Trebuie să modificați temele 6 și 7 (Servicii REST și Client Web pentru servicii REST)

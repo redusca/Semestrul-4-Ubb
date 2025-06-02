@@ -13,3 +13,4 @@
    - **[Lab9](Lab9)** - Comunicare C#(server) si Java(client) prin gRPC
    - **[Lab10](Lab10)** - [Rest Servici C#](Lab10/csharpPb9/restApi) si testare cu [httpClient](Lab10/csharpPb9/httpClient) C# si [restclient](Lab10/javaPb9/restClient) in Java 
    - **[Lab11](Lab11)** - Aplicatie React pentru Rest Api in aplicatia C# [web_app](Lab11/csharpPb9/web_app/src)
+   - **[Lab12](Lab12)** - Autentificare cu JWT [web_app](Lab12/csharpPb9/web_app/src) [server](Lab12/csharpPb9/restApi)

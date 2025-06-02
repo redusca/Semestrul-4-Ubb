@@ -1,0 +1,278 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{42378872-7AA8-4B1A-B5FA-4FDD7418FBD2}|restApi\\restApi.csproj|c:\\users\\redis\\desktop\\faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharppb9\\restapi\\controllers\\probacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42378872-7AA8-4B1A-B5FA-4FDD7418FBD2}|restApi\\restApi.csproj|solutionrelative:restapi\\controllers\\probacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42378872-7AA8-4B1A-B5FA-4FDD7418FBD2}|restApi\\restApi.csproj|c:\\users\\redis\\desktop\\faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharppb9\\restapi\\probaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42378872-7AA8-4B1A-B5FA-4FDD7418FBD2}|restApi\\restApi.csproj|solutionrelative:restapi\\probaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42378872-7AA8-4B1A-B5FA-4FDD7418FBD2}|restApi\\restApi.csproj|c:\\users\\redis\\desktop\\faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharppb9\\restapi\\iprobaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42378872-7AA8-4B1A-B5FA-4FDD7418FBD2}|restApi\\restApi.csproj|solutionrelative:restapi\\iprobaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42378872-7AA8-4B1A-B5FA-4FDD7418FBD2}|restApi\\restApi.csproj|c:\\users\\redis\\desktop\\faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharppb9\\restapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42378872-7AA8-4B1A-B5FA-4FDD7418FBD2}|restApi\\restApi.csproj|solutionrelative:restapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42378872-7AA8-4B1A-B5FA-4FDD7418FBD2}|restApi\\restApi.csproj|c:\\users\\redis\\desktop\\faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharppb9\\restapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42378872-7AA8-4B1A-B5FA-4FDD7418FBD2}|restApi\\restApi.csproj|solutionrelative:restapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51ADDEE4-31DE-4667-BEB3-CAD4BC22CBB0}|Interfata\\client.csproj|c:\\users\\redis\\desktop\\faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharppb9\\interfata\\resources\\parole.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{51ADDEE4-31DE-4667-BEB3-CAD4BC22CBB0}|Interfata\\client.csproj|solutionrelative:interfata\\resources\\parole.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42378872-7AA8-4B1A-B5FA-4FDD7418FBD2}|restApi\\restApi.csproj|c:\\users\\redis\\desktop\\faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharppb9\\restapi\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42378872-7AA8-4B1A-B5FA-4FDD7418FBD2}|restApi\\restApi.csproj|solutionrelative:restapi\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42378872-7AA8-4B1A-B5FA-4FDD7418FBD2}|restApi\\restApi.csproj|c:\\users\\redis\\desktop\\faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharppb9\\restapi\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42378872-7AA8-4B1A-B5FA-4FDD7418FBD2}|restApi\\restApi.csproj|solutionrelative:restapi\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42378872-7AA8-4B1A-B5FA-4FDD7418FBD2}|restApi\\restApi.csproj|c:\\users\\redis\\desktop\\faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharppb9\\restapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{42378872-7AA8-4B1A-B5FA-4FDD7418FBD2}|restApi\\restApi.csproj|solutionrelative:restapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42378872-7AA8-4B1A-B5FA-4FDD7418FBD2}|restApi\\restApi.csproj|c:\\users\\redis\\desktop\\faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharppb9\\restapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{42378872-7AA8-4B1A-B5FA-4FDD7418FBD2}|restApi\\restApi.csproj|solutionrelative:restapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42378872-7AA8-4B1A-B5FA-4FDD7418FBD2}|restApi\\restApi.csproj|c:\\users\\redis\\desktop\\faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharppb9\\restapi\\websocketshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42378872-7AA8-4B1A-B5FA-4FDD7418FBD2}|restApi\\restApi.csproj|solutionrelative:restapi\\websocketshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3B05B61-13A2-4B60-927A-32511D929243}|persistene\\persistene.csproj|c:\\users\\redis\\desktop\\faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharppb9\\persistene\\repository\\context\\contextprobarepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3B05B61-13A2-4B60-927A-32511D929243}|persistene\\persistene.csproj|solutionrelative:persistene\\repository\\context\\contextprobarepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D86D448D-DDE8-46EA-9B11-94835A5E5D07}|csharpPb9\\model.csproj|c:\\users\\redis\\desktop\\faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharppb9\\csharppb9\\model\\categorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D86D448D-DDE8-46EA-9B11-94835A5E5D07}|csharpPb9\\model.csproj|solutionrelative:csharppb9\\model\\categorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A606E111-071B-4025-8477-1CF9BF689B2B}|httpClient\\httpClient.csproj|c:\\users\\redis\\desktop\\faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharppb9\\httpclient\\httpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A606E111-071B-4025-8477-1CF9BF689B2B}|httpClient\\httpClient.csproj|solutionrelative:httpclient\\httpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 165,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "parole.txt",
+              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\Interfata\\resources\\parole.txt",
+              "RelativeDocumentMoniker": "Interfata\\resources\\parole.txt",
+              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\Interfata\\resources\\parole.txt",
+              "RelativeToolTip": "Interfata\\resources\\parole.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-06-02T10:49:15.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\restApi\\LoginService.cs",
+              "RelativeDocumentMoniker": "restApi\\LoginService.cs",
+              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\restApi\\LoginService.cs",
+              "RelativeToolTip": "restApi\\LoginService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T10:28:27.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ILoginService.cs",
+              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\restApi\\ILoginService.cs",
+              "RelativeDocumentMoniker": "restApi\\ILoginService.cs",
+              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\restApi\\ILoginService.cs",
+              "RelativeToolTip": "restApi\\ILoginService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T10:27:51.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\restApi\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "restApi\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\restApi\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "restApi\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwFAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T10:23:51.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\restApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "restApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\restApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "restApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-01T20:41:45.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProbaController.cs",
+              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\restApi\\Controllers\\ProbaController.cs",
+              "RelativeDocumentMoniker": "restApi\\Controllers\\ProbaController.cs",
+              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\restApi\\Controllers\\ProbaController.cs",
+              "RelativeToolTip": "restApi\\Controllers\\ProbaController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAkwEQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T13:20:24.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IProbaService.cs",
+              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\restApi\\IProbaService.cs",
+              "RelativeDocumentMoniker": "restApi\\IProbaService.cs",
+              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\restApi\\IProbaService.cs",
+              "RelativeToolTip": "restApi\\IProbaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T13:19:42.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProbaService.cs",
+              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\restApi\\ProbaService.cs",
+              "RelativeDocumentMoniker": "restApi\\ProbaService.cs",
+              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\restApi\\ProbaService.cs",
+              "RelativeToolTip": "restApi\\ProbaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T13:19:46.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WebSocketsHandler.cs",
+              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\restApi\\WebSocketsHandler.cs",
+              "RelativeDocumentMoniker": "restApi\\WebSocketsHandler.cs",
+              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\restApi\\WebSocketsHandler.cs",
+              "RelativeToolTip": "restApi\\WebSocketsHandler.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwD4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T20:28:19.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\restApi\\appsettings.json",
+              "RelativeDocumentMoniker": "restApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\restApi\\appsettings.json",
+              "RelativeToolTip": "restApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-01T20:41:26.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ContextProbaRepo.cs",
+              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\persistene\\repository\\context\\ContextProbaRepo.cs",
+              "RelativeDocumentMoniker": "persistene\\repository\\context\\ContextProbaRepo.cs",
+              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\persistene\\repository\\context\\ContextProbaRepo.cs",
+              "RelativeToolTip": "persistene\\repository\\context\\ContextProbaRepo.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAIwBsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T11:44:45.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Categorie.cs",
+              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\csharpPb9\\model\\Categorie.cs",
+              "RelativeDocumentMoniker": "csharpPb9\\model\\Categorie.cs",
+              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\csharpPb9\\model\\Categorie.cs",
+              "RelativeToolTip": "csharpPb9\\model\\Categorie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T20:35:47.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "httpclient.cs",
+              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\httpClient\\httpclient.cs",
+              "RelativeDocumentMoniker": "httpClient\\httpclient.cs",
+              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\httpClient\\httpclient.cs",
+              "RelativeToolTip": "httpClient\\httpclient.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAYwFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T13:23:37.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\restApi\\Program.cs",
+              "RelativeDocumentMoniker": "restApi\\Program.cs",
+              "ToolTip": "C:\\Users\\redis\\Desktop\\Faculta\\sem4\\mpp\\mpp-proiect-csharp-redarcher69\\csharpPb9\\restApi\\Program.cs",
+              "RelativeToolTip": "restApi\\Program.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwDoAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T13:20:44.4Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
